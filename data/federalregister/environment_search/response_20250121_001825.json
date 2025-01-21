@@ -1,0 +1,127 @@
+{
+  "count": 968145,
+  "description": "All Documents",
+  "total_pages": 50,
+  "next_page_url": "https://www.federalregister.gov/api/v1/documents?format=json&order=newest&page=2&per_page=5&q=environment",
+  "results": [
+    {
+      "title": "Sunshine Act Meetings",
+      "type": "Notice",
+      "abstract": null,
+      "document_number": "2025-01519",
+      "html_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01519/sunshine-act-meetings",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2025-01519.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2025-01519.pdf?1737062113",
+      "publication_date": "2025-01-21",
+      "agencies": [
+        {
+          "raw_name": "SECURITIES AND EXCHANGE COMMISSION",
+          "name": "Securities and Exchange Commission",
+          "id": 466,
+          "url": "https://www.federalregister.gov/agencies/securities-and-exchange-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/466",
+          "parent_id": null,
+          "slug": "securities-and-exchange-commission"
+        }
+      ],
+      "excerpts": null
+    },
+    {
+      "title": "Sunshine Act Meetings",
+      "type": "Notice",
+      "abstract": null,
+      "document_number": "2025-01517",
+      "html_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01517/sunshine-act-meetings",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2025-01517.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2025-01517.pdf?1737062112",
+      "publication_date": "2025-01-21",
+      "agencies": [
+        {
+          "raw_name": "SECURITIES AND EXCHANGE COMMISSION",
+          "name": "Securities and Exchange Commission",
+          "id": 466,
+          "url": "https://www.federalregister.gov/agencies/securities-and-exchange-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/466",
+          "parent_id": null,
+          "slug": "securities-and-exchange-commission"
+        }
+      ],
+      "excerpts": null
+    },
+    {
+      "title": "Ratification of Security Directives",
+      "type": "Rule",
+      "abstract": "The Department of Homeland Security (DHS) is publishing official notice that the Transportation Security Oversight Board (TSOB) has ratified Transportation Security Administration (TSA) Security Directive 1580-21-01B, Security Directive 1582-21-01B, Security Directive 1580/82-2022-01A, and Security Directive 1580/82-2022-01C applicable to owners and operators of critical rail entities (owners/ operators). Security Directive 1580-21-01B and Security Directive 1582- 21-01B extended the requirements of 1580-21-01 and 1582-21-01 series for an additional year, with minor revisions. Security Directive 1580/ 82-2022-01A and Security Directive 1580/82-2022-01C extend the performance-based requirements of the 1580/82-2022-01 series for an additional year and amends them to strengthen their effectiveness and address emerging cyber threats.",
+      "document_number": "2025-01422",
+      "html_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01422/ratification-of-security-directives",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2025-01422.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2025-01422.pdf?1737062112",
+      "publication_date": "2025-01-21",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+          "name": "Homeland Security Department",
+          "id": 227,
+          "url": "https://www.federalregister.gov/agencies/homeland-security-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+          "parent_id": null,
+          "slug": "homeland-security-department"
+        }
+      ],
+      "excerpts": "The Department of Homeland Security (DHS) is publishing official notice that the Transportation Security Oversight Board (TSOB) has ratified Transportation Security Administration (TSA) Security Directive 1580-21-01B, Security Directive 1582-21-01B,..."
+    },
+    {
+      "title": "Adjustment of Civil Monetary Penalties for Inflation",
+      "type": "Rule",
+      "abstract": "The Department of Education (Department) issues these final regulations to adjust the Department's civil monetary penalties (CMPs) for inflation. This adjustment is required by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015 (2015 Act), which amended the Federal Civil Penalties Inflation Adjustment Act of 1990 (Inflation Adjustment Act). These final regulations provide the 2025 annual inflation adjustments being made to the penalty amounts in the Department's final regulations published in the Federal Register on January 25, 2024 (2024 final rule).",
+      "document_number": "2025-01419",
+      "html_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01419/adjustment-of-civil-monetary-penalties-for-inflation",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2025-01419.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2025-01419.pdf?1737062112",
+      "publication_date": "2025-01-21",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF EDUCATION",
+          "name": "Education Department",
+          "id": 126,
+          "url": "https://www.federalregister.gov/agencies/education-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/126",
+          "parent_id": null,
+          "slug": "education-department"
+        }
+      ],
+      "excerpts": "The Department of Education (Department) issues these final regulations to adjust the Department's civil monetary penalties (CMPs) for inflation. This adjustment is required by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of..."
+    },
+    {
+      "title": "Processes and Procedures for Issuance and Use of Guidance Documents",
+      "type": "Rule",
+      "abstract": "This rule finalizes without change an interim final rule by which the Department of Justice (\"Department\") removed amendments to its regulations that were made during 2020 pursuant to the now-revoked Executive Order 13891, which had imposed limitations on the use of Department guidance documents in criminal and civil enforcement actions brought by the Department.",
+      "document_number": "2025-01409",
+      "html_url": "https://www.federalregister.gov/documents/2025/01/21/2025-01409/processes-and-procedures-for-issuance-and-use-of-guidance-documents",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2025-01409.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2025-01409.pdf?1737121530",
+      "publication_date": "2025-01-21",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF JUSTICE",
+          "name": "Justice Department",
+          "id": 268,
+          "url": "https://www.federalregister.gov/agencies/justice-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+          "parent_id": null,
+          "slug": "justice-department"
+        },
+        {
+          "raw_name": "Office of the Attorney General",
+          "name": "Justice Department",
+          "id": 268,
+          "url": "https://www.federalregister.gov/agencies/justice-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+          "parent_id": null,
+          "slug": "justice-department"
+        }
+      ],
+      "excerpts": "This rule finalizes without change an interim final rule by which the Department of Justice (\"Department\") removed amendments to its regulations that were made during 2020 pursuant to the now-revoked Executive Order 13891, which had imposed limitations..."
+    }
+  ]
+}

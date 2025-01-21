@@ -1,0 +1,902 @@
+[
+    {
+        "packageId": "BILLS-118hr10403ih",
+        "lastModified": "2025-01-21T04:37:28Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10403ih/summary",
+        "docClass": "hr",
+        "title": "Fair Access to Legal Counsel Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-119s5es",
+        "lastModified": "2025-01-21T04:37:27Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119s5es/summary",
+        "docClass": "s",
+        "title": "Laken Riley Act",
+        "congress": "119",
+        "dateIssued": "2025-01-20"
+    },
+    {
+        "packageId": "BILLS-118hr10294ih",
+        "lastModified": "2025-01-21T01:04:45Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10294ih/summary",
+        "docClass": "hr",
+        "title": "Habitable Housing Conversion Pilot Program Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-04"
+    },
+    {
+        "packageId": "BILLS-118hr10408ih",
+        "lastModified": "2025-01-18T08:43:18Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10408ih/summary",
+        "docClass": "hr",
+        "title": "Securing Every Vector, Enhancing Networks Act; SEVEN Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10407ih",
+        "lastModified": "2025-01-18T06:19:34Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10407ih/summary",
+        "docClass": "hr",
+        "title": "SBIR/STTR Reauthorization Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10405ih",
+        "lastModified": "2025-01-18T05:27:23Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10405ih/summary",
+        "docClass": "hr",
+        "title": "Parental Bereavement Act of 2024; Sarah Grace-Farley-Kluger Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10406ih",
+        "lastModified": "2025-01-18T05:27:18Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10406ih/summary",
+        "docClass": "hr",
+        "title": "Patient Device Data Access Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10399ih",
+        "lastModified": "2025-01-18T05:27:18Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10399ih/summary",
+        "docClass": "hr",
+        "title": "To amend the American Rescue Plan Act of 2021 to direct the President to end financial assistance for funeral expenses related to the COVID\u201319 pandemic.",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10396ih",
+        "lastModified": "2025-01-18T05:27:18Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10396ih/summary",
+        "docClass": "hr",
+        "title": "NOPAIN for Veterans Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10404ih",
+        "lastModified": "2025-01-18T05:27:13Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10404ih/summary",
+        "docClass": "hr",
+        "title": "Providing Distance Education for Foreign Institutions Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10398ih",
+        "lastModified": "2025-01-18T05:27:13Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10398ih/summary",
+        "docClass": "hr",
+        "title": "Safe Shelters Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10390ih",
+        "lastModified": "2025-01-18T04:27:01Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10390ih/summary",
+        "docClass": "hr",
+        "title": "Recovering America\u2019s Wildlife Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10402ih",
+        "lastModified": "2025-01-18T04:26:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10402ih/summary",
+        "docClass": "hr",
+        "title": "Republic of Somaliland Independence Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10400ih",
+        "lastModified": "2025-01-18T04:26:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10400ih/summary",
+        "docClass": "hr",
+        "title": "To amend the Internal Revenue Code of 1986 to clarify the definition of applicable educational institution for purposes of the excise tax based on the income of private colleges and universities.",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10394ih",
+        "lastModified": "2025-01-18T04:26:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10394ih/summary",
+        "docClass": "hr",
+        "title": "Increasing Transparency and Accountability in Federal Spending Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10401ih",
+        "lastModified": "2025-01-18T04:26:51Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10401ih/summary",
+        "docClass": "hr",
+        "title": "Servicemember Right-to-Repair Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10395ih",
+        "lastModified": "2025-01-18T04:26:51Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10395ih/summary",
+        "docClass": "hr",
+        "title": "Honoring Our Heroes Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10366ih",
+        "lastModified": "2025-01-18T03:46:25Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10366ih/summary",
+        "docClass": "hr",
+        "title": "AGOA Extension and Enhancement Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-119sres28is",
+        "lastModified": "2025-01-18T00:38:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sres28is/summary",
+        "docClass": "sres",
+        "title": "Honoring the service of women in combat roles in the Armed Forces.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hr33rfs",
+        "lastModified": "2025-01-18T00:38:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr33rfs/summary",
+        "docClass": "hr",
+        "title": "An Act To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hr164rfs",
+        "lastModified": "2025-01-18T00:38:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr164rfs/summary",
+        "docClass": "hr",
+        "title": "Promoting Opportunities to Widen Electrical Resilience Act of 2025; POWER Act of 2025",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119s6pcs",
+        "lastModified": "2025-01-18T00:37:58Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119s6pcs/summary",
+        "docClass": "s",
+        "title": "Born-Alive Abortion Survivors Protection Act",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hr144rfs",
+        "lastModified": "2025-01-18T00:37:58Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr144rfs/summary",
+        "docClass": "hr",
+        "title": "Tennessee Valley Authority Salary Transparency Act",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-118s5491is",
+        "lastModified": "2025-01-18T00:37:58Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118s5491is/summary",
+        "docClass": "s",
+        "title": "Realizing Economic and Strategic Objectives while Leading with Values and Engagement Act of 2024; RESOLVE Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10397ih",
+        "lastModified": "2025-01-17T09:33:15Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10397ih/summary",
+        "docClass": "hr",
+        "title": "Modern Employment Reform, Improvement, and Transformation Act of 2024; MERIT Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-119hres46ih",
+        "lastModified": "2025-01-17T09:21:34Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres46ih/summary",
+        "docClass": "hres",
+        "title": "Amending the Rules of the House of Representatives to exclude employees of the offices of Members who serve on certain committees of the House from the allotment of the number of employees of the office who may hold security clearances processed by the Office of House Security if such employees are members of the armed forces who hold a security clearance issued by the Department of Defense, and for other purposes.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hres52ih",
+        "lastModified": "2025-01-17T08:20:35Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres52ih/summary",
+        "docClass": "hres",
+        "title": "Recognizing and honoring the work of community organizations and individuals who create and maintain services and educational programs for marginalized groups ensuring the resilience and prosperity of members of the LGBTQIA+ community.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hres51ih",
+        "lastModified": "2025-01-17T08:20:35Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres51ih/summary",
+        "docClass": "hres",
+        "title": "Honoring Zeta Phi Beta Sorority, Inc., on reaching the historic milestone of 105 years of scholarship, service, sisterhood, and finer womanhood.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hjres24ih",
+        "lastModified": "2025-01-17T07:28:51Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres24ih/summary",
+        "docClass": "hjres",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hres50ih",
+        "lastModified": "2025-01-17T07:28:49Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres50ih/summary",
+        "docClass": "hres",
+        "title": "Recognizing that article I, section 10 of the United States Constitution explicitly reserves to the States the sovereign power to repel an invasion and defend their citizenry from the overwhelming and imminent danger posed by paramilitary, narco-terrorist cartels, terrorists and criminal actors who seized control of our southern border.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hjres21ih",
+        "lastModified": "2025-01-17T07:28:49Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres21ih/summary",
+        "docClass": "hjres",
+        "title": "Disapproving of the rule submitted by the Department of Homeland Security relating to Modernizing H\u20132 Program Requirements, Oversight, and Worker Protections.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hjres22ih",
+        "lastModified": "2025-01-17T07:28:46Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres22ih/summary",
+        "docClass": "hjres",
+        "title": "Disapproving of the rule submitted by the Department of Homeland Security relating to Modernizing H\u20131B Requirements, Providing Flexibility in the F\u20131 Program, and Program Improvements Affecting Other Nonimmigrant Workers.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hres49ih",
+        "lastModified": "2025-01-17T07:28:44Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres49ih/summary",
+        "docClass": "hres",
+        "title": "Prohibiting Members of the House of Representatives from bringing or displaying a flag of a foreign nation on the floor of the House, and for other purposes.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hjres23ih",
+        "lastModified": "2025-01-17T07:28:43Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres23ih/summary",
+        "docClass": "hjres",
+        "title": "Disapproving of the rule submitted by the Department of Homeland Security relating to Increase of the Automatic Extension Period of Employment Authorization and Documentation for Certain Employment Authorization Document Renewal Applicants.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hres48ih",
+        "lastModified": "2025-01-17T07:28:41Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres48ih/summary",
+        "docClass": "hres",
+        "title": "Honoring Reverend Dr. Martin Luther King, Jr., by celebrating diversity, promoting tolerance, and condemning hate.",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hr471ih",
+        "lastModified": "2025-01-17T06:06:18Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr471ih/summary",
+        "docClass": "hr",
+        "title": "Fix Our Forests Act",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119hres44eh",
+        "lastModified": "2025-01-17T05:08:35Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres44eh/summary",
+        "docClass": "hres",
+        "title": "Electing Members to certain standing committees of the House of Representatives.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hres43eh",
+        "lastModified": "2025-01-17T05:08:35Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres43eh/summary",
+        "docClass": "hres",
+        "title": "H. RES. 43 (EH) - Engrossed in House",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr33eh",
+        "lastModified": "2025-01-17T05:08:35Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr33eh/summary",
+        "docClass": "hr",
+        "title": "An Act To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hres42eh",
+        "lastModified": "2025-01-17T05:08:31Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres42eh/summary",
+        "docClass": "hres",
+        "title": "Electing Members to certain standing committees of the House of Representatives.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr164eh",
+        "lastModified": "2025-01-17T05:08:30Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr164eh/summary",
+        "docClass": "hr",
+        "title": "Promoting Opportunities to Widen Electrical Resilience Act of 2025; POWER Act of 2025",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119sconres5is",
+        "lastModified": "2025-01-17T05:08:26Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sconres5is/summary",
+        "docClass": "sconres",
+        "title": "Expressing the sense of Congress that the proposed joint interpretation of Annex 14-C of the United States-Mexico-Canada Agreement prepared by United States Trade Representative Katherine Tai is of no legal effect with respect to the United States or any United States person unless it is approved by Congress.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr144eh",
+        "lastModified": "2025-01-17T05:08:26Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr144eh/summary",
+        "docClass": "hr",
+        "title": "Tennessee Valley Authority Salary Transparency Act",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr30eh",
+        "lastModified": "2025-01-17T05:08:21Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr30eh/summary",
+        "docClass": "hr",
+        "title": "Preventing Violence Against Women by Illegal Aliens Act",
+        "congress": "119",
+        "dateIssued": "2025-01-16"
+    },
+    {
+        "packageId": "BILLS-119sres27ats",
+        "lastModified": "2025-01-17T05:08:20Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sres27ats/summary",
+        "docClass": "sres",
+        "title": "Congratulating the North Dakota State University Bison football team for winning the 2024 National Collegiate Athletic Association Division I Football Championship Subdivision title.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr153rfs",
+        "lastModified": "2025-01-17T05:08:20Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr153rfs/summary",
+        "docClass": "hr",
+        "title": "Post-Disaster Assistance Online Accountability Act",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-110hr5773ih",
+        "lastModified": "2025-01-16T17:34:39Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-110hr5773ih/summary",
+        "docClass": "hr",
+        "title": "To authorize the Secretary of the Interior to enter into a long-term ground lease for the operation and maintenance of Rock Creek, Langston, and East Potomac as golf courses, and for other purposes.",
+        "congress": "110",
+        "dateIssued": "2008-04-10"
+    },
+    {
+        "packageId": "BILLS-110hconres322enr",
+        "lastModified": "2025-01-16T17:34:39Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-110hconres322enr/summary",
+        "docClass": "hconres",
+        "title": "Recognizing the 60th anniversary of the founding of the modern State of Israel and reaffirming the bonds of close friendship and cooperation between the United States and Israel.",
+        "congress": "110",
+        "dateIssued": "2008-04-24"
+    },
+    {
+        "packageId": "BILLS-118hr10365ih",
+        "lastModified": "2025-01-16T12:43:53Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10365ih/summary",
+        "docClass": "hr",
+        "title": "PEPFAR Extension and Reform Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10391ih",
+        "lastModified": "2025-01-16T12:02:08Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10391ih/summary",
+        "docClass": "hr",
+        "title": "No More D.C. Waste Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10392ih",
+        "lastModified": "2025-01-16T12:02:07Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10392ih/summary",
+        "docClass": "hr",
+        "title": "Parental Oversight and Educational Transparency Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10393ih",
+        "lastModified": "2025-01-16T12:02:02Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10393ih/summary",
+        "docClass": "hr",
+        "title": "Carla Walker Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10387ih",
+        "lastModified": "2025-01-16T12:01:22Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10387ih/summary",
+        "docClass": "hr",
+        "title": "Department of State Student Internship Program Improvements Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10385ih",
+        "lastModified": "2025-01-16T11:21:16Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10385ih/summary",
+        "docClass": "hr",
+        "title": "Conventional Weapons Destruction and Legacy of Senator Patrick Leahy Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10384ih",
+        "lastModified": "2025-01-16T11:21:16Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10384ih/summary",
+        "docClass": "hr",
+        "title": "Responsible Retirement of Law Enforcement Firearms Act of 2024; RRLEF Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10388ih",
+        "lastModified": "2025-01-16T11:21:11Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10388ih/summary",
+        "docClass": "hr",
+        "title": "Fair Ball Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10389ih",
+        "lastModified": "2025-01-16T11:21:06Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10389ih/summary",
+        "docClass": "hr",
+        "title": "Water Authority Cybersecurity Protection Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10373ih",
+        "lastModified": "2025-01-16T11:21:06Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10373ih/summary",
+        "docClass": "hr",
+        "title": "Providing Real-World Education and Clinical Experience by Precepting Tomorrow\u2019s Nurses Act; PRECEPT Nurses Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10372ih",
+        "lastModified": "2025-01-16T11:21:06Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10372ih/summary",
+        "docClass": "hr",
+        "title": "Don\u2019t Block LGBTQ Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10383ih",
+        "lastModified": "2025-01-16T11:21:01Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10383ih/summary",
+        "docClass": "hr",
+        "title": "Public Archives Resiliency Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10382ih",
+        "lastModified": "2025-01-16T11:21:01Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10382ih/summary",
+        "docClass": "hr",
+        "title": "To amend title 49, United States Code, to allow Amtrak to use grant funds to satisfy non-Federal share requirements of certain grant programs, and for other purposes.",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10381ih",
+        "lastModified": "2025-01-16T11:21:00Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10381ih/summary",
+        "docClass": "hr",
+        "title": "Supporting Medical Students and VA Workforce Act",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10386ih",
+        "lastModified": "2025-01-16T11:20:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10386ih/summary",
+        "docClass": "hr",
+        "title": "Veterans Transition Support Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10371ih",
+        "lastModified": "2025-01-16T11:20:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10371ih/summary",
+        "docClass": "hr",
+        "title": "No Community Development Block Grants for Sanctuary Cities Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10370ih",
+        "lastModified": "2025-01-16T11:20:56Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10370ih/summary",
+        "docClass": "hr",
+        "title": "Sarah Katz Caffeine Safety Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10369ih",
+        "lastModified": "2025-01-16T09:44:28Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10369ih/summary",
+        "docClass": "hr",
+        "title": "Advancing VA\u2019s Emergency Response to Crises Act of 2024; AVERT Crises Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-119hres47ih",
+        "lastModified": "2025-01-16T09:43:59Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres47ih/summary",
+        "docClass": "hres",
+        "title": "Concerning the National Collegiate Athletic Association policy for eligibility in women\u2019s sports.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-118hr10367ih",
+        "lastModified": "2025-01-16T09:43:59Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10367ih/summary",
+        "docClass": "hr",
+        "title": "Family Notification of Death, Injury, or Illness in Custody Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10368ih",
+        "lastModified": "2025-01-16T09:43:58Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10368ih/summary",
+        "docClass": "hr",
+        "title": "To codify in statute certain sanctions with respect to the Russian Federation.",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-119hres45ih",
+        "lastModified": "2025-01-16T09:31:48Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hres45ih/summary",
+        "docClass": "hres",
+        "title": "Honoring Alpha Kappa Alpha Sorority, Inc.\u00ae, on reaching the historic milestone of 117 years of serving communities.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hjres20ih",
+        "lastModified": "2025-01-16T09:31:48Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres20ih/summary",
+        "docClass": "hjres",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hjres19ih",
+        "lastModified": "2025-01-16T06:23:03Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hjres19ih/summary",
+        "docClass": "hjres",
+        "title": "To acknowledge the courage and sacrifice of veterans of the Vietnam war and formally apologize for the treatment they received upon returning home.",
+        "congress": "119",
+        "dateIssued": "2025-01-15"
+    },
+    {
+        "packageId": "BILLS-119hr153eh",
+        "lastModified": "2025-01-16T06:19:33Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr153eh/summary",
+        "docClass": "hr",
+        "title": "Post-Disaster Assistance Online Accountability Act",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-119hr28eh",
+        "lastModified": "2025-01-16T06:19:28Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr28eh/summary",
+        "docClass": "hr",
+        "title": "Protection of Women and Girls in Sports Act of 2025",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-118hr10379ih",
+        "lastModified": "2025-01-16T05:27:31Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10379ih/summary",
+        "docClass": "hr",
+        "title": "Federal Public Defense Commission Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-12"
+    },
+    {
+        "packageId": "BILLS-118hr10173ih",
+        "lastModified": "2025-01-16T05:27:26Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10173ih/summary",
+        "docClass": "hr",
+        "title": "Get Toxic Substances Out of Schools Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-11-20"
+    },
+    {
+        "packageId": "BILLS-118hr10364ih",
+        "lastModified": "2025-01-16T02:16:42Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10364ih/summary",
+        "docClass": "hr",
+        "title": "App Store Accountability Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-119sres25is",
+        "lastModified": "2025-01-16T00:57:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sres25is/summary",
+        "docClass": "sres",
+        "title": "Condemning the commutation of the death sentence of Marvin Charles Gabrion II granted by President Biden on December 23, 2024.",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-119sres24is",
+        "lastModified": "2025-01-16T00:57:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sres24is/summary",
+        "docClass": "sres",
+        "title": "Condemning the commutation of the death sentence of Anthony George Battle granted by President Biden on December 23, 2024.",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-119hr189rfs",
+        "lastModified": "2025-01-16T00:57:04Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr189rfs/summary",
+        "docClass": "hr",
+        "title": "Securities and Exchange Commission Real Estate Leasing Authority Revocation Act",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-119s23is",
+        "lastModified": "2025-01-16T00:56:59Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119s23is/summary",
+        "docClass": "s",
+        "title": "Decentralizing and Reorganizing Agency Infrastructure Nation-wide To Harness Efficient Services, Workforce Administration, and Management Practices Act; DRAIN THE SWAMP Act",
+        "congress": "119",
+        "dateIssued": "2025-01-07"
+    },
+    {
+        "packageId": "BILLS-119s22is",
+        "lastModified": "2025-01-16T00:56:59Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119s22is/summary",
+        "docClass": "s",
+        "title": "Strategic Withdrawal of Agencies for Meaningful Placement Act; SWAMP Act",
+        "congress": "119",
+        "dateIssued": "2025-01-07"
+    },
+    {
+        "packageId": "BILLS-119hr152rfs",
+        "lastModified": "2025-01-16T00:56:59Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr152rfs/summary",
+        "docClass": "hr",
+        "title": "Federal Disaster Assistance Coordination Act",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-119hr192rfs",
+        "lastModified": "2025-01-16T00:56:54Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119hr192rfs/summary",
+        "docClass": "hr",
+        "title": "Amtrak Executive Bonus Disclosure Act",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-118s5493is",
+        "lastModified": "2025-01-16T00:56:54Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118s5493is/summary",
+        "docClass": "s",
+        "title": "Accountable Capitalism Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118s5466is",
+        "lastModified": "2025-01-16T00:56:54Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118s5466is/summary",
+        "docClass": "s",
+        "title": "Flood Insurance Affordability Tax Credit Act",
+        "congress": "118",
+        "dateIssued": "2024-12-10"
+    },
+    {
+        "packageId": "BILLS-119s21is",
+        "lastModified": "2025-01-16T00:56:49Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119s21is/summary",
+        "docClass": "s",
+        "title": "Requiring Effective Management and Oversight of Teleworking Employees Act; REMOTE Act",
+        "congress": "119",
+        "dateIssued": "2025-01-07"
+    },
+    {
+        "packageId": "BILLS-118s5495is",
+        "lastModified": "2025-01-16T00:56:49Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118s5495is/summary",
+        "docClass": "s",
+        "title": "Healthy Climate and Family Security Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118s5469is",
+        "lastModified": "2025-01-16T00:56:49Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118s5469is/summary",
+        "docClass": "s",
+        "title": "Climate Adaptation Science Centers Act; CASC Act",
+        "congress": "118",
+        "dateIssued": "2024-12-10"
+    },
+    {
+        "packageId": "BILLS-119sres26ats",
+        "lastModified": "2025-01-16T00:56:48Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-119sres26ats/summary",
+        "docClass": "sres",
+        "title": "To constitute the majority party's membership on certain committees for the One Hundred Nineteenth Congress, or until their successors are chosen.",
+        "congress": "119",
+        "dateIssued": "2025-01-14"
+    },
+    {
+        "packageId": "BILLS-118sjres24enr",
+        "lastModified": "2025-01-15T19:24:30Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118sjres24enr/summary",
+        "docClass": "sjres",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat.",
+        "congress": "118",
+        "dateIssued": "2023-08-02"
+    },
+    {
+        "packageId": "BILLS-118sjres9enr",
+        "lastModified": "2025-01-15T19:24:25Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118sjres9enr/summary",
+        "docClass": "sjres",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment.",
+        "congress": "118",
+        "dateIssued": "2023-08-02"
+    },
+    {
+        "packageId": "BILLS-118hres638ih",
+        "lastModified": "2025-01-15T19:14:24Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hres638ih/summary",
+        "docClass": "hres",
+        "title": "Expressing support for the designation of July 2023 as American Grown Flower and Foliage Month.",
+        "congress": "118",
+        "dateIssued": "2023-08-01"
+    },
+    {
+        "packageId": "BILLS-118hres640ih",
+        "lastModified": "2025-01-15T19:14:19Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hres640ih/summary",
+        "docClass": "hres",
+        "title": "Addressing the national crisis of suicide among minority adolescents.",
+        "congress": "118",
+        "dateIssued": "2023-08-01"
+    },
+    {
+        "packageId": "BILLS-118hr2544enr",
+        "lastModified": "2025-01-15T19:14:13Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr2544enr/summary",
+        "docClass": "hr",
+        "title": "Securing the U.S. Organ Procurement and Transplantation Network Act",
+        "congress": "118",
+        "dateIssued": "2023-08-03"
+    },
+    {
+        "packageId": "BILLS-118hr10377ih",
+        "lastModified": "2025-01-15T10:59:10Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10377ih/summary",
+        "docClass": "hr",
+        "title": "Earth Sciences and Cooperation Enhancement Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10376ih",
+        "lastModified": "2025-01-15T10:59:10Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10376ih/summary",
+        "docClass": "hr",
+        "title": "To amend the Export Control Reform Act of 2018 to prevent the People\u2019s Republic of China from exploiting items such as black mass and certain other products produced in the United States.",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10378ih",
+        "lastModified": "2025-01-15T10:59:06Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10378ih/summary",
+        "docClass": "hr",
+        "title": "Securing Essential and Critical U.S. Resources and Elements Minerals Act of 2024; SECURE Minerals Act of 2024",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10375ih",
+        "lastModified": "2025-01-15T10:59:06Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10375ih/summary",
+        "docClass": "hr",
+        "title": "Critical Minerals Workforce Enhancement Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    },
+    {
+        "packageId": "BILLS-118hr10363ih",
+        "lastModified": "2025-01-15T10:49:40Z",
+        "packageLink": "https://api.govinfo.gov/packages/BILLS-118hr10363ih/summary",
+        "docClass": "hr",
+        "title": "Helping America\u2019s Farmers Act",
+        "congress": "118",
+        "dateIssued": "2024-12-11"
+    }
+]
