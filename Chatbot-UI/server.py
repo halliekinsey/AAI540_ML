@@ -12,7 +12,7 @@ app = FastAPI()
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
 # Initialize Pinecone
-pc = pinecone.Pinecone(api_key=os.getenv("pcsk_4axbre_KSH6nL6LoUzz2Lsbdt4tVdjrpqw69NaT1i2oryTH4vPVJHHj1ZrtkXw3GvHU4Ar"))
+pc = pinecone.Pinecone(api_key=os.getenv("HOLDER"))
 index = pc.Index("tax-rag")
 
 # Load embedding model
