@@ -12,8 +12,31 @@ app = FastAPI()
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
 # Initialize Pinecone
-pc = pinecone.Pinecone(api_key=os.getenv("HOLDER"))
-index = pc.Index("tax-rag")
+pc = pinecone.Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
+
+# Define the index name and dimension
+index_name = "tax-rag"
+dimension = 128  # Replace with the dimensionality of your data
+
+# Check if the index exists, create it if not
+if index_name not in pc.list_indexes().names():
+    print(f"Index '{index_name}' does not exist. Creating it...")
+    pc.create_index(
+        name=index_name,
+        dimension=dimension,
+        metric="cosine",  # Use the metric suitable for your use case ('cosine', 'euclidean', etc.)
+        spec=pinecone.ServerlessSpec(
+            cloud="aws",  # Replace with your cloud provider, e.g., 'gcp' or 'aws'
+            region="us-west-2"  # Replace with your desired region
+        )
+    )
+else:
+    print(f"Index '{index_name}' already exists.")
+
+# Connect to the index
+index = pc.Index(index_name)
+
+print("Index is ready to use!")
 
 # Load embedding model
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
