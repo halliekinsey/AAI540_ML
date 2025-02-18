@@ -6,6 +6,10 @@ import time
 import gc
 import os
 
+# New imports for search endpoint
+from pinecone import Pinecone
+from sentence_transformers import SentenceTransformer
+
 app = Flask(__name__)
 
 ###############################################################################
@@ -25,14 +29,6 @@ MODEL_HF_IDS = {
     "lawma_8b": "ricdomolm/lawma-8b",
     "lawma_70b": "ricdomolm/lawma-70b",
     "DeepSeek-V2-Lite": "deepseek-ai/DeepSeek-V2-Lite-Chat"
-}
-
-# Which GPU device each model *should prefer* (you can have multiple GPUs)
-MODEL_DEVICE_MAPPING = {
-    "saul_7b_instruct": "cuda:0",
-    "lawma_8b": "cuda:0",
-    "lawma_70b": "cuda:1",
-    "DeepSeek-V2-Lite": "cuda:0"
 }
 
 # Dictionary to hold currently loaded models
@@ -88,7 +84,7 @@ def unload_model(model_name: str):
     torch.cuda.empty_cache()
 
 def unload_least_recently_used_model(device_str: str):
-    device_models = { name: info for name, info in loaded_models.items() if info["device"] == device_str }
+    device_models = { name: info for name, info in loaded_models.items() if info.get("device") == device_str }
     if not device_models:
         raise RuntimeError(f"No models found on device {device_str} to unload.")
     oldest_model_name = min(device_models, key=lambda nm: device_models[nm]["last_access_time"])
@@ -99,9 +95,6 @@ def load_model(model_name: str):
         loaded_models[model_name]["last_access_time"] = time.time()
         return
 
-    if model_name not in MODEL_DEVICE_MAPPING:
-        raise ValueError(f"No device mapping found for model: {model_name}")
-    device_to_use = MODEL_DEVICE_MAPPING[model_name]
     model_path = MODEL_PATHS.get(model_name)
     
     # Check if the local model directory exists
@@ -110,30 +103,67 @@ def load_model(model_name: str):
         print(f"Local model for '{model_name}' not found at '{model_path}'. Downloading from Hugging Face using id '{hf_model_id}' ...")
         model_path = hf_model_id  # Use the Hugging Face id for download
 
-    print(f"[load_model] Attempting to load '{model_name}' onto {device_to_use} ...")
+    print(f"[load_model] Attempting to load '{model_name}' ...")
     
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16,
-        device_map="auto",
+        device_map="auto",  # Automatically spread model across GPUs
         trust_remote_code=True
     )
     
-    allocated = torch.cuda.memory_allocated(device=device_to_use) / (1024**2)
+    # You can optionally track memory footprint per model, but do not assume a single device.
     loaded_models[model_name] = {
         "tokenizer": tokenizer,
         "model": model,
-        "device": device_to_use,
         "last_access_time": time.time(),
-        "memory_footprint": allocated
     }
-    print(f"[load_model] '{model_name}' loaded on {device_to_use}. Current allocated: {allocated:.2f} MB")
+    print(f"[load_model] '{model_name}' loaded. It has been automatically partitioned across available GPUs.")
+
+def perform_generation(model_name: str, prompt: str, max_tokens: int):
+    """
+    A common helper function to perform text generation.
+    Returns generated_text, response_time, and the tokenizer used.
+    """
+    try:
+        load_model(model_name)
+    except Exception as e:
+        raise Exception(str(e))
+    
+    tokenizer = loaded_models[model_name]["tokenizer"]
+    model = loaded_models[model_name]["model"]
+    inputs = tokenizer(prompt, return_tensors="pt")
+    start_time = time.time()
+    output_ids = model.generate(
+        **inputs,
+        max_new_tokens=max_tokens,
+        do_sample=True,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.eos_token_id
+    )
+    response_time = time.time() - start_time
+
+    # Decode the output IDs to text
+    full_output = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+    
+    # Remove the prompt from the generated text
+    if full_output.startswith(prompt):
+        generated_text = full_output[len(prompt):].strip()
+    else:
+        generated_text = full_output.strip()
+
+    # Ensure the generated text ends in a punctuation mark
+    if not generated_text.endswith(('.', '!', '?')):
+        generated_text += " ..."
+    
+    loaded_models[model_name]["last_access_time"] = time.time()
+    
+    return generated_text, response_time, tokenizer
 
 ###############################################################################
 # 3. PRE-DOWNLOAD MODELS (Optional: Download all models if not present)
 ###############################################################################
-# This loop iterates over all models and downloads them if the local folder doesn't exist.
 for mname, local_path in MODEL_PATHS.items():
     if not os.path.exists(local_path):
         hf_id = MODEL_HF_IDS.get(mname, mname)
@@ -146,6 +176,9 @@ for mname, local_path in MODEL_PATHS.items():
 ###############################################################################
 # 4. FLASK ROUTES
 ###############################################################################
+
+# --- Existing Endpoints ---
+
 @app.route('/generate', methods=['POST'])
 def generate_text():
     data = request.get_json()
@@ -160,40 +193,17 @@ def generate_text():
     if max_length is None:
         return jsonify({"error": "max_length must be provided"}), 400
 
-    try:
-        load_model(model_name)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-    tokenizer = loaded_models[model_name]["tokenizer"]
-    model = loaded_models[model_name]["model"]
-    model_device = loaded_models[model_name]["device"]
-
     prompt = build_prompt(question)
-    inputs = tokenizer(prompt, return_tensors="pt").to(model_device)
-
     try:
-        start_time = time.time()
-        output_ids = model.generate(
-            **inputs,
-            max_new_tokens=max_length,
-            do_sample=True,
-            eos_token_id=tokenizer.eos_token_id,
-            pad_token_id=tokenizer.eos_token_id
-        )
-        response_time = time.time() - start_time
-        generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-        if not generated_text.strip().endswith(('.', '!', '?')):
-            generated_text += " ..."
-        loaded_models[model_name]["last_access_time"] = time.time()
-        return jsonify({
-            "response": generated_text,
-            "time_taken": response_time,
-            "model": model_name
-        })
+        generated_text, response_time, _ = perform_generation(model_name, prompt, max_length)
     except Exception as e:
-        print(f"Error during /generate with model {model_name}:", str(e))
         return jsonify({"error": str(e)}), 500
+
+    return jsonify({
+        "response": generated_text,
+        "time_taken": response_time,
+        "model": model_name
+    })
 
 @app.route('/generate_stream', methods=['POST'])
 def generate_text_stream():
@@ -216,10 +226,8 @@ def generate_text_stream():
 
     tokenizer = loaded_models[model_name]["tokenizer"]
     model = loaded_models[model_name]["model"]
-    model_device = loaded_models[model_name]["device"]
-
     prompt = build_prompt(question)
-    inputs = tokenizer(prompt, return_tensors="pt").to(model_device)
+    inputs = tokenizer(prompt, return_tensors="pt")
     streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
     
     def run_generation():
@@ -240,13 +248,327 @@ def generate_text_stream():
     loaded_models[model_name]["last_access_time"] = time.time()
     return Response(streamer, mimetype="text/plain")
 
+# --- New Endpoints ---
+
+@app.route('/v1/models', methods=['GET'])
+def list_models():
+    """Return a list of available models."""
+    models = [{"id": name, "object": "model"} for name in MODEL_PATHS.keys()]
+    return jsonify({
+        "data": models,
+        "object": "list"
+    })
+
+# Modify chat_completions endpoint
+@app.route('/v1/chat/completions', methods=['POST'])
+def chat_completions():
+    data = request.get_json()
+    model_name = data.get("model")
+    if not model_name:
+        return jsonify({"error": "model is required"}), 400
+    if model_name not in MODEL_PATHS:
+        return jsonify({"error": f"Unknown model: {model_name}"}), 400
+
+    messages = data.get("messages")
+    if not messages:
+        return jsonify({"error": "messages field is required"}), 400
+
+    # Extract the last user message
+    user_message = None
+    for msg in reversed(messages):
+        if msg.get("role") == "user":
+            user_message = msg.get("content")
+            break
+    if not user_message:
+        return jsonify({"error": "No user message found in messages"}), 400
+
+    max_tokens = data.get("max_tokens")
+    if max_tokens is None:
+        return jsonify({"error": "max_tokens must be provided"}), 400
+
+    tax_optimize = data.get("tax_optimize", True)
+    n = data.get("n", 2)
+
+    if tax_optimize:
+        # Perform search on Pinecone index
+        search_results = search_pinecone(user_message, top_k=n)
+        prompt, form_ids = create_detailed_prompt(user_message, search_results, tax_optimize=True, n=n)
+    else:
+        prompt = build_prompt(user_message)
+
+    try:
+        generated_text, response_time, tokenizer = perform_generation(model_name, prompt, max_tokens)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    return jsonify({
+        "id": f"chatcmpl-{int(time.time())}",
+        "object": "chat.completion",
+        "created": int(time.time()),
+        "model": model_name,
+        "choices": [
+            {
+                "index": 0,
+                "message": {"role": "assistant", "content": generated_text},
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": len(tokenizer.encode(prompt)),
+            "completion_tokens": len(tokenizer.encode(generated_text)),
+            "total_tokens": len(tokenizer.encode(prompt)) + len(tokenizer.encode(generated_text))
+        },
+        "time_taken": response_time
+    })
+
+def create_detailed_prompt(user_query, search_results, tax_optimize=True, n=2):
+    """
+    Create a detailed prompt for a tax-related application using user query and search results.
+    
+    Parameters:
+    - user_query (str): The original query from the user.
+    - search_results (dict): The search results from Pinecone.
+    - tax_optimize (bool): Whether to optimize the prompt for tax purposes.
+    - n (int): Number of top search results to use for context.
+
+    Returns:
+    - str: The detailed prompt ready for model input.
+    - set: A set of form IDs used in the context.
+    """
+    if tax_optimize:
+        prefix = "You are a helpful tax advisor and legal expert. Use the provided context to answer the user's query in a clear and concise manner.\n"
+        
+        # Extract relevant context from search results, limiting to 'n' results
+        context_segments = []
+        form_ids = set()
+        
+        for result in search_results.get("results", [])[:n]:
+            form_id = result.get("id", "")
+            form_name = form_id.split(".md")[0] if ".md" in form_id else form_id
+            form_ids.add(form_name)
+            context_text = result.get("text", "").strip()
+            context_segments.append(f"Form {form_name}: {context_text}")
+        
+        # Construct the context section for the prompt
+        context_section = "\n".join(context_segments)
+        
+    else:
+        prefix = "You are a helpful advisor. Use the provided online information to answer the user's query.\n"
+        
+        # Call the search_online function to get additional context
+        online_results = search_online(user_query)
+        
+        # Format the search results for inclusion in the prompt, limiting to 'n' results
+        context_segments = [f"{res['title']}: {res['snippet']}" for res in online_results[:n]]
+        context_section = "\n".join(context_segments)
+        
+        form_ids = set()  # No specific forms are tracked in this mode
+
+    # Build the complete prompt
+    detailed_prompt = (
+        f"{prefix}"
+        f"User Query: {user_query}\n"
+        f"Related Context:\n"
+        f"{context_section}\n"
+        "Note: The above information is extracted from relevant forms or online sources. Use it to formulate your response."
+    )
+    
+    return detailed_prompt, form_ids
+
+# Modify completions endpoint
+@app.route('/v1/completions', methods=['POST'])
+def completions():
+    data = request.get_json()
+    model_name = data.get("model")
+    if not model_name:
+        return jsonify({"error": "model is required"}), 400
+    if model_name not in MODEL_PATHS:
+        return jsonify({"error": f"Unknown model: {model_name}"}), 400
+
+    prompt_text = data.get("prompt")
+    if not prompt_text:
+        return jsonify({"error": "prompt is required"}), 400
+
+    max_tokens = data.get("max_tokens")
+    if max_tokens is None:
+        return jsonify({"error": "max_tokens must be provided"}), 400
+
+    tax_optimize = data.get("tax_optimize", True)
+    n = data.get("n", 2)
+
+    if tax_optimize:
+        # Perform search on Pinecone index
+        search_results = search_pinecone(prompt_text, top_k=n)
+        prompt, form_ids = create_detailed_prompt(prompt_text, search_results, tax_optimize=True, n=n)
+    else:
+        prompt = build_prompt(prompt_text)
+
+    try:
+        generated_text, response_time, tokenizer = perform_generation(model_name, prompt, max_tokens)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    return jsonify({
+        "id": f"cmpl-{int(time.time())}",
+        "object": "text_completion",
+        "created": int(time.time()),
+        "model": model_name,
+        "choices": [
+            {
+                "text": generated_text,
+                "index": 0,
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": len(tokenizer.encode(prompt)),
+            "completion_tokens": len(tokenizer.encode(generated_text)),
+            "total_tokens": len(tokenizer.encode(prompt)) + len(tokenizer.encode(generated_text))
+        },
+        "time_taken": response_time
+    })
+
+# --- New Search Endpoint ---
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+if not PINECONE_API_KEY:
+    print("Warning: PINECONE_API_KEY is not set. The search endpoint may not work.")
+
+# Initialize Pinecone client
+pc = Pinecone(api_key=PINECONE_API_KEY)
+
+# Define index name
+INDEX_NAME = "tax-rag"
+
+# Connect to Pinecone index
+if INDEX_NAME not in pc.list_indexes().names():
+    print(f"Error: Pinecone index '{INDEX_NAME}' does not exist.")
+    index = None
+else:
+    index = pc.Index(INDEX_NAME)
+    print(f"✅ Connected to Pinecone index: {INDEX_NAME}")
+
+# Initialize embedding model
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+
+def search_pinecone(query_text, top_k=5):
+    """
+    Searches Pinecone index with the given query and returns the top results.
+    """
+    if not index:
+        return {"error": "Pinecone index is not initialized."}
+    
+    # Generate query embedding
+    query_embedding = embedding_model.encode(query_text).tolist()
+    
+    # Query Pinecone
+    results = index.query(vector=query_embedding, top_k=top_k, include_metadata=True)
+    
+    # Format results
+    formatted_results = [
+        {
+            "id": match.get("id"),
+            "score": match.get("score"),
+            "text": match.get("metadata", {}).get("text")
+        }
+        for match in results.get("matches", [])
+    ]
+    
+    return {
+        "query": query_text,
+        "results": formatted_results
+    }
+
+@app.route('/search', methods=['POST'])
+def search():
+    """
+    API endpoint for searching the Pinecone index.
+    """
+    data = request.get_json()
+    if not data or "query" not in data:
+        return jsonify({"error": "Missing 'query' field in JSON payload"}), 400
+    print('data', data)
+    query_text = data["query"]
+    top_k = data.get("top_k", 5)
+    
+    # Perform search
+    response = search_pinecone(query_text, top_k)
+    
+    return jsonify(response)
+
+def create_detailed_prompt(user_query, search_results, tax_optimize=True, n=2):
+    """
+    Create a detailed prompt for a tax-related application using user query and search results.
+    
+    Parameters:
+    - user_query (str): The original query from the user.
+    - search_results (dict): The search results from Pinecone.
+    - tax_optimize (bool): Whether to optimize the prompt for tax purposes.
+    - n (int): Number of top search results to use for context.
+
+    Returns:
+    - str: The detailed prompt ready for model input.
+    - set: A set of form IDs used in the context.
+    """
+    def search_online(query):
+        """
+        Placeholder function to perform an online search.
+        This should be replaced with an actual implementation.
+        
+        Parameters:
+        - query (str): The query to search online.
+
+        Returns:
+        - list: Simulated search results.
+        """
+        # Simulated response for demonstration purposes
+        return [
+            {"title": "Self-Employment Taxes", "snippet": "Learn about the forms required for self-employment taxes."},
+            {"title": "Freelancer Tax Guide", "snippet": "A guide to taxes for freelancers and self-employed individuals."},
+            {"title": "Independent Contractor Tax Tips", "snippet": "Tips for managing taxes as an independent contractor."}
+        ]
+    
+    if tax_optimize:
+        prefix = "You are a helpful tax advisor and legal expert. Use the provided context to answer the user's query in a clear and concise manner.\n"
+        
+        # Extract relevant context from search results, limiting to 'n' results
+        context_segments = []
+        form_ids = set()
+        
+        for result in search_results.get("results", [])[:n]:
+            form_id = result.get("id", "")
+            form_name = form_id.split(".md")[0] if ".md" in form_id else form_id
+            form_ids.add(form_name)
+            context_text = result.get("text", "").strip()
+            context_segments.append(f"Form {form_name}: {context_text}")
+        
+        # Construct the context section for the prompt
+        context_section = "\n".join(context_segments)
+        
+    else:
+        prefix = "You are a helpful advisor. Use the provided online information to answer the user's query.\n"
+        
+        # Call the search_online function to get additional context
+        online_results = search_online(user_query)
+        
+        # Format the search results for inclusion in the prompt, limiting to 'n' results
+        context_segments = [f"{res['title']}: {res['snippet']}" for res in online_results[:n]]
+        context_section = "\n".join(context_segments)
+        
+        form_ids = set()  # No specific forms are tracked in this mode
+
+    # Build the complete prompt
+    detailed_prompt = (
+        f"{prefix}"
+        f"User Query: {user_query}\n"
+        f"Related Context:\n"
+        f"{context_section}\n"
+        "Note: The above information is extracted from relevant forms or online sources. Use it to formulate your response."
+    )
+    
+    return detailed_prompt, form_ids
+
 ###############################################################################
 # 5. RUN FLASK
 ###############################################################################
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=6000)
-
-
-
-## Only issue with this script is the 70 B model does not load as it is bigger than one A100
-
