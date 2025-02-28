@@ -5,6 +5,11 @@ import threading
 import time
 import gc
 import os
+import sqlite3
+import uuid
+import json
+from functools import wraps
+import boto3
 
 # New imports for search endpoint
 from pinecone import Pinecone
@@ -13,13 +18,86 @@ from sentence_transformers import SentenceTransformer
 app = Flask(__name__)
 
 ###############################################################################
-# 1. CONFIGURATION
+# 1. TOKEN CHECK
+###############################################################################
+# Demo token for the API (for demonstration purposes)
+DEMO_TOKEN = "team-tax-1531"
+
+def token_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        token = None
+        # Check if token is provided in the Authorization header (Bearer token)
+        auth_header = request.headers.get("Authorization")
+        if auth_header:
+            parts = auth_header.split()
+            if len(parts) == 2 and parts[0].lower() == "bearer":
+                token = parts[1]
+        # Fallback: check for token in query parameters
+        if not token:
+            token = request.args.get("token")
+        # Fallback: check for token in JSON payload if available
+        if not token and request.is_json:
+            json_data = request.get_json(silent=True)
+            if json_data:
+                token = json_data.get("token")
+        # If token is missing or does not match, return an error
+        if token != DEMO_TOKEN:
+            return jsonify({"error": "Unauthorized: Invalid or missing token"}), 401
+        return f(*args, **kwargs)
+    return decorated_function
+
+###############################################################################
+# 2. DATABASE SETUP (CHAT HISTORY)
+###############################################################################
+DB_FILE = "chat_sessions.db"
+
+def init_db():
+    """Initialize the local SQLite database for storing chat history."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS chat_history (
+            chat_id TEXT,
+            username TEXT,
+            timestamp TEXT,
+            role TEXT,
+            content TEXT
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+init_db()
+
+def store_chat_message(chat_id, username, role, content):
+    """Stores a chat message in the local SQLite database."""
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute("INSERT INTO chat_history (chat_id, username, timestamp, role, content) VALUES (?, ?, ?, ?, ?)",
+                   (chat_id, username, timestamp, role, content))
+    conn.commit()
+    conn.close()
+
+def get_chat_history(chat_id):
+    """Retrieves chat history for a given chat session."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute("SELECT timestamp, username, role, content FROM chat_history WHERE chat_id = ? ORDER BY timestamp ASC", (chat_id,))
+    messages = cursor.fetchall()
+    conn.close()
+    return [{"timestamp": msg[0], "username": msg[1], "role": msg[2], "content": msg[3]} for msg in messages]
+
+
+###############################################################################
+# 3. CONFIGURATION
 ###############################################################################
 # Dictionary of model names to their respective local paths (or Hugging Face repos).
 MODEL_PATHS = {
-    #"saul_7b_instruct": "./model_directory/models--Equall--Saul-7B-Instruct-v1/snapshots/2133ba7923533934e78f73848045299dd74f08d2",
-    #"lawma_8b": "./model_directory/models--ricdomolm--lawma-8B/snapshots/cf7b9086448228ba981a9748012a97b616a70579",
-    #"lawma_70b": "./model_directory/models--ricdomolm--lawma-70b/snapshots/cf7b9086448228ba981a9748012a97b616a70579",
+    "saul_7b_instruct": "./model_directory/models--Equall--Saul-7B-Instruct-v1/snapshots/2133ba7923533934e78f73848045299dd74f08d2",
+    "lawma_8b": "./model_directory/models--ricdomolm--lawma-8B/snapshots/cf7b9086448228ba981a9748012a97b616a70579",
+    "lawma_70b": "./model_directory/models--ricdomolm--lawma-70b/snapshots/cf7b9086448228ba981a9748012a97b616a70579",
     "DeepSeek-V2-Lite": "./model_directory/models--deepseek-ai--DeepSeek-V2-Lite-Chat/snapshots/85864749cd611b4353ce1decdb286193298f64c7"
 }
 
@@ -35,7 +113,7 @@ MODEL_HF_IDS = {
 loaded_models = {}
 
 ###############################################################################
-# 2. HELPER FUNCTIONS
+# 3. HELPER FUNCTIONS
 ###############################################################################
 
 def build_prompt(user_question: str) -> str:
@@ -113,7 +191,6 @@ def load_model(model_name: str):
         trust_remote_code=True
     )
     
-    # You can optionally track memory footprint per model, but do not assume a single device.
     loaded_models[model_name] = {
         "tokenizer": tokenizer,
         "model": model,
@@ -162,24 +239,24 @@ def perform_generation(model_name: str, prompt: str, max_tokens: int):
     return generated_text, response_time, tokenizer
 
 ###############################################################################
-# 3. PRE-DOWNLOAD MODELS (Optional: Download all models if not present)
+# 4. PRE-DOWNLOAD MODELS (Optional: Download all models if not present)
 ###############################################################################
 for mname, local_path in MODEL_PATHS.items():
     if not os.path.exists(local_path):
         hf_id = MODEL_HF_IDS.get(mname, mname)
         print(f"Local model for '{mname}' not found at '{local_path}'. Downloading from Hugging Face using id '{hf_id}' ...")
-        # Download tokenizer and model to cache_dir
         _ = AutoTokenizer.from_pretrained(hf_id, cache_dir="./model_directory")
         _ = AutoModelForCausalLM.from_pretrained(hf_id, cache_dir="./model_directory", torch_dtype=torch.float16, trust_remote_code=True)
         print(f"Downloaded '{mname}'.")
 
 ###############################################################################
-# 4. FLASK ROUTES
+# 5. FLASK ROUTES
 ###############################################################################
 
 # --- Existing Endpoints ---
 
 @app.route('/generate', methods=['POST'])
+@token_required
 def generate_text():
     data = request.get_json()
     model_name = data.get("model_name")
@@ -206,6 +283,7 @@ def generate_text():
     })
 
 @app.route('/generate_stream', methods=['POST'])
+@token_required
 def generate_text_stream():
     data = request.get_json()
     model_name = data.get("model_name")
@@ -251,6 +329,7 @@ def generate_text_stream():
 # --- New Endpoints ---
 
 @app.route('/v1/models', methods=['GET'])
+@token_required
 def list_models():
     """Return a list of available models."""
     models = [{"id": name, "object": "model"} for name in MODEL_PATHS.keys()]
@@ -259,8 +338,8 @@ def list_models():
         "object": "list"
     })
 
-# Modify chat_completions endpoint
 @app.route('/v1/chat/completions', methods=['POST'])
+@token_required
 def chat_completions():
     data = request.get_json()
     model_name = data.get("model")
@@ -269,43 +348,48 @@ def chat_completions():
     if model_name not in MODEL_PATHS:
         return jsonify({"error": f"Unknown model: {model_name}"}), 400
 
+    username = data.get("username")
+    if not username:
+        return jsonify({"error": "username is required"}), 400
+
     messages = data.get("messages")
     if not messages:
         return jsonify({"error": "messages field is required"}), 400
 
-    # Extract the last user message
-    user_message = None
+    # Generate or retrieve chat_id
+    chat_id = data.get("chat_id")
+    if not chat_id:
+        chat_id = str(uuid.uuid4())  # Generate a new chat session ID
+
+    # Store user message
+    last_user_message = None
     for msg in reversed(messages):
         if msg.get("role") == "user":
-            user_message = msg.get("content")
+            last_user_message = msg.get("content")
+            store_chat_message(chat_id, username, "user", last_user_message)
             break
-    if not user_message:
+    if not last_user_message:
         return jsonify({"error": "No user message found in messages"}), 400
 
-    max_tokens = data.get("max_tokens")
-    if max_tokens is None:
-        return jsonify({"error": "max_tokens must be provided"}), 400
+    max_tokens = data.get("max_tokens", 200)
 
-    tax_optimize = data.get("tax_optimize", True)
-    n = data.get("n", 2)
-
-    if tax_optimize:
-        # Perform search on Pinecone index
-        search_results = search_pinecone(user_message, top_k=n)
-        prompt, form_ids = create_detailed_prompt(user_message, search_results, tax_optimize=True, n=n)
-    else:
-        prompt = build_prompt(user_message)
+    prompt = build_prompt(last_user_message)
 
     try:
         generated_text, response_time, tokenizer = perform_generation(model_name, prompt, max_tokens)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+    # Store assistant response
+    store_chat_message(chat_id, "assistant", "assistant", generated_text)
+
     return jsonify({
         "id": f"chatcmpl-{int(time.time())}",
         "object": "chat.completion",
         "created": int(time.time()),
         "model": model_name,
+        "chat_id": chat_id,
+        "username": username,
         "choices": [
             {
                 "index": 0,
@@ -321,62 +405,9 @@ def chat_completions():
         "time_taken": response_time
     })
 
-def create_detailed_prompt(user_query, search_results, tax_optimize=True, n=2):
-    """
-    Create a detailed prompt for a tax-related application using user query and search results.
-    
-    Parameters:
-    - user_query (str): The original query from the user.
-    - search_results (dict): The search results from Pinecone.
-    - tax_optimize (bool): Whether to optimize the prompt for tax purposes.
-    - n (int): Number of top search results to use for context.
 
-    Returns:
-    - str: The detailed prompt ready for model input.
-    - set: A set of form IDs used in the context.
-    """
-    if tax_optimize:
-        prefix = "You are a helpful tax advisor and legal expert. Use the provided context to answer the user's query in a clear and concise manner.\n"
-        
-        # Extract relevant context from search results, limiting to 'n' results
-        context_segments = []
-        form_ids = set()
-        
-        for result in search_results.get("results", [])[:n]:
-            form_id = result.get("id", "")
-            form_name = form_id.split(".md")[0] if ".md" in form_id else form_id
-            form_ids.add(form_name)
-            context_text = result.get("text", "").strip()
-            context_segments.append(f"Form {form_name}: {context_text}")
-        
-        # Construct the context section for the prompt
-        context_section = "\n".join(context_segments)
-        
-    else:
-        prefix = "You are a helpful advisor. Use the provided online information to answer the user's query.\n"
-        
-        # Call the search_online function to get additional context
-        online_results = search_online(user_query)
-        
-        # Format the search results for inclusion in the prompt, limiting to 'n' results
-        context_segments = [f"{res['title']}: {res['snippet']}" for res in online_results[:n]]
-        context_section = "\n".join(context_segments)
-        
-        form_ids = set()  # No specific forms are tracked in this mode
-
-    # Build the complete prompt
-    detailed_prompt = (
-        f"{prefix}"
-        f"User Query: {user_query}\n"
-        f"Related Context:\n"
-        f"{context_section}\n"
-        "Note: The above information is extracted from relevant forms or online sources. Use it to formulate your response."
-    )
-    
-    return detailed_prompt, form_ids
-
-# Modify completions endpoint
 @app.route('/v1/completions', methods=['POST'])
+@token_required
 def completions():
     data = request.get_json()
     model_name = data.get("model")
@@ -427,6 +458,49 @@ def completions():
         },
         "time_taken": response_time
     })
+
+@app.route('/chat_history', methods=['GET'])
+@token_required
+def chat_history():
+    chat_id = request.args.get("chat_id")
+    if not chat_id:
+        return jsonify({"error": "chat_id is required"}), 400
+
+    history = get_chat_history(chat_id)
+    if not history:
+        return jsonify({"error": "No chat history found for the given chat_id"}), 404
+
+    return jsonify({"chat_id": chat_id, "messages": history})
+
+@app.route('/chat_sessions', methods=['GET'])
+@token_required
+def list_chat_sessions():
+    """List all stored chat session IDs."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute("SELECT DISTINCT chat_id FROM chat_history")
+    sessions = [row[0] for row in cursor.fetchall()]
+    conn.close()
+    return jsonify({"chat_sessions": sessions})
+
+
+###############################################################################
+# 5. FUNCTION TO PUSH CHAT HISTORY TO S3 (COMMENTED OUT)
+###############################################################################
+S3_BUCKET_NAME = "chat_history"
+
+def upload_chat_to_s3(chat_id):
+    """Uploads a chat session history to an S3 bucket."""
+    s3_client = boto3.client("s3")
+    chat_history = get_chat_history(chat_id)
+    chat_data = json.dumps({"chat_id": chat_id, "messages": chat_history})
+
+    # Uncomment below line to enable S3 upload
+    # s3_client.put_object(Bucket=S3_BUCKET_NAME, Key=f"chats/{chat_id}.json", Body=chat_data, ContentType="application/json")
+
+    print(f"Chat history {chat_id} prepared for S3 upload.")
+
+
 
 # --- New Search Endpoint ---
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
@@ -479,6 +553,7 @@ def search_pinecone(query_text, top_k=5):
     }
 
 @app.route('/search', methods=['POST'])
+@token_required
 def search():
     """
     API endpoint for searching the Pinecone index.
@@ -568,7 +643,7 @@ def create_detailed_prompt(user_query, search_results, tax_optimize=True, n=2):
     return detailed_prompt, form_ids
 
 ###############################################################################
-# 5. RUN FLASK
+# 6. RUN FLASK
 ###############################################################################
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=6000)
