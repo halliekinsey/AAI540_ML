@@ -1,0 +1,2685 @@
+Source,ID,Question,Answer,Context1,Score1,Context2,Score2
+ChatGPT GPT4o,1,How can I reduce my tax bill?,"To lower your tax liability, consider maximizing deductions and credits, contributing to retirement accounts, and utilizing tax-efficient investments. Consult a tax professional for personalized strategies.","System at IRS.gov/SAMS.
+For more information, go to IRS.gov/Advocate.
+How To Make a Contribution To
+Reduce Debt Held by the Public
+There are two ways to make a contribution to reduce the
+debt held by the public.
+• At Pay.gov, contribute online by credit card, debit card,
+PayPal, checking account, or savings account.
+• Write a check payable to “Bureau of the Fiscal Service.”
+In the memo section, notate that it is a gift to reduce the
+debt held by the public.
+Mail the check to:
+Attn: Dept G",0.566803277,"WV 26106-2188. Or you can enclose
+the check with your income tax return
+when you file. In the memo section of
+the check, make a note that it is a gift to
+reduce the debt held by the public. Don’t
+add your gift to any tax you may owe.
+See the instructions for line 37 for de-
+tails on how to pay any tax you owe. For
+information on how to make this type of
+gift online, go to TreasuryDirect.gov/
+Help-Center/Public-Debt-FAQs/
+#DebtFinance and click on “How do
+you make a contribution to reduce the",0.563433528
+ChatGPT GPT4o,2,What deductions am I eligible for?,"Eligibility for deductions varies based on individual circumstances. Common deductions include mortgage interest, state and local taxes, charitable contributions, and medical expenses exceeding a certain threshold.","Standard Deduction (Group I Only)
+If you do not itemize your deductions, you can take the 2025
+standard deduction listed below for your filing status.
+Filing Status
+Standard
+Deduction
+Married filing jointly or
+Qualifying surviving spouse
+. . . . . . . . . . . . . .
+$30,000\*
+Head of household . . . . . . . . . . . . . . . . . . . .
+$22,500\*
+Single or Married filing
+separately
+. . . . . . . . . . . . . . . . . . . . . . . . .
+$15,000\*",0.668104529,"33
+Standard Deduction Worksheet for Dependents—Line 12
+Keep for Your Records
+Use this worksheet only if someone can claim you, or your spouse if filing jointly, as a dependent.
+1.
+Check if:
+You were born before January 2, 1960.
+You are blind.
+Spouse was born before January 2, 1960.
+Spouse is blind.
+Total number of boxes
+checked
+. . . . . . . . . . . . . . . . . .
+1.
+2.
+Is your earned income\* more than $850?
+Yes.
+Add $450 to your earned income. Enter the total.",0.662116468
+ChatGPT GPT4o,3,What's the difference between marginal and effective tax rates?,"The marginal tax rate is the rate applied to your next dollar of income, while the effective tax rate is the average rate you pay on your total taxable income.","a rate for branch profits, the rate of tax is the rate specified in the
+treaty for dividends paid by a wholly owned domestic corporation
+to the foreign corporation. See Regulations section 1.884-1(g)
+for applicable rates of tax. Benefits other than a rate reduction
+may be available under certain treaties, such as the Canadian
+income tax treaty.
+Note. Many treaties listed in Regulations section 1.884-1(g)(3)
+and (g)(4) are no longer in force and have been replaced by",0.553688526,"Taxable amount over
+Column B
+Taxable amount not over
+Column C
+Tax on amount in column A
+Column D
+Rate of tax on excess over amount
+in column A
+.
+.
+.
+.
+$0
+$10,000
+$0
+18%
+10,000
+20,000
+1,800
+20%
+20,000
+40,000
+3,800
+22%
+40,000
+60,000
+8,200
+24%
+60,000
+80,000
+13,000
+26%
+80,000
+100,000
+18,200
+28%
+100,000
+150,000
+23,800
+30%
+150,000
+250,000
+38,800
+32%
+250,000
+500,000
+70,800
+34%
+500,000
+750,000
+155,800
+37%
+750,000
+1,000,000
+248,300
+39%
+1,000,000
+– – – –
+345,800
+40%
+6",0.487212747
+ChatGPT GPT4o,4,Which is better: a tax credit or a tax deduction?,"A tax credit directly reduces your tax liability dollar-for-dollar, whereas a deduction lowers your taxable income. Generally, credits are more beneficial.","deduction, or both. However, a practice that does not affect the
+timing for reporting an item of income or deduction for purposes
+of determining taxable income is not an accounting method. A
+taxpayer, including a tax-exempt entity, generally adopts any
+permissible accounting method in the first year in which it uses
+the method in determining its taxable income. See Rev. Proc.
+2015-13, 2015-5 I.R.B. 419, as modified by Rev. Proc. 2021-34",0.579090953,"tax deduction recognized for U.S. taxable income purposes.
+Separately stated and adequately disclosed. Each
+difference reported in Parts II and III must be separately stated
+and adequately disclosed. In general, a difference is adequately
+disclosed if the difference is labeled in a manner that clearly
+identifies the item or transaction from which the difference
+arises. For further guidance about adequate disclosure, see
+Regulations section 1.6662-4(f). If a specific item of income,",0.547605634
+ChatGPT GPT4o,5,Can I deduct medical expenses?,"Yes, you can deduct unreimbursed medical expenses that exceed 7.5% of your adjusted gross income, provided you itemize your deductions.","If you itemize, you can deduct a part of your medical and dental
+expenses, and amounts you paid for certain taxes, interest,
+contributions, and other expenses. You can also deduct certain
+casualty and theft losses.
+If you and your spouse paid expenses jointly and are filing
+separate returns for 2024, see Pub. 504 to figure the portion of
+joint expenses that you can claim as itemized deductions.
+Don't include on Schedule A items deducted elsewhere,",0.688143551,"Don't include on Schedule A items deducted elsewhere,
+such as on Form 1040, Form 1040-SR, or Schedule C,
+E, or F.
+Specific Instructions
+Medical and Dental Expenses
+You can deduct only the part of your medical and dental
+expenses that exceeds 7.5% of the amount of your adjusted
+gross income on Form 1040 or 1040-SR, line 11.
+If you received a distribution from a health savings
+account or a medical savings account in 2024, see Pub.
+969 to figure your deduction.",0.681986749
+ChatGPT GPT4o,6,Should I itemize deductions or take the standard deduction?,"You should itemize if your allowable deductions exceed the standard deduction for your filing status. Otherwise, the standard deduction may be more beneficial.","Deduction
+Itemized deductions. If you itemized your deductions, enter in
+column A the total from your original Schedule A or your
+deduction as previously adjusted by the IRS. If you are now
+itemizing your deductions instead of using the standard
+deduction, or you have changed the amount of any deduction, or
+your AGI limitations have changed any deduction, attach a copy
+of the corrected Schedule A to this amended return.
+Standard deduction. If you are using the standard deduction,",0.642660677,"determine whether the casualty loss deduction now makes it
+advantageous for you to itemize. It is advantageous to itemize if the total
+of the casualty loss deduction and any other itemized deductions is more
+than your standard deduction (and increased standard deduction
+amount, if applicable). If you itemize, attach Schedule A (Form 1040) or
+Schedule A (Form 1040-NR), and Form 4684 to your amended return.
+Fill out Form 1040-X to refigure your tax to find your refund.",0.641706824
+ChatGPT GPT4o,7,How do tax brackets work?,The U.S. tax system is progressive; income is taxed at increasing rates as it moves into higher brackets. Each bracket applies to a specific range of income.,"parentheses on line 7. Examples of other income to report on
+line 7 include the following.
+• Amounts received or accrued as consideration for entering
+into agreements to make real property loans or to purchase or
+lease real property.
+• Recoveries of bad debts deducted in prior years under the
+specific charge-off method.
+• Refunds of taxes deducted in prior years if they reduced
+income subject to tax in the year deducted (see section 111). Do
+not offset current-year taxes against tax refunds.",0.560693,"was paid, (4) the percentage of the
+class directly or indirectly owned, and
+(5) the amounts for columns (a) through
+(d).
+Line 3. Subpart F, QEF, and
+Similar Income Inclusions
+Report on line 3, column (d), the amount
+included in taxable income under
+section 951, relating to Subpart F; the
+amounts included under section 951A,
+relating to global intangible low-taxed
+income (GILTI); gains or other income
+inclusions resulting from elections under
+sections 1291(d)(2) and 1298(b)(1); and",0.543807209
+ChatGPT GPT4o,8,What is the Earned Income Tax Credit (EITC) and how do I claim it?,"The EITC is a refundable credit for low to moderate-income earners. Eligibility depends on income and number of qualifying children. To claim, file a tax return even if you owe no tax.","Income Credit (EIC) in the Instructions
+for Form 1040. The earned income
+credit (EIC) can’t be claimed by
+persons filing Form 1040-NR.
+Line 28—Additional Child Tax
+Credit
+See Line 28—Additional Child Tax
+Credit in the Instructions for Form
+1040 for details on the additional child
+tax credit.
+Exception. To claim the additional
+child tax credit in full, you must be a
+U.S. national or a resident of Canada
+or Mexico. Residents of South Korea
+and India can claim the credits to the",0.717500031,"Earned Income Credit (EIC) Table - Continued
+(Caution. This is not a tax table.)
+(Continued)
+48
+Need more information or forms? Visit IRS.gov.
+And your filing status is–
+If the amount you
+are looking up from
+the worksheet is–
+Single, head of household,
+or qualifying surviving
+spouse★ and you have–
+Married filing jointly and you
+have–
+0
+1
+2
+3
+0
+1
+2
+3
+At least
+But less
+than
+Your credit is–
+Your credit is–
+18,400
+18,450
+13
+4,213
+6,960
+7,830
+542
+4,213
+6,960
+7,830
+18,450
+18,500
+9
+4,213
+6,960
+7,830",0.714870811
+ChatGPT GPT4o,9,Are unemployment benefits taxable?,"Yes, unemployment benefits are generally considered taxable income at the federal level and may also be taxable at the state level.","benefits is a “credit reduction state.” The Department of Labor
+determines these states. If an employer pays wages that are
+subject to the unemployment tax laws of a credit reduction
+state, that employer must pay additional federal unemployment
+tax.
+For 2024, there are credit reduction states. If you paid any
+wages that are subject to the unemployment compensation laws
+of a credit reduction state, your credit against federal unem-
+ployment tax will be reduced based on the credit reduction rate",0.644393563,"tax returns (not including extensions).
+CAUTION
+!
+State unemployment taxes are sometimes called contribu-
+tions. Contributions are payments that a state requires you, as
+an employer, to make to its unemployment fund for the pay-
+ment of unemployment benefits. However, contributions don't
+include:
+• Any payments deducted or deductible from your employ-
+ees' pay;
+• Penalties, interest, or special administrative taxes; or
+• Voluntary contributions you paid to get a lower state ex-
+perience rate.",0.633270323
+ChatGPT GPT4o,10,How are my investment gains taxed?,"Short-term capital gains (on assets held less than a year) are taxed as ordinary income, while long-term gains benefit from lower tax rates.","Estates and trusts: Enter taxable income without the deduction for your exemption
+. . . . . . .
+1.
+2. Enter your worldwide 28% gains. See instructions
+. . . . . . . . . . . . . .
+2.
+3. Multiply line 2 by 0.2432
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.
+4. Enter your worldwide 25% gains. See instructions
+. . . . . . . . . . . . . .
+4.
+5. Multiply line 4 by 0.3243 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.",0.629002035,"taxable regardless if you received a
+Form 1099-K for the transaction(s).
+For more information, see Pub. 519. If
+your gain is taxable, see the
+instructions for Schedule 1, line 24z,
+earlier.
+Lines 16 Through 18—Capital
+Gains and Losses From Sales
+or Exchanges of Property
+If you have capital gains and losses
+from the sales or exchanges of
+property, consider the following.
+• Include these gains and losses only
+if you were in the United States at
+least 183 days during 2024. They",0.622694194
+ChatGPT GPT4o,11,Do I pay taxes on investments if I don't sell them?,"Generally, you pay taxes on dividends and interest earned, even if you don't sell the investment. Capital gains taxes apply only upon sale.","taxable regardless if you received a
+Form 1099-K for the transaction(s).
+For more information, see Pub. 519. If
+your gain is taxable, see the
+instructions for Schedule 1, line 24z,
+earlier.
+Lines 16 Through 18—Capital
+Gains and Losses From Sales
+or Exchanges of Property
+If you have capital gains and losses
+from the sales or exchanges of
+property, consider the following.
+• Include these gains and losses only
+if you were in the United States at
+least 183 days during 2024. They",0.556816161,"of each tax reported on line 18. Don’t enter any taxes included
+on line 15.
+In column (a). Enter the taxes paid (or accrued) during the
+year. Include all types of taxes recorded on the books, including
+real estate tax not reported on line 20, the tax on investment
+income, and any income tax.
+In column (b). Enter only those taxes included in column (a)
+related to investment income taxable under section 4940. Don’t
+include the section 4940 tax paid or incurred on net investment",0.524661243
+ChatGPT GPT4o,12,What income is taxable?,"Taxable income includes wages, salaries, bonuses, interest, dividends, rental income, and other earnings. Some income, like certain Social Security benefits, may be partially taxable.","taxable income will be subject to federal income tax. For
+example, a tax-exempt entity may adopt an accounting method
+for an item of income from an unrelated trade or business activity
+even if the gross income from such activity is less than $1,000
+and is therefore not taxed for federal income tax purposes
+pursuant to Regulations section 1.6012-2(e).
+CAUTION
+!
+4
+2024 Instructions for Form 990-EZ
+An accounting method for an item of income or deduction",0.696233332,"Regulations section 1.527-6(f).
+Taxable Income
+Political organization taxable income (line 19) is the excess of (a)
+gross income for the tax year (excluding exempt function income
+(defined later)) over (b) deductions directly connected with the
+earning of gross income (excluding exempt function income).
+Taxable income is figured with the following adjustments.
+1.
+A specific deduction of $100 is allowed (but not for
+newsletter funds).
+2.
+The net operating loss deduction isn’t allowed.
+3.",0.686871111
+ChatGPT GPT4o,13,When are taxes due?,"Federal income tax returns are typically due on April 15. If this date falls on a weekend or holiday, the deadline is the next business day.","due by April 15, 2025.
+If you file after this date, you may
+have to pay interest and penalties.
+See Interest and Penalties, later.
+If you didn’t receive wages as an
+employee subject to U.S. income tax
+withholding, file Form 1040-NR by the
+15th day of the 6th month after your
+tax year ends. A return for the 2024
+calendar year is due by June 16,
+2025.
+Estates and trusts. If you file for a
+nonresident alien estate or trust that
+has an office in the United States, file",0.70738,"the due date is the 15th day of the 4th month following the
+end of the estate's tax year for income tax purposes. If the
+U.S. decedent’s estate is granted an extension of time to file
+its income tax return, then the due date for filing Form 3520 is
+no later than the 15th day of the 10th month following the end
+of the estate’s tax year.
+If the due date falls on a Saturday, Sunday, or legal
+holiday, file by the next day that is not a Saturday, Sunday, or
+legal holiday.",0.700722575
+ChatGPT GPT4o,14,What happens if I don't file my taxes?,"Failure to file can result in penalties, interest on unpaid taxes, and potential legal action. It's advisable to file even if you can't pay immediately.","unpaid tax. The penalty will not be imposed if you can show
+that the failure to file on time was due to reasonable cause. If
+you file late, you may attach a statement to Form 5330
+explaining the reasonable cause.
+Penalty for late payment of tax. If you do not pay the tax
+when due, you may have to pay a penalty of 1/2 of 1% of the
+unpaid tax for each month or part of a month the tax is not
+paid, up to a maximum of 25% of the unpaid tax. The penalty",0.613053143,"previously filed separate returns is considered the original
+return.
+Exceptions to the Penalty
+You won’t have to pay the penalty or file this form if any of the
+following applies (but see Waiver of Penalty, later).
+• You file your return and pay the tax due by March 3,
+2025.
+• You had no tax liability for 2023, you were a U.S. citizen
+or resident alien for the entire year (or an estate of a
+domestic decedent or a domestic trust), and your 2023",0.597448885
+ChatGPT GPT4o,15,How do I notify the IRS of an address change?,"You can inform the IRS by filing Form 8822, using your new address on your tax return, or sending a signed written statement to the address where you filed your last return.","Form 8822 to notify the IRS of your new address. If you are a
+business or other entity, use Form 8822-B to notify the IRS of a
+change in your business mailing address or your business
+location.
+P.O. box. Enter your box number only if your post office doesn't
+deliver mail to your home.
+Foreign address. If you have a foreign address, enter the city
+name on the appropriate line. Don't enter any other information
+on that line, but also complete the spaces below that line. Don't",0.773000777,"Check all of the applicable box(es).
+Name or address change. If the corporation has changed its
+name or address since it last filed Form 1120-F (including a
+change to an “in care of” address), check the box for “Name or
+address change.”
+Note. If a change in address or responsible party occurs after
+the return is filed, use Form 8822-B, Change of Address or
+Responsible Party — Business, to notify the IRS. See the
+instructions for Form 8822-B for details.
+CAUTION
+!",0.737591624
+ChatGPT GPT4o,16,Can I claim my boyfriend/girlfriend as a dependent?,"Possibly, if they meet the criteria for a qualifying relative, including residency, income limits, and you providing over half of their support.","information.
+• Any person you could have claimed as a dependent on your
+return except that person received $5,050 or more of gross
+income or filed a joint return.
+• Any person you could have claimed as a dependent except
+that you, or your spouse if filing jointly, can be claimed as a
+dependent on someone else's 2024 return.
+Example. You provided over half of your parent's support but
+can't claim your parent as a dependent because they received",0.674073,"Yes.
+STOP
+You can't claim any
+dependents. Complete
+the rest of Form 1040 or
+1040-SR and any
+applicable schedules.
+No. You can claim this
+person as a dependent.
+Complete columns (1)
+through (3) of the
+Dependents section on
+page 1 of Form 1040 or
+1040-SR. Then, go to
+Step 5.
+Does Your Qualifying Relative
+Qualify You for the Credit for
+Other Dependents?
+1. Did your qualifying relative have an SSN, ITIN, or ATIN
+issued on or before the due date of your 2024 return",0.619941056
+ChatGPT GPT4o,17,Are moving expenses tax-deductible?,"As of the Tax Cuts and Jobs Act of 2017, moving expenses are generally not deductible, except for active-duty military members moving due to a military order.","to take into account any taxable reimbursements and deductible
+moving expenses in figuring your estimated tax. For details about
+estimated taxes, see Pub. 505, Tax Withholding and Estimated Tax.
+Which Moving Expenses Are Deductible and
+Which Aren't
+How much of my moving expenses can I deduct? If you move
+because of a permanent change of station, you can deduct the
+reasonable unreimbursed expenses of moving you and members of
+your household. See Specific Instructions, later, for how to report",0.770835221,"line 14. Report the part of your moving expenses that is not allowed
+as a deduction because it is allocable to the excluded income on the
+appropriate line of Form 2555. For details on how to figure the part
+allocable to the excluded income, see Pub. 54, Tax Guide for U.S.
+Citizens and Resident Aliens Abroad.
+Specific Instructions
+You can deduct moving expenses only if you are a member of the
+Armed Forces on active duty and, due to a military order, you, your",0.724318504
+ChatGPT GPT4o,18,How do I check the status of my tax refund?,"You can check your refund status using the ""Where's My Refund?"" tool on the IRS website or via the IRS2Go mobile app.","IRS.gov/IPPIN.
+Ways to check on the status of your refund.
+• Go to IRS.gov/Refunds.
+• Download the official IRS2Go app to your mobile device to
+check your refund status.
+• Call the automated refund hotline at 800-829-1954.
+The IRS can’t issue refunds before mid-February for
+returns that claimed the EIC or the additional child
+tax credit (ACTC). This applies to the entire refund,
+not just the portion associated with these credits.
+Making a tax payment. Payments of U.S. tax must be",0.707435727,"• The exact whole dollar amount of
+your refund.
+Where's My Refund will provide an
+actual personalized refund date as soon
+as the IRS processes your tax return and
+approves your refund.
+Updates to refund status are
+made once a day—usually at
+night.
+If you don’t have Internet ac-
+cess,
+you
+can
+call
+800-829-1954, 24 hours a day,
+7 days a week, for automated refund in-
+formation. Our phone and walk-in assis-
+tors can research the status of your re-
+fund only if it's been 21 days or more",0.687329173
+ChatGPT GPT4o,19,What is the Alternative Minimum Tax (AMT)?,"The AMT is a parallel tax system ensuring that high-income individuals pay a minimum amount of tax, disallowing certain deductions and credits.","Alternative Minimum Tax (AMT) Items
+Lines 15a through 15f must be completed for all shareholders.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. For more information, see
+Form 6251, Alternative Minimum Tax—Individuals, or Schedule I
+(Form 1041), Alternative Minimum Tax—Estates and Trusts.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.827486873,"Alternative Minimum Tax (AMT) Items
+Lines 17a through 17f must be completed for all partners.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. See Form 6251, Alternative
+Minimum Tax—Individuals; or Schedule I (Form 1041),
+Alternative Minimum Tax—Estates and Trusts, to determine the
+amounts to enter and for other information.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.80858469
+ChatGPT GPT4o,20,How long should I keep tax records?,"It's recommended to keep tax records for at least three years from the date you filed your return or two years from the date you paid the tax, whichever is later.","Block, later.
+Recordkeeping. The organization's records should be kept as
+long as they can be needed for the administration of any
+provision of the Internal Revenue Code. Usually, records that
+support an item of income, deduction, or credit must be kept a
+minimum of 3 years from the date the return is due or filed,
+whichever is later. Keep records that verify the organization's
+basis in property as long as they are needed to figure the basis",0.735695,"Keep them for your records. Generally, all employment tax
+records must be kept for at least 4 years. Records related
+to qualified sick leave wages and qualified family leave
+wages for leave taken after March 31, 2021, and before
+October 1, 2021, and records related to qualified wages
+for the employee retention credit paid after June 30, 2021,
+should be kept for at least 6 years. Copies must be
+submitted to the IRS if requested.
+In certain situations, you may not have repaid or",0.723738432
+ChatGPT o3-mini-high,21,What is the difference between tax avoidance and tax evasion?,"Tax avoidance is the legal use of tax laws, deductions, credits, and strategies to minimize tax liability. Tax evasion, on the other hand, is the illegal act of misrepresenting or concealing information to reduce taxes owed.","in violation of the Federal tax laws, or willfully
+evading, attempting to evade, or participating in any
+way in evading or attempting to evade any assessment
+or payment of any Federal tax.
+(7) Willfully assisting, counseling, encouraging a
+client or prospective client in violating, or suggesting
+to a client or prospective client to violate, any Federal
+tax law, or knowingly counseling or suggesting to a
+client or prospective client an illegal plan to evade
+Federal taxes or payment thereof.",0.553446233,"entity, plan, or arrangement, whose principal purpose is to
+avoid or evade federal income tax.
+A tax shelter item is any item of income, gain, loss,
+deduction, or credit that is directly or indirectly attributable
+to the principal or significant purpose of the tax shelter to
+avoid or evade federal income tax.
+Tax Return Preparer Penalties
+A preparer who files a return or claim for refund is subject
+to a penalty in an amount equal to the greater of $1,000 or",0.547988355
+ChatGPT o3-mini-high,22,How does the Alternative Minimum Tax (AMT) work for high-income taxpayers?,"The AMT is a parallel tax system designed to ensure that high-income taxpayers pay a minimum tax. It limits or disallows many deductions and credits available under the regular tax system, requiring taxpayers to calculate their liability under both methods and pay the higher amount.","Alternative Minimum Tax (AMT) Items
+Lines 15a through 15f must be completed for all shareholders.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. For more information, see
+Form 6251, Alternative Minimum Tax—Individuals, or Schedule I
+(Form 1041), Alternative Minimum Tax—Estates and Trusts.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.770269156,"Purpose of Form
+Use Form 6251 to figure the amount, if any, of your alternative
+minimum tax (AMT). The AMT is a separate tax that is
+imposed in addition to your regular tax. It applies to taxpayers
+who have certain types of income that receive favorable
+treatment, or who qualify for certain deductions, under the tax
+law. These tax benefits can significantly reduce the regular
+tax of some taxpayers with higher economic incomes. The
+AMT sets a limit on the amount these benefits can be used to",0.763205826
+ChatGPT o3-mini-high,23,How do tax treaties mitigate double taxation on international income?,"Tax treaties are agreements between countries that allocate taxing rights on cross-border income. They help prevent the same income from being taxed twice by providing methods such as tax credits, exemptions, or reduced withholding rates on dividends, interest, and royalties.","Important: You must compute a separate foreign tax credit
+limitation for any income for which you claim benefits under a
+treaty, using a separate Form 1116 for each amount of
+re-sourced income from a treaty country. This rule doesn’t
+apply to income that is re-sourced by reason of the relief from
+double taxation rules in any U.S. income tax treaty that is
+solely applicable to U.S. citizens who are residents of the
+foreign treaty country. See sections 865(h), 904(d)(6), and",0.682547271,"of most U.S. tax treaties at IRS.gov.
+Enter “tax treaties” in the search box
+and click on United States Income Tax
+Treaties - A to Z. Technical
+explanations for many of those
+treaties are also available at that site.
+Column (a), Country. Enter the
+treaty country that qualifies you for
+treaty benefits.
+Column (b), Tax treaty article.
+Enter the number of the treaty article
+that exempts the income from U.S.
+tax.
+Column (c), Number of months
+claimed in prior tax years. Enter",0.672136247
+ChatGPT o3-mini-high,24,"How is cost basis determined for capital gains, and what adjustments are commonly made?","The cost basis is generally the original purchase price plus any associated acquisition costs. Adjustments may include depreciation, stock splits, reinvested dividends, or return of capital. The adjusted basis is used to compute the gain or loss when the asset is sold.","in property for tax purposes. The basis
+of property you buy is usually its cost.
+There are special rules for certain kinds
+of property, such as inherited property.
+You need to know your basis to figure
+any gain or loss on the sale or other dis-
+position of the property. You must keep
+accurate records that show the basis and,
+if applicable, adjusted basis of your
+property. Your records should show the
+purchase price, including commissions;
+increases to basis, such as the cost of",0.661901116,"tract the cost or other basis in column (e)
+from the proceeds (sales price) in col-
+umn (d). Enter the gain or loss in col-
+umn (h). Enter negative amounts in pa-
+rentheses.
+Example 1—basis reported to the
+IRS. You received a Form 1099-B re-
+porting the sale of stock you held for 3
+years. It shows proceeds (in box 1d) of
+$6,000 and cost or other basis (in
+box 1e) of $2,000. Box 3 is checked,
+meaning that basis was reported to the
+IRS. You don't need to make any adjust-",0.62196815
+ChatGPT o3-mini-high,25,What are the implications of the passive activity loss rules for rental real estate investments?,Passive activity loss rules restrict the deduction of losses from rental and other passive activities against non-passive income. Losses that exceed the limit cannot be deducted in the current year but may be carried forward to offset future passive income or become deductible when the activity is sold.,"der the passive activity loss rules in most cases, but exceptions
+apply. If your rental of property is not treated as a rental activi-
+ty, you must determine whether it is a trade or business activity
+and, if so, whether you materially participated in the activity
+for the tax year.
+See the Instructions for Form 8582 to determine whether
+you materially participated in the activity and for the definition
+of “rental activity.”
+See Pub. 925 for special rules that apply to rentals of:",0.821382,"corporation, also see At-risk rules, later, in Part II.
+• Passive activity loss rules apply to losses from rental real
+estate. They also apply to losses from a partnership, S
+corporation, estate, or trust. See Passive Activity Loss Rules,
+later, in the General Instructions. If the loss is from a
+partnership or S corporation, also see Passive activity loss
+rules, later, in Part II.
+• Excess business loss rules apply to losses from all
+noncorporate trades or businesses. This loss limitation is",0.795282602
+ChatGPT o3-mini-high,26,"How are self-employment taxes calculated, and what strategies can reduce their impact?",Self-employment taxes are calculated on net earnings at a combined rate of 15.3% (12.4% for Social Security and 2.9% for Medicare). Taxpayers can reduce the impact by deducting half of the self-employment tax as an adjustment to income and contributing to retirement plans that lower taxable income.,"covered under the U.S. social security system. The
+self-employment tax rate for 2025 is 15.3%. This includes a
+2.9% Medicare tax and a 12.4% social security tax. Use
+Schedule SE (Form 1040) to figure your self-employment tax.
+See Schedule SE (Form 1040) and its instructions, available
+at IRS.gov/ScheduleSE, for more information.
+You can find more information on international social
+security agreements (also known as totalization
+agreements) at IRS.gov/TotalizationAgreements.",0.693221,"threshold amount for applying the Additional Medicare Tax on
+the self-employment income is reduced (but not below zero) by
+the amount of wages subject to Additional Medicare Tax.
+Use Form 8959, Additional Medicare Tax, to figure this tax.
+For more information, see the Instructions for Form 8959, or
+go to IRS.gov/ADMTfaqs.
+Net Earnings From Self-Employment
+In most cases, net earnings include your net profit from a farm
+or nonfarm business.
+Partnership Income or Loss",0.6093207
+ChatGPT o3-mini-high,27,What is the Qualified Business Income (QBI) deduction and what limitations apply?,"The QBI deduction allows eligible owners of pass-through entities to deduct up to 20% of their qualified business income. Limitations include income thresholds, restrictions for specified service trades or businesses, and additional requirements involving W-2 wages and the basis of qualified property.","trust or estate. The trust or estate will provide the information you
+need to help figure your deduction.
+Once you have this information, you will use one of two forms
+to help you figure your QBI deduction.
+1.
+Use Form 8995, Qualified Business Income Deduction
+Simplified Computation, if:
+a.
+You have QBI, section 199A dividends, or PTP income
+(defined below);
+b.
+Your 2024 taxable income before your QBI deduction is
+less than or equal to $191,950 if single, married filing separately,",0.783876717,"line 19.
+Line 20—Qualified Business Income Deduction
+To figure your QBI deduction, use Form 8995 or 8995-A, as
+applicable.
+Use Form 8995 if:
+• You have QBI (loss), real estate investment trust (REIT)
+dividends, or PTP income (loss);
+• Your 2024 taxable income before the QBI deduction is less
+than or equal to $191,950; and
+• You aren’t a patron in a specified agricultural or
+horticultural cooperative.
+If you don’t meet these requirements, use Form 8995-A.",0.780103922
+ChatGPT o3-mini-high,28,How does the tax treatment of cryptocurrency transactions differ from traditional investments?,"Cryptocurrencies are treated as property for tax purposes. This means that transactions such as sales or exchanges trigger capital gains or losses calculated based on the difference between the cost basis and the sale price. Taxpayers must keep detailed records, and special rules may apply for frequent trading or mining activities.","removed from jeopardy before 2024 and
+the initial tax was not assessed before
+2024.
+Taxable investments. An investment
+to be taxed on this schedule is an
+investment by a private foundation that
+jeopardizes the carrying out of its
+exempt purposes (for example, if it is
+determined that the foundation
+managers, in making the investment,
+didn't exercise ordinary business care
+and prudence, under prevailing facts
+and circumstances, in providing for the
+long- and short-term financial needs of",0.549488664,"• Certain transactions for which the partnership (or a related party) has contractual protection
+against disallowance of the tax benefits.
+• Certain transactions resulting in a loss of at least $2 million in any single year or $4 million in
+any combination of years.
+• Any transaction of interest, which is a transaction that is the same as, or substantially similar
+to, one of the types of transactions identified by the IRS by notice, regulation, or other published",0.54528
+ChatGPT o3-mini-high,29,"What are the tax implications of stock options, and how do ISOs differ from NSOs?","Incentive Stock Options (ISOs) can qualify for favorable tax treatment if holding requirements are met, potentially resulting in capital gains on sale. However, exercising ISOs may trigger the AMT. Non-Qualified Stock Options (NSOs) are taxed as ordinary income at the time of exercise, based on the difference between the exercise price and the fair market value.","you paid $20,000 to exercise an ISO (which was granted to
+you on January 3, 2022) to buy 200 shares of stock worth
+$200,000. The $180,000 difference between your cost and
+the value of the stock at the time you exercised the option
+isn’t taxable for the regular tax. Your regular tax basis in the
+stock at the end of 2023 is $20,000. For the AMT, however,
+you must include the $180,000 as an adjustment on your
+2023 Form 6251. Your AMT basis in the stock at the end of
+2023 is $200,000.",0.566202939,"through exercise of the option (determined without regard to
+any lapse restriction) when your rights in the acquired stock
+first become transferable or when these rights are no longer
+subject to a substantial risk of forfeiture; over
+2. The amount you paid for the stock, including any
+amount you paid for the ISO used to acquire the stock.
+Even if your rights in the stock aren’t transferable and are
+subject to a substantial risk of forfeiture, you may elect to",0.504586816
+ChatGPT o3-mini-high,30,How does depreciation recapture affect the sale of depreciated property?,"When selling depreciated property, the portion of the gain attributable to depreciation deductions previously taken is ""recaptured"" and taxed as ordinary income rather than at the lower capital gains rate. This rule applies mainly to business or rental property and ensures that depreciation benefits are partially reversed.","exchange of the depreciable property may have to be
+recaptured as ordinary income on Form 4797. Use Part III
+of Form 4797 to figure the amount of ordinary income
+recapture. The recapture amount is included on line 31
+(and line 13) of Form 4797. See the instructions for Part III.
+If the total gain for the depreciable property is more than
+the recapture amount, the excess is reported on Form
+8949. On Form 8949, enter “From Form 4797” in column",0.714690328,"entry wasn't made in Part I of Form 4797), figure the smaller
+of (a) the depreciation allowed or allowable, or (b) the total
+gain for the sale. This is the smaller of line 22 or line 24 of
+Form 4797 (for 2024, or the comparable line for the current
+tax year) for that property. Next, reduce that amount by any
+section 1250 ordinary income recapture for the sale. This is
+the amount from line 26g of Form 4797 (for 2024, or the
+comparable line for the current tax year) for that property. The",0.699567616
+ChatGPT o3-mini-high,31,How does a Section 1031 like-kind exchange work and what are its limitations post-TCJA?,"A Section 1031 exchange allows taxpayers to defer capital gains tax on the sale of certain investment properties by reinvesting the proceeds in similar (like-kind) property. Post-TCJA, the exchange is limited to real property and must adhere to strict identification and timing rules to qualify for deferral.","section 751(b). All or part of the distribution is treated as a
+sale or exchange under section 751(b) to the extent you
+received unrealized receivables or substantially
+appreciated inventory in exchange for your interest in
+other partnership property, or you received other property
+in exchange for any part of your interest in unrealized
+receivables or substantially appreciated inventory. If
+section 751(b) applies to any part of the distribution,",0.542015254,"calendar year in which the exchange occurred). A section
+751(a) exchange is any sale or exchange of a partnership
+interest in which any money or other property received by
+the partner in exchange for that partner's interest is
+attributable to unrealized receivables (as defined in
+section 751(c)) or inventory items (as defined in section
+751(d)).
+The written notice to the partnership must include the
+names and addresses of both parties to the exchange, the",0.539521813
+ChatGPT o3-mini-high,32,What are the tax implications of receiving foreign income and using the Foreign Tax Credit?,"U.S. taxpayers must report their worldwide income, including foreign income. The Foreign Tax Credit helps prevent double taxation by allowing a credit for taxes paid to a foreign government. The credit is limited to the proportion of U.S. tax attributable to foreign income, and any excess foreign taxes may be carried back or forward.","income tax liability as well as a tax credit purchased from
+another taxpayer. See Regulations section 1.901-2(e)(2)(ii).
+However, if the foreign income taxes are offset or reduced by
+a tax credit that is fully refundable to you in cash at your
+option, without having to first offset your foreign income tax
+liability, you can claim a foreign tax credit against your U.S.
+income tax for those foreign taxes. See Regulations section
+1.901-2(e)(2)(iii).",0.772586703,"imposed on the foreign income, or the actual amount of
+foreign tax paid or accrued on the foreign income (after
+reductions required on line 12), whichever is less. However,
+see Foreign Taxes Eligible for a Credit, earlier, for additional
+information.
+If the amount on line 23 is smaller than the amount on
+line 14, see Pub. 514 for more information on carryback and
+carryforward provisions, including examples.
+Part IV—Summary of Credits From
+Separate Parts III",0.764397442
+ChatGPT o3-mini-high,33,How does the cancellation of debt (COD) income work and what is the insolvency exception?,"Generally, canceled debt is considered taxable income. However, if a taxpayer is insolvent—meaning their liabilities exceed their assets—they may exclude canceled debt from income up to the amount of insolvency. Proper documentation and filing of Form 982 are required to claim this exception.","• Interest and dividend equivalents (for example, confirmation
+and acceptance letter of credit fees and other guarantee fees).
+• Income from cancellation of debt (COD) from the repurchase
+of a debt instrument for less than its adjusted issue price.
+Deductions
+Important. In computing the taxable income of a foreign
+corporation engaged in a U.S. trade or business, deductions are
+allowed only if they are connected with income effectively",0.603689134,"225.
+• Bartering income.
+• Income from cancellation of debt. In most cases, if a debt
+is canceled or forgiven, you must include the canceled amount
+in income. If a federal agency, financial institution, or credit
+union canceled or forgave a debt you owed of $600 or more, it
+should send you a Form 1099-C, or similar statement, by Janu-
+ary 31, 2025, showing the amount of debt canceled in 2024.
+However, you may be able to exclude the canceled debt from
+income. See Pub. 4681 for details.",0.601338923
+ChatGPT o3-mini-high,34,How do installment sales work for deferring gain on property sales?,"An installment sale allows the seller to spread the recognition of gain over the period in which the payments are received. Each installment includes a portion of the gain based on the gross profit ratio. This method can help spread out tax liability over several years, potentially lowering overall tax rates.","the corporation's unrecaptured section 1250 gain. However, if
+the corporation is reporting gain on the installment method for a
+section 1250 property held more than 1 year, see the next
+paragraph.
+The total unrecaptured section 1250 gain for an installment
+sale of section 1250 property held more than 1 year is figured in
+a manner similar to that used in the preceding paragraph.
+However, the total unrecaptured section 1250 gain must be",0.739571512,"Generally, the result is the partnership's unrecaptured section
+1250 gain. However, if the partnership is reporting gain on the
+installment method for a section 1250 property held more than 1
+year, see the next paragraph.
+CAUTION
+!
+CAUTION
+!
+Instructions for Form 1065 (2024)
+39
+The total unrecaptured section 1250 gain for an installment
+sale of section 1250 property held more than 1 year is figured in
+a manner similar to that used in the preceding paragraph.",0.727200449
+ChatGPT o3-mini-high,35,What is the doctrine of economic substance and how does it affect tax planning?,"The economic substance doctrine requires that transactions have a substantial non-tax purpose beyond merely generating tax benefits. If a transaction is found to lack economic substance, the IRS may disregard it for tax purposes, which can lead to disallowed deductions or credits and potential penalties.","entity, transaction plan or arrangement, or other plan or arrangement, which is of a type which the Secretary
+determines as having a potential for tax avoidance or evasion.
+(Pub. L. 97–258, Sept. 13, 1982, 96 Stat. 884; Pub. L. 98–369, div. A, title I, §156(a), July 18, 1984, 98 Stat.
+695; Pub. L. 99–514, §2, Oct. 22, 1986, 100 Stat. 2095; Pub. L. 108–357, title VIII, §822(a)(1), (b), Oct. 22, 2004,
+118 Stat. 1586, 1587; Pub. L. 109–280, title XII, §1219(d), Aug. 17, 2006, 120 Stat. 1085.)",0.518593,"presented. It should identify, for
+example, the specific entity, country, or
+transaction to which the tax position
+relates, the character of income, the
+type of expense or credit, the
+relationship of the tax position to other
+assets or activities, and whether the
+uncertainty relates to computational
+issues, substantiation issues, sampling
+methodologies, or legal interpretation.
+Stating that a concise description is
+“Available upon request” is not an
+adequate description.",0.50320369
+ChatGPT o3-mini-high,36,"How do tax loss carryforwards and carrybacks work, and what limitations exist?",Tax loss carryforwards allow a taxpayer to apply a net operating loss (NOL) to offset taxable income in future years. Some losses may also be carried back to prior years for a refund. Limitations include percentage caps on how much of a loss can be used in a given year and expiration periods for carrying losses forward.,"carryforwards to the tax year attributable to NOLs
+other than the losses described in 2a below; or
+b. 90% of AMTI for the tax year (figured without regard
+to the ATNOLD), plus
+2. The smaller of:
+CAUTION
+!
+a. The sum of the ATNOL carrybacks and
+carryforwards to the tax year attributable to qualified
+disaster losses, qualified Gulf Opportunity Zone
+losses, qualified recovery assistance losses,
+qualified disaster recovery assistance losses, and
+any 2008 or 2009 loss that you elected to carry back",0.6699332,"carry to each of the remaining tax years is the excess, if
+any, of the loss over the sum used as an NOL deduction in
+the carryover year. See section 172 for special rules,
+limitations, and definitions pertaining to the NOL
+deduction and carryover.
+If an ownership change (described in section 382(g))
+occurs, the amount of the taxable income of a loss
+corporation that may be offset by the pre-change loss
+carryovers may be limited. (See section 382 and the",0.663229
+ChatGPT o3-mini-high,37,"What are the tax implications of converting a business entity, such as from an LLC to an S corporation?","Converting a business entity can trigger tax consequences such as recognition of gain on appreciated assets, changes in self-employment tax treatment, and adjustments in the allocation of income and losses among owners. The conversion process must be planned carefully to minimize unintended tax liabilities.","corporation is an S corporation; or
+• For a transferred-basis acquisition, on the date the asset
+was acquired by the S corporation.
+A corporation described in both (1) and (2) above must
+figure the built-in gains tax separately for the group of assets
+it held at the time its S election became effective and for each
+group of transferred-basis acquisitions. For details, see
+Regulations section 1.1374-8.
+Certain transactions involving the disposal of timber, coal,",0.640233219,"corporation (a transferred-basis acquisition). See section
+1374(d)(8).
+An S corporation may owe the tax if it has net recognized
+built-in gain during the applicable recognition period. For
+computation details, see Regulations section 1.1374-1(a).
+The applicable recognition period is the 5-year period
+beginning:
+• For an asset held when the S corporation was a C
+corporation, on the first day of the first tax year for which the
+corporation is an S corporation; or",0.623802423
+ChatGPT o3-mini-high,38,How does the treatment of charitable contributions differ when itemizing deductions versus taking the standard deduction?,"When itemizing, taxpayers can deduct qualified charitable contributions subject to AGI limits and documentation requirements. Those taking the standard deduction cannot separately deduct charitable contributions unless there is a special above-the-line provision available.","Charitable contribution deductions are apportioned solely to U.S.
+source gross income; see Regulations section 1.861-8(e)(12).
+Include amounts reported on line 16 in column (c).
+Lines 17 and 18. Other deductions. Enter other types of
+deductions not described in the prior line items. If the partnership
+has more than one other type of deduction, separately identify
+each type of deduction on lines 17 and 18. If there are more than
+two types of other deductions, attach a statement to both",0.66447,"AGI after making the changes in (1), (2), and (3) above, and
+certain other changes to your AGI that result from (1), (2), and
+(3). This includes income and deduction items used to figure AGI
+(for example, IRA deductions), as well as certain itemized
+deductions. To figure a charitable contribution deduction, do not
+include deductions for NOL carrybacks in the change in (1) but
+do include deductions for NOL carryforwards from tax years
+before the NOL year.",0.635526717
+ChatGPT o3-mini-high,39,"How are fringe benefits taxed, and what exceptions exist?","Fringe benefits are generally taxable to employees unless specifically excluded by law. Common exceptions include employer-provided health insurance, certain transportation benefits, and de minimis benefits (small perks with minimal value). The IRS provides specific valuation rules for various benefits.","• All other compensatory benefits, whether or not included in
+gross income for income tax purposes.
+• Taxable and nontaxable fringe benefits, except fringe
+benefits described in section 132.
+• Foregone interest on loans.
+Written intent required to treat benefits as
+compensation. An economic benefit isn’t treated as
+consideration for the performance of services unless the
+organization providing the benefit clearly indicates its intent to",0.767509,"provided only to employees or also to persons other than
+employees, such as directors, trustees, and independent
+contractors. Fringe benefits can be entirely personal in
+nature or can combine personal and business elements.
+The taxability of a benefit can depend upon the form in
+which it is provided. For example, a cash housing allowance
+is ordinarily reportable in box 5 of Form W-2. Under section
+119, housing provided for the convenience of the employer",0.743279934
+ChatGPT o3-mini-high,40,How does the tax treatment differ for nonresident aliens compared to U.S. residents?,"Nonresident aliens are typically taxed only on income that is effectively connected with a U.S. trade or business and on certain fixed, determinable, annual, or periodic (FDAP) U.S.-source income, often at a flat withholding rate. U.S. residents are taxed on their worldwide income and face different filing requirements and deductions.","ness—nonresident aliens. If you are a nonresident alien,
+the tax on your income depends on whether the income is or
+is not effectively connected with a U.S. trade or business.
+Income effectively connected with a U.S. trade or business
+(including wages earned by an employee) is taxed at the
+graduated rates that apply to U.S. citizens and resident
+aliens. Income you receive as a partner in a partnership or as
+a beneficiary of an estate or trust is considered effectively",0.735967875,"Guide for Aliens, for more information on resident and
+nonresident alien status.
+Even though a nonresident alien individual married to
+a U.S. citizen or resident alien may choose to be
+treated as a resident alien for certain purposes (for
+example, filing a joint income tax return), such individual is
+still treated as a nonresident alien for withholding tax
+purposes.
+Payee. Except as otherwise provided, the payee is the
+person to whom a payment is made, regardless of whether",0.665394545
+Claude 3.7 Sonnet ,41,What is the difference between a tax credit and a tax deduction?,"A tax credit directly reduces your tax liability dollar-for-dollar. If you owe $1,000 in taxes and receive a $200 tax credit, your tax bill becomes $800. A tax deduction, on the other hand, reduces your taxable income. If you have a $1,000 deduction in the 22% tax bracket, it reduces your taxes by $220 (22% of $1,000). Credits are generally more valuable than deductions of the same amount.","taxable income includes only the
+taxable income that is effectively
+connected with the conduct of a trade
+or business within the United States.
+Credit or Deduction
+A corporation may choose to take
+either a credit or a deduction for
+eligible foreign income taxes paid or
+accrued. The choice is made annually.
+Generally, if a corporation elects the
+benefits of the foreign tax credit for
+any tax year, no portion of the foreign
+income taxes paid or accrued in such",0.584631741,"tax deduction recognized for U.S. taxable income purposes.
+Separately stated and adequately disclosed. Each
+difference reported in Parts II and III must be separately stated
+and adequately disclosed. In general, a difference is adequately
+disclosed if the difference is labeled in a manner that clearly
+identifies the item or transaction from which the difference
+arises. For further guidance about adequate disclosure, see
+Regulations section 1.6662-4(f). If a specific item of income,",0.574226499
+Claude 3.7 Sonnet ,42,What is the standard deduction for 2024?,"For the 2024 tax year (filing in 2025), the standard deduction is $14,600 for single filers and married filing separately, $29,200 for married filing jointly, and $21,900 for heads of household. These amounts are adjusted annually for inflation.","2024
+Instructions for Form 4562
+Depreciation and Amortization (Including Information on Listed Property)
+Section references are to the Internal Revenue Code unless
+otherwise noted.
+Future Developments
+For the latest information about developments related to
+Form 4562 and its instructions, such as legislation enacted
+after this form and instructions were published, go to IRS.gov/
+Form4562.
+What's New
+Section 179 deduction dollar limits. For tax years",0.66966635,"Standard Deduction (Group I Only)
+If you do not itemize your deductions, you can take the 2025
+standard deduction listed below for your filing status.
+Filing Status
+Standard
+Deduction
+Married filing jointly or
+Qualifying surviving spouse
+. . . . . . . . . . . . . .
+$30,000\*
+Head of household . . . . . . . . . . . . . . . . . . . .
+$22,500\*
+Single or Married filing
+separately
+. . . . . . . . . . . . . . . . . . . . . . . . .
+$15,000\*",0.649524212
+Claude 3.7 Sonnet ,43,What is the difference between itemized deductions and the standard deduction?,"The standard deduction is a fixed amount that reduces your taxable income based on your filing status. Itemized deductions are specific expenses you can deduct, such as mortgage interest, charitable donations, medical expenses, and state and local taxes (up to certain limits). You should choose whichever method gives you the larger deduction.","Deduction
+Itemized deductions. If you itemized your deductions, enter in
+column A the total from your original Schedule A or your
+deduction as previously adjusted by the IRS. If you are now
+itemizing your deductions instead of using the standard
+deduction, or you have changed the amount of any deduction, or
+your AGI limitations have changed any deduction, attach a copy
+of the corrected Schedule A to this amended return.
+Standard deduction. If you are using the standard deduction,",0.64246738,"a trade or business. They include:
+• Health savings account deduction,
+• Archer MSA deduction,
+• Deductions for payments on behalf of a self-employed
+individual to a SEP, SIMPLE, or qualified plan,
+• IRA deductions,
+• Alimony paid,
+• Most itemized deductions (except for casualty and theft
+losses resulting from a federally declared disaster and state
+income tax on trade or business income), and
+• Standard deduction.
+4
+Don't include on line 6 any business deductions. These are",0.614141822
+Claude 3.7 Sonnet ,44,How long should I keep tax records?,"The IRS recommends keeping tax returns and supporting documents for at least 3 years after filing, as this is generally the statute of limitations for audits. However, if you underreport income by more than 25%, the IRS has 6 years to audit you. For employment tax records, keep them for at least 4 years. For property records, keep them until you dispose of the property plus 3-7 years.","Block, later.
+Recordkeeping. The organization's records should be kept as
+long as they can be needed for the administration of any
+provision of the Internal Revenue Code. Usually, records that
+support an item of income, deduction, or credit must be kept a
+minimum of 3 years from the date the return is due or filed,
+whichever is later. Keep records that verify the organization's
+basis in property as long as they are needed to figure the basis",0.735695,"Keep them for your records. Generally, all employment tax
+records must be kept for at least 4 years. Records related
+to qualified sick leave wages and qualified family leave
+wages for leave taken after March 31, 2021, and before
+October 1, 2021, and records related to qualified wages
+for the employee retention credit paid after June 30, 2021,
+should be kept for at least 6 years. Copies must be
+submitted to the IRS if requested.
+In certain situations, you may not have repaid or",0.723738432
+Claude 3.7 Sonnet ,45,What is the capital gains tax rate?,"For 2024, long-term capital gains (assets held over one year) are taxed at 0% for incomes up to $47,025 (single) or $94,050 (married filing jointly), 15% for incomes up to $518,900 (single) or $583,750 (married filing jointly), and 20% for incomes above those thresholds. Short-term capital gains (assets held one year or less) are taxed as ordinary income.","Due date of return. Calendar year estates and trusts must
+file Form 1041 by April 15, 2025.
+Capital gains and qualified dividends. For tax year 2024,
+the 20% maximum capital gains rate applies to estates and
+trusts with income above $15,450. The 0% and 15% rates
+apply to certain threshold amounts. The 0% rate applies to
+amounts up to $3,150. The 15% rate applies to amounts over
+$3,150 and up to $15,450.
+Bankruptcy estate filing threshold. For tax year 2024, the",0.638615489,"Regulations section 1.665(b)-1A.
+Note. The alternative tax on capital gains was repealed for
+tax years beginning after December 31, 1978. The maximum
+rate on net capital gain for 1981, 1987, and 1991 through
+2023 isn't an alternative tax for this purpose.
+Line 18—Regular Tax
+Enter the applicable amounts as follows.
+Instructions for Form 1041 (2024)
+39
+Throwback year(s)
+Amount from line
+1969–1976
+. . . . . . . . .
+Form 1041, page 1, line 24
+1977
+. . . . . . . . . . . . .",0.624743104
+Claude 3.7 Sonnet ,46,How do I calculate my tax bracket?,"Tax brackets are based on your taxable income (after deductions and adjustments). For 2024, there are seven federal income tax brackets: 10%, 12%, 22%, 24%, 32%, 35%, and 37%. Your taxable income falls into specific brackets, with higher rates applying only to the portion of income that exceeds each threshold, creating a progressive tax system.","$
+× 32% (0.32)
+$
+$ 22,313.50
+$
+Over $243,725 but not over $365,600
+$
+× 35% (0.35)
+$
+$ 29,625.25
+$
+Over $365,600
+$
+× 37% (0.37)
+$
+$ 36,937.25
+$
+Section D—Use if your filing status is Head of household. Complete the row below that applies to you.
+Taxable income.
+If line 15 is—
+(a)
+Enter the amount from line 15
+(b)
+Multiplication amount
+(c)
+Multiply
+(a) by (b)
+(d)
+Subtraction amount
+Tax.
+Subtract (d) from (c). Enter
+the result here and on the
+entry space on line 16.",0.650004506,"$
+× 32% (0.32)
+$
+$ 22,313.50
+$
+Over $243,725 but not over $365,600
+$
+× 35% (0.35)
+$
+$ 29,625.25
+$
+Over $365,600
+$
+× 37% (0.37)
+$
+$ 36,937.25
+$
+Section D—Use if your filing status is Head of household. Complete the row below that applies to you.
+Taxable income.
+If line 15 is—
+(a)
+Enter the amount from line 15
+(b)
+Multiplication amount
+(c)
+Multiply
+(a) by (b)
+(d)
+Subtraction amount
+Tax.
+Subtract (d) from (c). Enter
+the result here and on the
+entry space on line 16.",0.650004506
+Claude 3.7 Sonnet ,47,What is the deadline for filing taxes?,"For most individuals, federal income tax returns are due by April 15th each year. If April 15th falls on a weekend or holiday, the deadline shifts to the next business day. You can request a six-month extension using Form 4868, but this only extends the filing deadline—not the deadline for paying any taxes owed.","due by April 15, 2025.
+If you file after this date, you may
+have to pay interest and penalties.
+See Interest and Penalties, later.
+If you didn’t receive wages as an
+employee subject to U.S. income tax
+withholding, file Form 1040-NR by the
+15th day of the 6th month after your
+tax year ends. A return for the 2024
+calendar year is due by June 16,
+2025.
+Estates and trusts. If you file for a
+nonresident alien estate or trust that
+has an office in the United States, file",0.692825079,"• You are in the military or naval service on duty outside the
+United States and Puerto Rico.
+If you are an individual who is a U.S. citizen or resident
+and are granted an extension of time to file your income tax
+return, the due date for filing Form 3520 is no later than the
+15th day of the 10th month (October 15) following the end of
+your tax year.
+If you are filing a Form 3520 for a U.S. decedent, the due
+date is the 15th day of the 4th month (April 15) following the",0.690276682
+Claude 3.7 Sonnet ,48,What is the penalty for filing taxes late?,"The penalty for filing late is typically 5% of the unpaid taxes for each month or part of a month that the return is late, up to 25%. If you file more than 60 days late, the minimum penalty is $485 (for returns due in 2024) or 100% of your unpaid tax, whichever is smaller. There's also a separate penalty for paying late: 0.5% of unpaid taxes per month, up to 25%.","is late, unless you have a reasonable explanation. If you
+have a reasonable explanation for filing late, include it with
+your return. The penalty can be as much as 25% of the tax
+due. The penalty is 15% per month, up to a maximum of
+75%, if the failure to file is fraudulent. If your return is more
+than 60 days late, the minimum penalty will be $510 or the
+amount of any tax you owe, whichever is smaller.
+Late payment of tax. If you pay your taxes late, the",0.888266742,"The penalty is 15% per month, up to a
+maximum of 75%, if the failure to file is
+fraudulent. If your return is more than
+60 days late, the minimum penalty will
+be $510 or the amount of any tax you
+owe, whichever is smaller.
+Late payment of tax. If you pay your
+taxes late, the penalty is usually 1/2 of
+1% of the unpaid amount for each
+month or part of a month the tax isn't
+paid. The penalty can be as much as
+25% of the unpaid amount. It applies to
+any unpaid tax on the return. This penal-",0.858530045
+Claude 3.7 Sonnet ,49,What tax forms do I need to file?,"Most individuals use Form 1040 for federal income taxes. Additional schedules may be required depending on your situation: Schedule A for itemized deductions, Schedule B for interest and dividends, Schedule C for self-employment income, Schedule D for capital gains and losses, Schedule E for rental income, and Schedule SE for self-employment tax calculation.","the forms is easy. For others who have
+businesses, pensions, stocks, rental
+income, or other investments, it’s
+more difficult.
+We welcome your comments about
+these instructions and your
+suggestions for future editions. You
+can send us comments through
+IRS.gov/FormComments. Or you can
+write to the:
+Internal Revenue Service
+Tax Forms and Publications
+1111 Constitution Ave. NW
+IR-6526
+Washington, DC 20224
+U.S.A.
+Don't send your Form 1040-NR to
+this address. Instead, see Where To
+File, earlier.",0.700921,"were filed. For example, enter “2021 Form
+1040.”
+Paperwork Reduction Act Notice. We
+ask for the information on this form to carry
+out the Internal Revenue laws of the
+United States. You are required to give us
+the information. We need it to ensure that
+you are complying with these laws and to
+allow us to figure and collect the right
+amount of tax.
+You are not required to provide the
+information requested on a form that is
+subject to the Paperwork Reduction Act",0.699397802
+Claude 3.7 Sonnet ,50,How do I check my tax refund status?,"You can check your federal tax refund status using the ""Where's My Refund?"" tool on the IRS website or the IRS2Go mobile app. You'll need your Social Security number, filing status, and exact refund amount. Most refunds are issued within 21 days of electronic filing, though some may take longer due to errors, identity verification, or certain tax credits claimed.","IRS.gov/IPPIN.
+Ways to check on the status of your refund.
+• Go to IRS.gov/Refunds.
+• Download the official IRS2Go app to your mobile device to
+check your refund status.
+• Call the automated refund hotline at 800-829-1954.
+The IRS can’t issue refunds before mid-February for
+returns that claimed the EIC or the additional child
+tax credit (ACTC). This applies to the entire refund,
+not just the portion associated with these credits.
+Making a tax payment. Payments of U.S. tax must be",0.711966515,"To learn more, go to IRS.gov/IPPIN.
+Ways to check on the status of your
+refund.
+• Go to IRS.gov/Refunds.
+• Download the official IRS2Go app
+to your mobile device to check your re-
+fund status.
+• Call the automated refund hotline
+at 800-829-1954.
+The IRS can’t issue refunds be-
+fore mid-February for returns
+that claimed the EIC or the ad-
+ditional child tax credit (ACTC). This
+applies to the entire refund, not just the
+portion associated with these credits.
+Making a tax payment. Payments of",0.683931828
+Claude 3.7 Sonnet ,51,What is the Earned Income Tax Credit (EITC)?,"The EITC is a refundable tax credit for low to moderate-income working individuals and couples, particularly those with children. For 2024, the maximum credit ranges from $600 (no qualifying children) to $7,430 (three or more qualifying children). Eligibility and credit amount depend on filing status, income, and number of qualifying children.","Earned Income Credit (EIC) Table - Continued
+(Caution. This is not a tax table.)
+(Continued)
+48
+Need more information or forms? Visit IRS.gov.
+And your filing status is–
+If the amount you
+are looking up from
+the worksheet is–
+Single, head of household,
+or qualifying surviving
+spouse★ and you have–
+Married filing jointly and you
+have–
+0
+1
+2
+3
+0
+1
+2
+3
+At least
+But less
+than
+Your credit is–
+Your credit is–
+18,400
+18,450
+13
+4,213
+6,960
+7,830
+542
+4,213
+6,960
+7,830
+18,450
+18,500
+9
+4,213
+6,960
+7,830",0.752250552,"Earned Income Credit (EIC) Table - Continued
+(Caution. This is not a tax table.)
+(Continued)
+Need more information or forms? Visit IRS.gov.
+51
+And your filing status is–
+If the amount you
+are looking up from
+the worksheet is–
+Single, head of household,
+or qualifying surviving
+spouse★ and you have–
+Married filing jointly and you
+have–
+0
+1
+2
+3
+0
+1
+2
+3
+At least
+But less
+than
+Your credit is–
+Your credit is–
+37,600
+37,650
+0
+1,831
+3,821
+4,691
+0
+2,937
+5,278
+6,148
+37,650
+37,700
+0
+1,823
+3,810
+4,680
+0",0.751678526
+Claude 3.7 Sonnet ,52,Are unemployment benefits taxable?,"Yes, unemployment benefits are generally considered taxable income at the federal level. You should receive Form 1099-G showing the amount of unemployment compensation you received during the tax year. However, state taxation of unemployment benefits varies by state.","benefits is a “credit reduction state.” The Department of Labor
+determines these states. If an employer pays wages that are
+subject to the unemployment tax laws of a credit reduction
+state, that employer must pay additional federal unemployment
+tax.
+For 2024, there are credit reduction states. If you paid any
+wages that are subject to the unemployment compensation laws
+of a credit reduction state, your credit against federal unem-
+ployment tax will be reduced based on the credit reduction rate",0.644393563,"tax returns (not including extensions).
+CAUTION
+!
+State unemployment taxes are sometimes called contribu-
+tions. Contributions are payments that a state requires you, as
+an employer, to make to its unemployment fund for the pay-
+ment of unemployment benefits. However, contributions don't
+include:
+• Any payments deducted or deductible from your employ-
+ees' pay;
+• Penalties, interest, or special administrative taxes; or
+• Voluntary contributions you paid to get a lower state ex-
+perience rate.",0.633270323
+Claude 3.7 Sonnet ,53,How do I report cryptocurrency transactions on my taxes?,"Cryptocurrency transactions are reported on Schedule D and Form 8949. You must report any capital gains or losses from buying, selling, or exchanging cryptocurrency. Mining rewards and receiving crypto as payment for goods or services are typically reported as ordinary income. The IRS considers crypto as property for tax purposes, not currency.","platforms such as PayPal and Venmo.
+Do not leave the question unanswered. You must
+answer “Yes” or “No” by checking the appropriate box. For
+more information, go to IRS.gov/VirtualCurrencyFAQs.
+How To Report Digital Asset Transactions
+If, in 2024, you disposed of any digital asset, which you
+held as a capital asset through a sale, trade, exchange,
+payment, or other transfer, check “Yes” and see Pub. 570
+for details on whether you have to file Form 1040 with the",0.58980155,"IRS.gov/VirtualCurrencyFAQs.
+How To Report Digital Asset
+Transactions
+If, in 2024, you disposed of any digital
+asset, which you held as a capital asset,
+through a sale, trade, exchange, pay-
+ment, or other transfer, check “Yes” and
+use Form 8949 to calculate your capital
+gain or loss and report that gain or loss
+on Schedule D (Form 1040).
+If you received any digital asset as
+compensation for services or disposed of
+any digital asset that you held for sale to",0.585459709
+Claude 3.7 Sonnet ,54,What is the Child Tax Credit?,"The Child Tax Credit for 2024 is worth up to $2,000 per qualifying child under age 17, with up to $1,600 being refundable (as the Additional Child Tax Credit). The credit begins to phase out for single filers with modified AGI above $200,000 and married filing jointly above $400,000.","each child under age 17 who is a quali-
+fying child for the child tax credit or
+each dependent who qualifies you for
+the credit for other dependents, make
+sure you checked the appropriate box in
+column (4) of the Dependents section.
+• Check your math, especially for
+the child tax credit, earned income credit
+(EIC), taxable social security benefits,
+total income, itemized deductions or
+standard deduction, taxable income, to-
+tal tax, federal income tax withheld, and
+refund or amount you owe.",0.735866427,"1040-NR and enter the result on line 6.
+You can’t check both the child tax credit box and the credit
+for other dependents box for the same person.
+Line 13
+Enter the amount from Credit Limit Worksheet A.
+When completing Credit Limit Worksheet A, you may be instruc-
+ted to complete Credit Limit Worksheet B if you meet certain condi-
+tions. Complete Credit Limit Worksheet B only if you meet all of the
+following.
+1.
+You are claiming one or more of the following credits.",0.667903244
+Claude 3.7 Sonnet ,55,What is the tax treatment for Health Savings Accounts (HSAs)?,"HSAs offer triple tax advantages: contributions are tax-deductible, growth is tax-free, and withdrawals for qualified medical expenses are tax-free. For 2024, the contribution limit is $4,150 for individual coverage and $8,300 for family coverage, with an additional $1,000 catch-up contribution allowed for those 55 or older.","Part VII—Additional Tax on Excess
+Contributions to Health Savings
+Accounts (HSAs)
+If you, someone on your behalf, or your employer contributed
+more to your HSAs for 2024 than is allowable or you had an
+amount on line 49 of your 2023 Form 5329, you may owe this
+tax. But you may be able to avoid the tax on any 2024 excess
+contributions (see the instructions for line 47, later).
+Line 42
+Enter the amount from line 48 of your 2023 Form 5329 only if the",0.634020805,"use of capital if the payments or credits are determined without
+regard to partnership income and are allocable to a trade or
+business activity. Also include on line 10 amounts paid during
+the tax year for insurance that constitutes medical care for a
+partner, a partner's spouse, a partner's dependents, or a
+partner's children under age 27 who aren't dependents.
+For information on how to treat the partnership's contribution
+to a partner's health savings account (HSA), see Notice 2005-8,",0.59831
+Claude 3.7 Sonnet ,56,How do 401(k) contributions affect my taxes?,"Traditional 401(k) contributions are made pre-tax, reducing your taxable income for the year. For example, if you earn $60,000 and contribute $6,000 to your 401(k), your taxable income becomes $54,000. The 2024 contribution limit is $23,000, with an additional $7,500 catch-up contribution allowed for those 50 or older. Roth 401(k) contributions are made after-tax but grow tax-free.","contributions under section 401(m) can occur in section
+401(a), section 401(k), section 403(a), and section 403(b)
+plans. In general, a corrective distribution of excess
+aggregate contributions plus earnings is taxable to the
+participant in the year the distribution was made. However, a
+corrective distribution of excess aggregate contributions is
+not includible in gross income (other than earnings) to the
+extent that it represents designated Roth contributions. See",0.477919847,"(Section 4979)
+Any employer who maintains a plan described in section
+401(a), 403(a), 403(b), 408(k), or 501(c)(18) may be subject
+to an excise tax on excess aggregate contributions made on
+behalf of highly compensated employees. The employer may
+also be subject to an excise tax on excess contributions to a
+cash or deferred arrangement connected with the plan.
+The tax is on the excess contributions and the excess
+aggregate contributions made to or on behalf of the highly",0.475219
+Claude 3.7 Sonnet ,57,What home expenses are tax deductible?,"For most homeowners, mortgage interest on up to $750,000 of acquisition debt (for homes purchased after Dec. 15, 2017) and property taxes (up to $10,000 combined with state and local income taxes) are deductible if you itemize. Home office expenses may be deductible for self-employed individuals using the exclusive area regularly for business.","expenses, such as taxes, interest, repairs, insurance, manage-
+ment fees, agents' commissions, and depreciation.
+Do not deduct the value of your own labor or amounts paid
+for capital investments or capital improvements.
+Enter your total expenses for mortgage interest (line 12), de-
+preciation expenses and depletion (line 18), and total expenses
+(line 20) on lines 23c through 23e, respectively, even if you
+have only one property.
+Renting out part of your home. If you rent out only part of",0.671713173,"by the government. Also, don't deduct any expenses that were
+reimbursed by an allowance you didn't include in income.
+Nondeductible expenses. You can't deduct the following items as
+moving expenses.
+• Any part of the purchase price of your new home.
+• Car tags.
+• Driver's license.
+• Expenses of buying or selling a home (including closing costs,
+mortgage fees, and points).
+• Expenses of entering into or breaking a lease.
+• Home improvements to help sell your home.",0.667920291
+Claude 3.7 Sonnet ,58,How are Social Security benefits taxed?,"Social Security benefits may be partially taxable depending on your ""combined income"" (adjusted gross income + nontaxable interest + half of your Social Security benefits). For individuals with combined income between $25,000 and $34,000, up to 50% of benefits may be taxable. Above $34,000, up to 85% may be taxable. For married filing jointly, the thresholds are $32,000 and $44,000.","Retirement Benefits Treated as
+Social Security)
+85% of the U.S. social security and
+equivalent railroad retirement benefits
+you received are taxable. This amount
+is treated as U.S. source income not
+effectively connected with a U.S. trade
+or business. It is subject to the 30%
+CAUTION
+!
+tax rate, unless exempt or taxed at a
+reduced rate under a U.S. tax treaty.
+Social security benefits include any
+monthly benefit under title II of the
+Social Security Act or the part of a tier",0.690169275,"amount is treated as U.S. source income not effectively
+connected with a U.S. trade or business and is subject to the
+30% tax rate, unless exempt or taxed at a reduced rate under
+a U.S. tax treaty. Social security benefits include any monthly
+benefit under Title II of the Social Security Act or part of a tier
+1 railroad retirement benefit treated as a social security
+benefit. They do not include any supplemental security
+income (SSI) payments.
+CAUTION
+!",0.686564326
+Claude 3.7 Sonnet ,59,What is the Gift Tax exclusion amount?,"For 2024, you can give up to $18,000 per recipient per year without filing a gift tax return or counting against your lifetime estate and gift tax exemption. Married couples can split gifts, allowing up to $36,000 per recipient annually. Payments made directly to educational institutions or medical providers are exempt from gift tax regardless of amount.","tentative tax on the applicable exclusion amount. For gifts made
+in 2024, the applicable exclusion amount equals:
+• The basic exclusion amount of $13,610,000, PLUS
+• Any DSUE amount, PLUS
+• Any Restored Exclusion Amount.
+If you are a citizen or resident of the United States, you must
+apply any available applicable credit against gift tax. If you are
+not eligible to use a DSUE amount from a predeceased spouse,
+or Restored Exclusion Amount on taxable gifts made to a",0.824735165,"additional (above the $18,000 annual exclusion) $167,000 gift
+would otherwise qualify for the gift tax marital deduction (as
+described in the Schedule A, Part 4, line 4, instructions, later).
+Note. Only the annual exclusion applies to gifts made to a
+nonresident not a citizen of the United States. Deductions and
+credits are not considered in determining gift tax liability for such
+transfers.
+A gift of a future interest cannot be excluded under the annual
+exclusion.",0.780932426
+Claude 3.7 Sonnet ,60,How do I handle taxes for a side gig or freelance work?,"Income from side gigs or freelance work is reported on Schedule C. You're responsible for paying self-employment tax (15.3% for Social Security and Medicare) on net earnings over $400, reported on Schedule SE. You may need to make quarterly estimated tax payments using Form 1040-ES if you expect to owe $1,000 or more in taxes. Keep detailed records of business expenses for potential deductions.","law.
+Don't deduct the following taxes on this line.
+• Federal income taxes, including your self-employment
+tax. However, you can deduct one-half of self-employment tax
+on Schedule 1 (Form 1040), line 15.
+• Estate and gift taxes.
+• Taxes assessed for improvements, such as paving and
+sewers.
+• Taxes on your home or personal-use property. You may
+be able to deduct on line 32 expenses related to your home or
+principle residence, such as property taxes, if you use your",0.568210602,"preparation software or through a tax
+professional.
+• Electronic Federal Tax Payment
+System: Best option for businesses.
+Enrollment is required.
+• Check or Money Order: Mail your
+payment to the address listed on the
+notice or instructions.
+• Cash: You may be able to pay your
+taxes with cash at a participating retail
+store.
+• Same-Day Wire: You may be able
+to do same-day wire from your
+financial institution. Contact your
+financial institution for availability,
+cost, and time frames.",0.565341
+Claude 3.7 Sonnet ,61,What education expenses are tax deductible or eligible for credits?,"The American Opportunity Credit provides up to $2,500 per eligible student for the first four years of higher education. The Lifetime Learning Credit offers up to $2,000 per tax return for undergraduate, graduate, or professional courses. Student loan interest (up to $2,500) may be deductible. Qualified tuition and related expenses may be deductible under the Tuition and Fees Deduction.","Education:
+Credits 57, 101
+Expenses 57, 101
+Recapture of education credits 33
+Savings accounts 88, 97
+Educator expenses 89
+Elderly persons:
+Credit for 102
+Standard deduction 34
+Electric vehicles 102
+Electronic filing (e-file) 58, 59, 62, 63
+Estimated tax 37, 61, 78
+Excess deferrals 24
+Excess social security and tier 1 RRTA tax
+withheld 103
+Extension of time to file 8, 103
+F
+Filing requirements 11
+Filing status, which box to check 13-15
+Foreign accounts and trusts 23
+Foreign tax credit 101",0.723411858,"Report Child's Interest and Dividends.
+Also, include any recapture of an education credit. You
+may owe this tax if you claimed an education credit in an
+earlier year and either tax-free educational assistance or a
+refund of qualified expenses was received in 2024 for the
+student. See Form 8863, Education Credits, for more details.
+Lines 5 and 11. Alternative minimum tax (AMT). Include
+in the total on line 5 or line 11, whichever applies, any tax",0.710148275
+Claude 3.7 Sonnet ,62,How does marriage affect taxes?,"Marriage can create a ""marriage bonus"" or ""marriage penalty"" depending on your incomes. When spouses have similar incomes, especially if both are high earners, they may pay more tax filing jointly than they would as singles (""marriage penalty""). When incomes are disparate, joint filing often results in lower taxes (""marriage bonus""). Marriage affects tax brackets, standard deduction, and various credits and deductions.","Law 104-199 (110 Stat. 2419), required that marriages of
+couples of the same sex should not be treated as being married
+for federal tax purposes. As a result, taxpayers in a same-sex
+marriage were not entitled to claim a marital deduction for gifts or
+bequests to each other. Those taxpayers were required to use
+their applicable exclusion amount to defray any gift or estate tax
+imposed on the transfer or were required to pay gift or estate",0.627097666,"benefit of any estate tax marital deduction allowable under
+U.S. law. The credit amount is generally limited to the
+lesser of:
+• The unified credit allowed to the estate (before
+reduction for any gift tax unified credit), or
+• The amount of estate tax that would otherwise be
+imposed by the United States on the transfer of
+qualifying property to the surviving spouse.
+See the 1995 Canadian income tax treaty protocol for
+details on computing the credit. Also, attach a",0.6207214
+Claude 3.7 Sonnet ,63,What is the Alternative Minimum Tax (AMT)?,"The AMT is a parallel tax system designed to ensure that taxpayers with substantial income don't avoid paying taxes through deductions and credits. It has its own set of rules for calculating taxable income with fewer available deductions. You calculate tax under both regular and AMT systems and pay the higher amount. The AMT exemption for 2024 is $85,700 for singles and $133,300 for married filing jointly.","Alternative Minimum Tax (AMT) Items
+Lines 15a through 15f must be completed for all shareholders.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. For more information, see
+Form 6251, Alternative Minimum Tax—Individuals, or Schedule I
+(Form 1041), Alternative Minimum Tax—Estates and Trusts.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.827486873,"Alternative Minimum Tax (AMT) Items
+Lines 17a through 17f must be completed for all partners.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. See Form 6251, Alternative
+Minimum Tax—Individuals; or Schedule I (Form 1041),
+Alternative Minimum Tax—Estates and Trusts, to determine the
+amounts to enter and for other information.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.80858469
+Claude 3.7 Sonnet ,64,How are dividends taxed?,"Qualified dividends are taxed at the same preferential rates as long-term capital gains (0%, 15%, or 20%, depending on your income). Non-qualified dividends are taxed as ordinary income. Dividends from most U.S. corporations and certain foreign corporations are generally qualified if you've held the stock for more than 60 days during the 121-day period beginning 60 days before the ex-dividend date.","as dividends.
+Line 2, Column (a)
+Enter on line 2:
+• Dividends (except those received on certain
+debt-financed stock acquired after July 18, 1984) that are
+received from 20%-or-more-owned domestic corporations
+subject to income tax and that are subject to the 65%
+deduction under section 243(c), and
+• Taxable distributions from an IC-DISC or former DISC
+that are considered eligible for the 65% deduction.
+Line 3, Column (a)
+Enter the following.
+• Dividends received on certain debt-financed stock",0.672376335,"to make related payments with respect to positions in
+substantially similar or related property.
+5. Any other taxable dividend income not properly
+reported elsewhere on Schedule C.
+Line 20. Dividends received on certain debt-financed
+stock acquired after July 18, 1984, are not entitled to the
+full 50% or 65% dividends-received deduction. The 50%
+or 65% deduction is reduced by a percentage that is
+related to the amount of debt incurred to acquire the",0.665786088
+Claude 3.7 Sonnet ,65,What are the tax implications of working remotely in a different state?,"Working remotely across state lines can create multi-state tax obligations. You may owe income tax to both your state of residence and the state where your employer is located, though tax credits typically prevent double taxation. Some states have ""convenience of employer"" rules that tax nonresident telecommuters. During COVID-19, some states implemented temporary relief provisions.","earnings are exempt from SE tax.
+Commonwealth or Territory Residents Living
+Abroad
+In most cases, if you are a bona fide resident of Guam,
+American Samoa, the USVI, the CNMI, or Puerto Rico
+living outside the territories or United States, you must still
+pay any applicable SE tax.
+Exception. The United States has social security
+agreements with many countries to eliminate dual taxes
+under two social security systems. Under these
+agreements, in most cases, you must pay social security",0.495776594,"ness—nonresident aliens. If you are a nonresident alien,
+the tax on your income depends on whether the income is or
+is not effectively connected with a U.S. trade or business.
+Income effectively connected with a U.S. trade or business
+(including wages earned by an employee) is taxed at the
+graduated rates that apply to U.S. citizens and resident
+aliens. Income you receive as a partner in a partnership or as
+a beneficiary of an estate or trust is considered effectively",0.49136728
+Claude 3.7 Sonnet ,66,What charitable donations are tax deductible?,"Donations to qualified tax-exempt organizations (churches, nonprofit educational organizations, etc.) are deductible if you itemize. For cash donations, you can deduct up to 60% of your adjusted gross income (AGI). For property donations, the limit is typically 30% of AGI. Always get a receipt for donations of $250 or more, and special forms may be required for donations over $500.","aren't deductible as charitable
+contributions for federal income tax
+purposes. They may be deductible as
+trade or business expenses, if ordinary
+and necessary in the conduct of the
+taxpayer's business and not used for
+political or legislative activities. Donations
+to volunteer fire companies are deductible
+on the donor's federal income tax return,
+but only if made for exclusively public
+purposes.
+For more information on social welfare
+organizations, see Life Cycle of a Social",0.744416,"non-exempt use on a reasonable basis.
+Don't deduct the following.
+• Net losses from a related business or other charitable
+activity that produces gross income (no deduction in excess
+of the income from such activity).
+• Charitable contributions under section 170 or 642.
+• Net operating loss carrybacks and carryovers under
+section 172.
+• Dividends under section 241 and the sections following it
+(the dividends-received deductions for corporations).
+• Net capital losses (short-term or long-term).",0.706350327
+Claude 3.7 Sonnet ,67,How do I claim a home office deduction?,"Self-employed individuals can claim home office deductions using either the regular method (calculating actual expenses) or simplified method ($5 per square foot, up to 300 square feet). The space must be used regularly and exclusively for business. W-2 employees generally cannot claim home office deductions for tax years 2018-2025 due to the suspension of the miscellaneous itemized deductions.","simplified method for that home. For in-
+formation about claiming this deduction
+using Form 8829, see the Instructions
+for Form 8829 and Pub. 587.
+Using the simplified method. Use
+the Simplified Method Worksheet in
+these instructions to figure your deduc-
+tion for a qualified business use of your
+home if you are electing to use the sim-
+plified method for that home.
+TIP
+CAUTION
+!
+Shared use (for simplified method
+only). If you share your home with
+someone else who uses the home for a",0.696104348,"an existing commercial building to make
+it energy efficient. For details, see Form
+7205 and its instructions. Attach Form
+7205 to your tax return.
+Line 30
+Business use of your home. You may
+be able to deduct certain expenses for
+business use of your home, subject to
+limitations. To claim a deduction for
+business use of your home, use Form
+8829, or you can elect to determine the
+amount of the deduction using a simpli-
+fied method.
+CAUTION
+!
+If you have a business use of another",0.657839
+Claude 3.7 Sonnet ,68,What is depreciation recapture?,"Depreciation recapture occurs when you sell a depreciable asset (like rental property) for more than its depreciated value. The portion of your gain attributable to depreciation is taxed as ordinary income, up to 25%, rather than at capital gains rates. This prevents taxpayers from claiming ordinary deductions while receiving the benefit of lower capital gains rates on sale.","period and use the applicable convention.
+MACRS recapture. If you later dispose of property you
+depreciated using MACRS, any gain on the disposition is
+generally recaptured (included in income) as ordinary income
+up to the amount of the depreciation previously allowed or
+allowable for the property. Depreciation, for this purpose,
+includes any of the following amounts taken during the 2024
+tax year.
+• Any section 179 expense deduction claimed on the
+property.",0.727395952,"exchange of the depreciable property may have to be
+recaptured as ordinary income on Form 4797. Use Part III
+of Form 4797 to figure the amount of ordinary income
+recapture. The recapture amount is included on line 31
+(and line 13) of Form 4797. See the instructions for Part III.
+If the total gain for the depreciable property is more than
+the recapture amount, the excess is reported on Form
+8949. On Form 8949, enter “From Form 4797” in column",0.711910427
+Claude 3.7 Sonnet ,69,How do I report rental income and expenses?,"Rental income and expenses are reported on Schedule E. Deductible expenses include mortgage interest, property taxes, insurance, maintenance, utilities, management fees, and depreciation of the property. Rental losses may be deductible up to $25,000 against other income if your modified AGI is less than $100,000 and you actively participate in the rental activity.","report the gross profit or gross rental income for U.S. income tax
+purposes. Interest income amounts for such transactions must
+be reported on Part II, line 13, in column (a) or (d), as applicable.
+Depreciation expense for such transactions must be reported on
+Part III, line 31, in column (a) or (d), as applicable. Use columns
+(b) and (c) of Part II, lines 13 and 17, and Part III, line 31, as
+applicable, to report the differences between columns (a) and
+(d).",0.703354537,"(such as telephone expenses) on line 13.
+Don't net any rental income received from leasing or
+subletting rented space against the amount reported on line 16
+for occupancy expenses. If the tenant's activities are related to
+the organization's exempt purpose, report rental income as
+program service revenue on Part VIII, line 2, and allocable
+occupancy expenses on line 16. However, if the tenant's
+activities aren't program related, report the rental income on Part",0.700521052
+Claude 3.7 Sonnet ,70,What is the Net Investment Income Tax (NIIT)?,"The NIIT is a 3.8% tax on net investment income (interest, dividends, capital gains, rental income, royalties, etc.) that applies to individuals with modified adjusted gross income exceeding $200,000 (single) or $250,000 (married filing jointly). It's calculated on the lesser of your net investment income or the amount by which your MAGI exceeds the threshold.","income tax (NIIT) where a partner disposes of an interest in the
+partnership during the tax year, the partnership may be required
+to provide the partner with certain information. The NIIT is a tax
+imposed on an individual’s, trust’s, or estate’s net investment
+income. Net investment income includes the net gains or losses
+from the sale of an interest in the partnership. A partner who is
+actively involved in one or more of the partnership’s or lower-tier",0.835216582,"gross income its GILTI. For more information, see
+Line 4—Other Income, later.
+Miscellaneous itemized deductions subject to the 2%
+floor. Expenses that qualify as miscellaneous itemized
+deductions subject to the 2% floor are no longer deductible.
+Net investment income tax (NIIT). An estate or trust may
+be subject to NIIT. NIIT is a 3.8% tax on the lesser of an
+estate’s or trust’s undistributed net investment income or the
+excess of the estate’s or trust’s adjusted gross income over a",0.797405481
+Claude 3.7 Sonnet ,71,How are retirement account withdrawals taxed?,"Traditional IRA and 401(k) withdrawals are generally taxed as ordinary income. Roth IRA qualified distributions (after age 59½ and account open for 5+ years) are tax-free. Early withdrawals (before age 59½) may incur a 10% penalty in addition to regular income tax, though exceptions exist. Required Minimum Distributions (RMDs) must begin at age 73 (as of 2024) for traditional accounts.","IRA, there is generally an additional 10% tax on the
+portion of the distribution that is included in income (25%
+for a distribution from a traditional SIMPLE or Roth
+SIMPLE IRA during the first 2 years of your participation in
+the plan). See the instructions for Schedule 2 (Form
+1040), line 8; and the Instructions for Form 5329.
+2024 Line 25c Worksheet
+The 2024 Line 25c Worksheet is for filers who have
+reported on Form 8606, line 19, any 2024 retirement plan",0.569720507,"time during the tax year and who knew
+(or had reason to know) that the
+transaction is a PTST.
+See the following guidance and any
+future guidance for details.
+• Notice 2006-65, 2006-31 I.R.B. 102;
+• Notice 2007-18, 2007-9 I.R.B. 608;
+• T.D. 9334, 2007-34 I.R.B. 382; and
+• T.D. 9492, 2010-33 I.R.B. 242.
+Managers of tax favored
+retirement plans, individual
+retirement arrangements, and
+savings arrangements described in
+sections 401(a), 403(a), 403(b), 529,
+457(b), 408(a), 220(d), 408(b), 530, or",0.54382807
+Claude 3.7 Sonnet ,72,What is the tax treatment for stock options?,"For Non-Qualified Stock Options (NQSOs), you pay ordinary income tax on the difference between the grant price and exercise price when you exercise the option. For Incentive Stock Options (ISOs), you generally don't pay tax upon exercise, but the difference may trigger Alternative Minimum Tax. When you sell the stock, you'll pay capital gains tax on any additional appreciation.","you paid $20,000 to exercise an ISO (which was granted to
+you on January 3, 2022) to buy 200 shares of stock worth
+$200,000. The $180,000 difference between your cost and
+the value of the stock at the time you exercised the option
+isn’t taxable for the regular tax. Your regular tax basis in the
+stock at the end of 2023 is $20,000. For the AMT, however,
+you must include the $180,000 as an adjustment on your
+2023 Form 6251. Your AMT basis in the stock at the end of
+2023 is $200,000.",0.622158408,"see Rev. Proc. 2003-68, which is on page 398 of Internal
+Revenue Bulletin 2003-34 at IRS.gov/irb/
+2003-34\_IRB#RP-2003-68, concerning the valuation of stock
+options for purposes of golden parachute payment rules. For
+the treatment of unvested shares of restricted stock, see Rev.
+Rul. 2005-39, available at IRS.gov/irb/
+2005-27\_IRB#RR-2005-39.
+Independent contractor. Enter in box 1 the total
+compensation, including any golden parachute payment. For",0.610034287
+Claude 3.7 Sonnet ,73,How do I deduct medical expenses?,"Medical expenses exceeding 7.5% of your adjusted gross income are deductible if you itemize. Eligible expenses include costs for diagnosis, treatment, prevention, insurance premiums (if not pre-tax), prescription drugs, and certain long-term care expenses. Cosmetic procedures, non-prescription drugs, and general health products typically don't qualify.","Don't include on Schedule A items deducted elsewhere,
+such as on Form 1040, Form 1040-SR, or Schedule C,
+E, or F.
+Specific Instructions
+Medical and Dental Expenses
+You can deduct only the part of your medical and dental
+expenses that exceeds 7.5% of the amount of your adjusted
+gross income on Form 1040 or 1040-SR, line 11.
+If you received a distribution from a health savings
+account or a medical savings account in 2024, see Pub.
+969 to figure your deduction.",0.678889573,"If you itemize, you can deduct a part of your medical and dental
+expenses, and amounts you paid for certain taxes, interest,
+contributions, and other expenses. You can also deduct certain
+casualty and theft losses.
+If you and your spouse paid expenses jointly and are filing
+separate returns for 2024, see Pub. 504 to figure the portion of
+joint expenses that you can claim as itemized deductions.
+Don't include on Schedule A items deducted elsewhere,",0.659808576
+Claude 3.7 Sonnet ,74,What is the Saver's Credit?,"The Saver's Credit (officially the Retirement Savings Contributions Credit) provides a tax credit of up to $1,000 ($2,000 for married filing jointly) for low and moderate-income taxpayers who contribute to retirement accounts. For 2024, the credit phases out for single filers with AGI above $24,000 and married filing jointly above $48,000. The credit amount is 10%, 20%, or 50% of contributions, depending on income.","Line 4
+Retirement Savings Contributions
+Credit (Saver's Credit)
+You may be able to take this credit if
+you, or your spouse if filing jointly,
+made (a) contributions, other than roll-
+over contributions, to a traditional or
+Roth IRA; (b) elective deferrals to a
+401(k) or 403(b) plan (including desig-
+nated Roth contributions) or to a govern-
+mental section 457(b) plan, SIMPLE
+IRA, or a SEP; (c) voluntary employee
+contributions to a qualified retirement
+plan (including the federal Thrift Sav-",0.574271262,"retirement savings contributions credit
+(saver's credit).
+Exception. Only use the guidance for
+the filing status you checked at the top
+of page 1 of Form 1040-NR. No other
+guidance in Line 4 under Instructions
+for Schedule 3 in the Instructions for
+Form 1040 will apply to you.
+Line 5—Residential Energy Credits
+See Line 5 under Instructions for
+Schedule 3 in the Instructions for
+Form 1040 for details on the
+residential clean energy credit and the
+energy efficient home improvement
+credit.",0.534060299
+Claude 3.7 Sonnet ,75,How do I report stock sales on my tax return?,"Stock sales are reported on Schedule D and Form 8949. Your broker should provide Form 1099-B with details of your transactions. You'll need to report the sale date, purchase date, cost basis, sale proceeds, and gain or loss. Holding periods determine whether gains are short-term (ordinary income rates) or long-term (preferential capital gains rates).","the losses be carried back or forward to other tax years.
+Reporting Transactions in Part IV
+Publicly traded securities. For sales of publicly traded
+securities through a broker, enter the description “publicly traded
+securities” on line 1, column (a). Leave columns (b), (c), and (d)
+blank. Total the gross sales price, the cost or other basis, and the
+expense of sale on all such securities sold. Report these
+lump-sum figures in columns (e) through (l), as appropriate. You",0.641108215,"following other special procedures apply to the reporting of
+gross income.
+• You must report the entire amount of a corporate
+distribution made with respect to stock even if you elect to
+reduce the amount of withholding on the distribution because
+all or a part of the distribution is nontaxable or represents a
+capital gain dividend.
+• You must report the entire amount of a payment if you do
+not know at the time of payment the amount that is subject to",0.634692192
+Claude 3.7 Sonnet ,76,What is the Foreign Tax Credit?,"The Foreign Tax Credit helps U.S. taxpayers avoid double taxation on foreign-source income by providing a credit for foreign taxes paid. You can either take a deduction for foreign taxes paid (on Schedule A) or a credit (using Form 1116, though Form 1040 filers with only passive foreign income may qualify for a simplified procedure). The credit is generally more beneficial than the deduction.","corporation reported that information on an attachment and
+checked box 13.
+Parts II and III
+Parts II and III report information you use to figure the foreign
+tax credit. In general, a U.S. individual, or a U.S. citizen or
+U.S. resident individual beneficiary of certain domestic
+estates and trusts, may claim a credit for taxes paid or
+accrued, and in some cases deemed paid, to foreign
+countries or U.S. territories. The amount of foreign tax credit",0.774375618,"countries or U.S. territories. The amount of foreign tax credit
+in a tax year is generally limited to the lesser of foreign taxes
+paid or accrued or U.S. tax on foreign source income. The
+limitation is figured by separate categories of foreign source
+income, including foreign branch category, passive category,
+and general category. A shareholder will use Form 1116 to
+figure its foreign tax credit, but, if the shareholder makes a
+section 962 election, it must also complete Form 1118 solely",0.768826365
+Claude 3.7 Sonnet ,77,What are the tax implications of cancellation of debt?,"Cancelled debt is generally considered taxable income. If a creditor forgives or cancels $600 or more of debt, they'll issue Form 1099-C. However, exceptions exist for certain bankruptcy cases, insolvency, qualified principal residence indebtedness, qualified farm debt, and certain student loans. The tax treatment depends on your specific circumstances and the type of debt.","225.
+• Bartering income.
+• Income from cancellation of debt. In most cases, if a debt
+is canceled or forgiven, you must include the canceled amount
+in income. If a federal agency, financial institution, or credit
+union canceled or forgave a debt you owed of $600 or more, it
+should send you a Form 1099-C, or similar statement, by Janu-
+ary 31, 2025, showing the amount of debt canceled in 2024.
+However, you may be able to exclude the canceled debt from
+income. See Pub. 4681 for details.",0.691799343,"expenses related to tax-exempt income.
+Canceled debt exclusion. If the corporation has had debt
+discharged resulting from a title 11 bankruptcy proceeding or
+while insolvent, see Form 982, Reduction of Tax Attributes Due
+to Discharge of Indebtedness, and Pub. 908, Bankruptcy Tax
+Guide.
+Line 1a. Gross Receipts or Sales
+Enter on line 1a gross receipts or sales from all business
+operations except for amounts that must be reported on lines 4",0.654916584
+Claude 3.7 Sonnet ,78,How do I report gambling winnings and losses?,"All gambling winnings are reportable as ""Other Income"" on Form 1040. Casinos and other payers may provide Form W-2G for certain winnings. Gambling losses are deductible only if you itemize deductions and only up to the amount of your winnings. Keep detailed records of both winnings and losses, including dates, locations, types of gambling, and amounts won or lost.","reduced your income tax. Report this amount on Schedule
+1 (Form 1040), line 8z, to the extent it reduced your tax in
+the prior tax year.
+Code K. Gambling gains and losses. If the partnership
+wasn't engaged in the trade or business of gambling, (a)
+report gambling winnings on Schedule 1 (Form 1040),
+line 8b; and (b) deduct gambling losses to the extent of
+winnings on Schedule A (Form 1040), line 16.
+If the partnership was engaged in the trade or business",0.644172132,"If the partnership was engaged in the trade or business
+of gambling, (a) report gambling winnings in Schedule E
+(Form 1040), line 28, column (k); and (b) deduct gambling
+losses (to the extent of winnings) in Schedule E (Form
+1040), line 28, column (i).
+Code L. Any income, gain, or loss to the partnership
+from a distribution under section 751(b) (certain dis-
+tributions treated as sales or exchanges). Report this
+amount on Form 4797, Part II, line 10.",0.616541922
+Claude 3.7 Sonnet ,79,What is the tax treatment for Health Flexible Spending Arrangements (FSAs)?,"Health FSA contributions are made pre-tax through employer plans, reducing your taxable income. For 2024, the contribution limit is $3,200. Unlike HSAs, FSAs generally follow a ""use it or lose it"" rule, though employers may offer either a grace period of up to 2.5 months or allow carrying over up to $640 to the next year. Withdrawals for qualified medical expenses are tax-free.","(cafeteria) plans.
+• Group-term life insurance. For information about
+group-term life insurance and other payments for fringe
+benefits that may be exempt from FUTA tax, see Pub.
+15-B.
+• Retirement/Pension, such as employer contributions
+to a qualified plan, including a SIMPLE retirement account
+(other than elective salary reduction contributions) and a
+401(k) plan.
+• Dependent care, such as payments (up to $5,000 per
+employee, $2,500 if married filing separately) for a",0.580288351,"defined benefit plan which provides post-employment
+benefits other than pension benefits.
+• The AFSI of a tax-exempt entity subject to the section 511
+unrelated business income tax is adjusted to only take into
+account AFSI (if any) of an unrelated trade or business (as
+defined in section 513) of the organization, subject to the
+modifications to unrelated business taxable income
+described in section 512(b). AFSI determined under the
+preceding sentence includes any unrelated debt-financed",0.573657274
+Claude 3.7 Sonnet ,80,How are inherited assets taxed?,"Inherited assets generally receive a ""step-up"" in basis to their fair market value on the date of the original owner's death, eliminating capital gains tax on appreciation that occurred during the deceased's lifetime. When you eventually sell the asset, you'll only pay capital gains tax on appreciation since inheritance. Some inherited retirement accounts have specific required distribution rules that affect taxation.","liabilities exceed the adjusted tax basis of the contributed
+assets, see section 357(c). See section 358 for more
+information on the basis of stock received in a section 351
+transaction.
+The basis of inherited property is generally the fair
+market value (FMV) at the date of death or the alternate
+valuation date. See section 1014 and Regulations section
+1.1014-4.
+The basis of stock acquired by gift is generally the
+basis of the stock in the hands of the donor. There are",0.666271508,"estate (and GST) tax when otherwise due. The liquid
+assets, however, are located in several jurisdictions and
+aren’t immediately subject to the control of the executor.
+Consequently, such assets can’t readily be collected by
+the executor, even with reasonable effort.
+• An estate is comprised, in substantial part, of assets
+consisting of rights to receive payments in the future (for
+example, annuities, copyright royalties, contingent fees, or",0.624589086
+Llama 3.1-405B,81,What is the deadline for filing individual tax returns?,"The deadline for filing individual tax returns is April 15th of each year, unless an extension is filed using Form 4868, which grants an automatic six-month extension to October 15th.","day of the 4th month after the end of the tax year.
+If the due date falls on a Saturday, Sunday, or legal holiday,
+the organization may file on the next business day.
+Mandatory electronic filing. A filer required to file at least 10
+returns of any type during the calendar year ending with or within
+the tax year must file their returns electronically. “Returns” for
+purposes of these instructions include information returns (for
+example, Forms W-2 and Forms 1099), income tax returns,",0.720664084,"the year, you may file the return by February 10, 2025.
+If we receive your return after the due date, we will treat
+your return as filed on time if the envelope containing your
+return is properly addressed, contains sufficient postage,
+and is postmarked by the U.S. Postal Service on or before
+the due date, or sent by an IRS-designated private
+delivery service (PDS) on or before the due date.
+However, if you don't follow these guidelines, we will",0.691112
+Llama 3.1-405B,82,What is the standard deduction for single filers?,"The standard deduction for single filers is $13,850 for tax year 2023. This amount is adjusted annually for inflation.","other applicant qualifies for the reduced user fee under section
+(A)(5)(b) of Appendix A of Rev. Proc. 2023-1. This example
+applies similarly to a filer that is the common sponsor of multiple
+entities.
+Example 3. Filer, a single taxpayer, files Form 3115 on
+behalf of its three separate and distinct trades or businesses.
+The request is for an identical accounting method change.
+Notwithstanding that Filer is a single taxpayer, there are three",0.622632444,"two other applicants qualify for the reduced user fee under
+section (A)(5)(b) of Appendix A of Rev. Proc. 2023-1.
+Example 2. Filer is the common parent of a consolidated
+group of corporations. Filer is filing a single Form 3115 on behalf
+of two other members of the consolidated group for an identical
+accounting method change. There are two applicants on Form
+3115 (the two members of the consolidated group). Filer is not
+changing its accounting method and, therefore, does not pay a",0.590879202
+Llama 3.1-405B,83,What is the standard deduction for married couples filing jointly?,"The standard deduction for married couples filing jointly is $27,700 for tax year 2023. This amount is also adjusted annually for inflation.","Standard Deduction (Group I Only)
+If you do not itemize your deductions, you can take the 2025
+standard deduction listed below for your filing status.
+Filing Status
+Standard
+Deduction
+Married filing jointly or
+Qualifying surviving spouse
+. . . . . . . . . . . . . .
+$30,000\*
+Head of household . . . . . . . . . . . . . . . . . . . .
+$22,500\*
+Single or Married filing
+separately
+. . . . . . . . . . . . . . . . . . . . . . . . .
+$15,000\*",0.735046387,"itemized deductions shown on your joint return. These
+amounts will be reported on Form 1040 or 1040-SR,
+line 12.
+If you used the standard deduction. In columns (b)
+and (c), include one-half of your basic standard deduction.
+Your basic standard deduction is generally as follows.
+Basic Standard Deduction
+2024
+$29,200
+2025
+$30,000
+However, if someone could claim you or your spouse as a
+dependent, your basic standard deduction is the amount
+on line 4c of the Standard Deduction Worksheet for",0.718655705
+Llama 3.1-405B,84,What is the tax rate for long-term capital gains?,"Long-term capital gains are taxed at 0%, 15%, or 20% depending on income level. For tax year 2023, the 0% rate applies to taxable income up to $44,625 for single filers and $89,250 for joint filers. The 15% rate applies to taxable income between $44,626 and $492,300 for single filers and $89,251 and $553,850 for joint filers. The 20% rate applies to taxable income above $492,300 for single filers and $553,850 for joint filers.","extent not deemed distributed, a 28.8% rate long-term capital gain carryover to the next tax year.
+The excess of the 28% rate net long-term capital gain over the net short-term capital loss for that year is, to the
+extent not deemed distributed, a 28% rate long-term capital gain carryover to the next tax year.
+The excess of the 25% rate net long-term capital gain over the net short-term capital loss for that year is, to the",0.641007364,"extent not deemed distributed, a 25% rate long-term capital gain carryover to the next tax year.
+The excess of the 23.8% rate net long-term capital gain over the net short-term capital loss for that year is, to the
+extent not deemed distributed, a 23.8% rate long-term capital gain carryover to the next tax year.
+The excess of the 20% rate net long-term capital gain over the net short-term capital loss for that year is, to the",0.628474
+Llama 3.1-405B,85,Can I deduct mortgage interest on my tax return?,"Yes, you can deduct mortgage interest on your primary residence and/or second home, up to a total of $750,000 ($375,000 for married filing separately). You must itemize deductions on Schedule A to claim this deduction.","you can only deduct home mortgage interest on up to
+$1,000,000 ($500,000 if you are married filing separately) of that
+debt. The only exception is for loans taken out on or before
+October 13, 1987; see Pub. 936 for more information about
+loans taken out on or before October 13, 1987.
+See Pub. 936 to figure your deduction if you have loans taken
+out on or before December 15, 2017, that exceed $1,000,000
+($500,000 if you are married filing separately).",0.716169417,"deduct it only in the year to which it is properly allocable.
+Points, including loan origination fees, charged only for the use
+of money must be deducted over the life of the loan.
+If you paid $600 or more in interest on a mortgage during
+2024, the recipient should send you a Form 1098 or similar
+statement by January 31, 2025, showing the total interest re-
+ceived from you.
+If you paid more mortgage interest than is shown on your
+Form 1098 or similar statement, see Pub. 334 regarding deduc-",0.707167089
+Llama 3.1-405B,86,What is the earned income tax credit (EITC)?,"The EITC is a refundable tax credit for low-income working individuals and families. For tax year 2023, the credit ranges from $538 to $6,728 depending on income level, filing status, and number of qualifying children.","Earned Income Credit (EIC) Table - Continued
+(Caution. This is not a tax table.)
+(Continued)
+48
+Need more information or forms? Visit IRS.gov.
+And your filing status is–
+If the amount you
+are looking up from
+the worksheet is–
+Single, head of household,
+or qualifying surviving
+spouse★ and you have–
+Married filing jointly and you
+have–
+0
+1
+2
+3
+0
+1
+2
+3
+At least
+But less
+than
+Your credit is–
+Your credit is–
+18,400
+18,450
+13
+4,213
+6,960
+7,830
+542
+4,213
+6,960
+7,830
+18,450
+18,500
+9
+4,213
+6,960
+7,830",0.752250552,"Earned Income Credit (EIC) Table - Continued
+(Caution. This is not a tax table.)
+(Continued)
+Need more information or forms? Visit IRS.gov.
+51
+And your filing status is–
+If the amount you
+are looking up from
+the worksheet is–
+Single, head of household,
+or qualifying surviving
+spouse★ and you have–
+Married filing jointly and you
+have–
+0
+1
+2
+3
+0
+1
+2
+3
+At least
+But less
+than
+Your credit is–
+Your credit is–
+37,600
+37,650
+0
+1,831
+3,821
+4,691
+0
+2,937
+5,278
+6,148
+37,650
+37,700
+0
+1,823
+3,810
+4,680
+0",0.751678526
+Llama 3.1-405B,87,Can I claim a dependent on my tax return?,"Yes, you can claim a dependent on your tax return if they meet certain tests, such as the qualifying child or qualifying relative test. You may be eligible for the dependent exemption, child tax credit, or other benefits.","information.
+• Any person you could have claimed as a dependent on your
+return except that person received $5,050 or more of gross
+income or filed a joint return.
+• Any person you could have claimed as a dependent except
+that you, or your spouse if filing jointly, can be claimed as a
+dependent on someone else's 2024 return.
+Example. You provided over half of your parent's support but
+can't claim your parent as a dependent because they received",0.762418449,"2024 tax return? (If the person who could claim you on their
+2024 tax return is not required to file, and isn't filing a 2024
+tax return or is filing a 2024 return only to claim a refund of
+withheld income tax or estimated tax paid, check “No.”)
+Yes.
+STOP
+You can't claim any
+dependents. Complete
+the rest of Form 1040 or
+1040-SR and any
+applicable schedules.
+No. You can claim this
+child as a dependent.
+Complete columns (1)
+through (3) of the
+Dependents section on
+page 1 of Form 1040 or",0.681208193
+Llama 3.1-405B,88,What is the child tax credit?,"The child tax credit is a non-refundable tax credit of up to $2,000 per child under age 17. The credit begins to phase out at $400,000 for joint filers and $200,000 for single filers.","each child under age 17 who is a quali-
+fying child for the child tax credit or
+each dependent who qualifies you for
+the credit for other dependents, make
+sure you checked the appropriate box in
+column (4) of the Dependents section.
+• Check your math, especially for
+the child tax credit, earned income credit
+(EIC), taxable social security benefits,
+total income, itemized deductions or
+standard deduction, taxable income, to-
+tal tax, federal income tax withheld, and
+refund or amount you owe.",0.735866427,"1040-NR and enter the result on line 6.
+You can’t check both the child tax credit box and the credit
+for other dependents box for the same person.
+Line 13
+Enter the amount from Credit Limit Worksheet A.
+When completing Credit Limit Worksheet A, you may be instruc-
+ted to complete Credit Limit Worksheet B if you meet certain condi-
+tions. Complete Credit Limit Worksheet B only if you meet all of the
+following.
+1.
+You are claiming one or more of the following credits.",0.667903244
+Llama 3.1-405B,89,Do I need to file a tax return if I'm self-employed?,"Yes, you need to file a tax return if your net earnings from self-employment are $400 or more. You'll report your business income and expenses on Schedule C and pay self-employment tax on your net earnings.","self-employed person, enter contributions made as an employer
+on your behalf on Schedule 1 (Form 1040), line 16, not on
+Schedule F (Form 1040).
+In most cases, you must file the applicable form listed next
+if you maintain a pension, profit-sharing, or other funded-de-
+ferred compensation plan. The filing requirement isn't affected
+by whether the plan qualified under the Internal Revenue Code,
+or whether you claim a deduction for the current tax year.",0.687478125,"Religious Sects, later, for information on how to report your
+self-employment earnings.
+Even if you had a loss or a small amount of income
+from self-employment, it may be to your benefit to file
+Schedule SE and use either ""optional method"" in the
+instructions for Part II of Schedule SE (discussed later).
+TIP
+Who Must Pay Self-Employment (SE) Tax
+Self-Employed Persons
+You must pay SE tax if you had net earnings of $400 or more
+as a self-employed person. If you are in business (farm or non-",0.648365855
+Llama 3.1-405B,90,What is the self-employment tax rate?,The self-employment tax rate is 15.3% of net earnings from self-employment. This includes 12.4% for Social Security and 2.9% for Medicare. You'll report self-employment tax on Schedule SE.,"covered under the U.S. social security system. The
+self-employment tax rate for 2025 is 15.3%. This includes a
+2.9% Medicare tax and a 12.4% social security tax. Use
+Schedule SE (Form 1040) to figure your self-employment tax.
+See Schedule SE (Form 1040) and its instructions, available
+at IRS.gov/ScheduleSE, for more information.
+You can find more information on international social
+security agreements (also known as totalization
+agreements) at IRS.gov/TotalizationAgreements.",0.771417,"threshold amount for applying the Additional Medicare Tax on
+the self-employment income is reduced (but not below zero) by
+the amount of wages subject to Additional Medicare Tax.
+Use Form 8959, Additional Medicare Tax, to figure this tax.
+For more information, see the Instructions for Form 8959, or
+go to IRS.gov/ADMTfaqs.
+Net Earnings From Self-Employment
+In most cases, net earnings include your net profit from a farm
+or nonfarm business.
+Partnership Income or Loss",0.602070451
+Llama 3.1-405B,91,Can I deduct business expenses on my tax return?,"Yes, you can deduct business expenses on your tax return if you're self-employed or have a side hustle. You'll report business expenses on Schedule C and may need to complete additional forms, such as Form 8829 for the home office deduction.","Limitation on deduction. Under section 163(j), business
+interest expense is generally limited to the sum of business
+interest income, 30% of the adjusted taxable income, and floor
+plan financing interest. Business interest expense includes any
+interest paid or accrued on indebtedness properly allocable to a
+trade or business.
+A taxpayer, other than a tax shelter, that meets the gross
+receipts test is not required to limit business interest expense",0.68196249,"Transactions between related taxpayers. Generally, an
+accrual basis taxpayer may only deduct business expenses and
+interest owed to a related party in the year the payment is
+included in the income of the related party. See sections 163(e)
+(3) and 267 for limitations on deductions for unpaid interest and
+expenses.
+Limitations on business interest expense. Business interest
+expense may be limited. See section 163(j) and Form 8990.
+Also, see Limitation on deduction in the instructions for line 15",0.681163132
+Llama 3.1-405B,92,What is the home office deduction?,"The home office deduction allows you to deduct a portion of your rent or mortgage interest and utilities if you use a dedicated space for business. You can use the simplified option, which allows a deduction of $5 per square foot of home office space, up to a maximum of $1,500.","used to report total home office
+expenses, interest expense and bad
+debt expense are also identified on
+Schedule H and removed from
+expenses allocated and apportioned
+under Regulations sections 1.861-8
+and 1.861-17 and Temporary
+Regulations section 1.861-8T.
+Deductions reported on home office
+books may include expenses incurred
+outside the foreign corporation's home
+country (other than in the United
+States). Home office deductions do
+not include deductions that are",0.712287545,"shown on Schedule C, line 28, plus any losses shown on Form 8949 (and included on Schedule D) or Form 4797 that are allocable to the business in which you
+use your home but that are not allocable to the business use of the home. Enter the result on line 1 of the simplified method worksheet.
+Note: If you had more than one home in which you conducted this business during the year, include only the income earned and the deductions attributable to",0.669618547
+Llama 3.1-405B,93,Can I deduct charitable donations on my tax return?,"Yes, you can deduct charitable donations on your tax return if you itemize deductions on Schedule A. You'll need to keep receipts or bank records to substantiate your donations.","3. You gave gifts of property that
+increased in value or gave gifts of the
+use of property.
+Amounts you can’t deduct.
+• Certain contributions to charitable
+organizations, to the extent that you
+receive a state or local income tax
+credit in return for your contribution.
+See Pub. 526 for more details and
+exceptions.
+See Safe harbor for certain
+charitable contributions made
+in exchange for a state or local
+income tax credit, earlier, under
+Line 1a, if your cash contribution is",0.735846,"Generally, a donor making a charitable contribution of $250 or
+more won't be allowed a federal income tax deduction unless the
+donor obtains a written acknowledgment from the donee
+organization by the earlier of the date on which the donor files a
+tax return for the tax year in which the contribution was made or
+the due date, including extensions, for filing that return. However,
+see section 170(f)(8)(D) and Regulations section 1.170A-13(f)
+for exceptions to this rule.",0.733233154
+Llama 3.1-405B,94,What is the limit on state and local tax (SALT) deductions?,"The limit on SALT deductions is $10,000 ($5,000 for married filing separately). This includes state income taxes, local property taxes, and other taxes.","$10,000. The limitation applies to the total of your
+state and local income taxes (or general sales taxes,
+if elected instead of income taxes), real estate taxes, and
+personal property taxes. The limitation does not apply to
+foreign income taxes, and state and local taxes paid or
+accrued in carrying on a trade or business or for the
+production of income.
+Enter any deductible taxes paid or incurred during the tax
+year that aren't deductible elsewhere on Form 1041.",0.687530041,"• Foreign personal or real property taxes.
+Line 5
+The deduction for state and local taxes is generally limited to
+$10,000 ($5,000 if married filing separately). State and local
+2
+taxes subject to this limit are the taxes that you include on lines
+5a, 5b, and 5c.
+Safe harbor for certain charitable contributions made in ex-
+change for a state or local tax credit. If you made a
+charitable contribution in exchange for a state or local tax credit",0.663240075
+Llama 3.1-405B,95,Can I deduct medical expenses on my tax return?,"Yes, you can deduct medical expenses on your tax return if you itemize deductions on Schedule A. You can deduct expenses that exceed 10% of your adjusted gross income (AGI).","Don't include on Schedule A items deducted elsewhere,
+such as on Form 1040, Form 1040-SR, or Schedule C,
+E, or F.
+Specific Instructions
+Medical and Dental Expenses
+You can deduct only the part of your medical and dental
+expenses that exceeds 7.5% of the amount of your adjusted
+gross income on Form 1040 or 1040-SR, line 11.
+If you received a distribution from a health savings
+account or a medical savings account in 2024, see Pub.
+969 to figure your deduction.",0.676699221,"account or a medical savings account in 2024, see Pub.
+969 to figure your deduction.
+Deceased taxpayer. Certain medical expenses paid out of a
+deceased taxpayer's estate can be claimed on the deceased
+taxpayer's final return. See Pub. 502 for details.
+More information. Pub. 502 discusses the types of expenses
+you can and can’t deduct. It also explains when you can deduct
+capital expenses and special care expenses for disabled
+persons.
+CAUTION
+!
+CAUTION
+!",0.673758805
+Llama 3.1-405B,96,What is the alternative minimum tax (AMT)?,The AMT is a separate tax calculation that ensures a minimum amount of tax is paid. You'll complete Form 6251 to determine if you owe AMT.,"Alternative Minimum Tax (AMT) Items
+Lines 15a through 15f must be completed for all shareholders.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. For more information, see
+Form 6251, Alternative Minimum Tax—Individuals, or Schedule I
+(Form 1041), Alternative Minimum Tax—Estates and Trusts.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.827486873,"Alternative Minimum Tax (AMT) Items
+Lines 17a through 17f must be completed for all partners.
+Enter items of income and deductions that are adjustments or
+tax preference items for the AMT. See Form 6251, Alternative
+Minimum Tax—Individuals; or Schedule I (Form 1041),
+Alternative Minimum Tax—Estates and Trusts, to determine the
+amounts to enter and for other information.
+Don't include as a tax preference item any qualified
+expenditures to which an election under section 59(e) may apply.",0.80858469
+Llama 3.1-405B,97,Can I claim a deduction for education expenses?,"Yes, you can claim a deduction for education expenses if you're pursuing higher education and meet certain requirements. You may be eligible for the American Opportunity Tax Credit or the Lifetime Learning Credit.","deducted on Schedule 1 (Form 1040), line 11.
+You may be able to take a credit for your
+educational expenses instead of a deduction. See
+Form 8863, Education Credits, for details.
+Don't include expenses for meals, taxes, or interest on
+line 4. See the Schedule A (Itemized Deductions) for your
+return to see whether you can deduct taxes or interest
+expenses.
+Note. If line 4 is your only entry, don't complete Form
+2106 unless you are claiming:
+• Performing-arts-related business expenses as a",0.743987262,"Line 4. Enter other job-related expenses not listed on any
+other line of this form. Include expenses for business gifts,
+education (tuition, fees, and books), trade publications,
+etc. For details, including limits, see Pub. 463 and Pub.
+529.
+See Form 4562, Depreciation and Amortization, to
+figure any depreciation and section 179 deduction to
+include here.
+Don't include on line 4 any educator expenses you
+deducted on Schedule 1 (Form 1040), line 11.
+You may be able to take a credit for your",0.738435686
+Llama 3.1-405B,98,What is the student loan interest deduction?,"The student loan interest deduction allows you to deduct up to $2,500 of interest paid on student loans. This deduction is subject to income limits and is claimed on Form 1040.","9.
+Student loan interest deduction. Subtract line 8 from line 1. Enter the result here and on Schedule 1,
+line 21.
+Don’t include this amount in figuring any other deduction on your return (such as on Schedule A, C,
+E, etc.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.
+94
+Line 24h
+Enter attorney fees and court costs for
+actions involving certain unlawful dis-",0.726559639,"retirement plan), enter the applicable amount below on
+line 7 for that column and go to line 8.
+i. $7,000, if under age 50 at the end of 2024.
+ii. $8,000, if age 50 or older at the end of 2024.
+Otherwise, go to line 7.
+92
+Line 21
+Student Loan Interest Deduction
+You can take this deduction only if all of
+the following apply.
+• You paid interest in 2024 on a
+qualified student loan (defined later).
+• Your filing status is any status ex-
+cept married filing separately.",0.710360587
+Llama 3.1-405B,99,Can I deduct moving expenses on my tax return?,"Yes, you can deduct moving expenses on your tax return if you're moving for a job or business and meet certain requirements. You'll complete Form 3903 to claim this deduction.","line 14. Report the part of your moving expenses that is not allowed
+as a deduction because it is allocable to the excluded income on the
+appropriate line of Form 2555. For details on how to figure the part
+allocable to the excluded income, see Pub. 54, Tax Guide for U.S.
+Citizens and Resident Aliens Abroad.
+Specific Instructions
+You can deduct moving expenses only if you are a member of the
+Armed Forces on active duty and, due to a military order, you, your",0.712464452,"to take into account any taxable reimbursements and deductible
+moving expenses in figuring your estimated tax. For details about
+estimated taxes, see Pub. 505, Tax Withholding and Estimated Tax.
+Which Moving Expenses Are Deductible and
+Which Aren't
+How much of my moving expenses can I deduct? If you move
+because of a permanent change of station, you can deduct the
+reasonable unreimbursed expenses of moving you and members of
+your household. See Specific Instructions, later, for how to report",0.704950213
+Llama 3.1-405B,100,What is the tax rate for short-term capital gains?,"Short-term capital gains are taxed as ordinary income, using the same tax rates as your regular income.","is, to the extent not
+deemed distributed, a
+short-term capital gain
+carryover to the next tax
+year.
+The excess of the 37% rate net short-term capital gain over the net long-term capital loss for that year is, to the
+extent not deemed distributed, a 37% rate short-term capital gain carryover to the next tax year.
+The excess of the 31.8% rate net long-term capital gain over the net short-term capital loss for that year is, to the",0.636248827,"extent not deemed distributed, a 28.8% rate long-term capital gain carryover to the next tax year.
+The excess of the 28% rate net long-term capital gain over the net short-term capital loss for that year is, to the
+extent not deemed distributed, a 28% rate long-term capital gain carryover to the next tax year.
+The excess of the 25% rate net long-term capital gain over the net short-term capital loss for that year is, to the",0.633770287
+Llama 3.1-405B,101,Can I deduct property taxes on my tax return?,"Yes, you can deduct property taxes on your primary residence and/or second home, up to a total of $10,000 ($5,000 for married filing separately). You must itemize deductions on Schedule A to claim this deduction.","law.
+Don't deduct the following taxes on this line.
+• Federal income taxes, including your self-employment
+tax. However, you can deduct one-half of self-employment tax
+on Schedule 1 (Form 1040), line 15.
+• Estate and gift taxes.
+• Taxes assessed for improvements, such as paving and
+sewers.
+• Taxes on your home or personal-use property. You may
+be able to deduct on line 32 expenses related to your home or
+principle residence, such as property taxes, if you use your",0.638858676,"for it.
+Prepayment of next year's property taxes. Only taxes paid
+in 2024 and assessed prior to 2025 can be deducted for 2024.
+State or local law determines whether and when a property tax is
+assessed, which is generally when the taxpayer becomes liable
+for the property tax imposed.
+Refunds and rebates. If you received a refund or rebate in
+2024 of real estate taxes you paid in 2024, reduce your
+deduction by the amount of the refund or rebate. If you received",0.633444726
+Llama 3.1-405B,102,What is the qualified business income (QBI) deduction?,"The QBI deduction allows you to deduct up to 20% of qualified business income from a partnership, S corporation, or sole proprietorship. This deduction is subject to income limits and is claimed on Form 1040.","trust or estate. The trust or estate will provide the information you
+need to help figure your deduction.
+Once you have this information, you will use one of two forms
+to help you figure your QBI deduction.
+1.
+Use Form 8995, Qualified Business Income Deduction
+Simplified Computation, if:
+a.
+You have QBI, section 199A dividends, or PTP income
+(defined below);
+b.
+Your 2024 taxable income before your QBI deduction is
+less than or equal to $191,950 if single, married filing separately,",0.816569149,"line 19.
+Line 20—Qualified Business Income Deduction
+To figure your QBI deduction, use Form 8995 or 8995-A, as
+applicable.
+Use Form 8995 if:
+• You have QBI (loss), real estate investment trust (REIT)
+dividends, or PTP income (loss);
+• Your 2024 taxable income before the QBI deduction is less
+than or equal to $191,950; and
+• You aren’t a patron in a specified agricultural or
+horticultural cooperative.
+If you don’t meet these requirements, use Form 8995-A.",0.80579555
+Llama 3.1-405B,103,Can I deduct retirement contributions on my tax return?,"Yes, you can deduct contributions to a traditional IRA or 401(k) on your tax return. These contributions may be subject to income limits and are claimed on Form 1040.","1. You can't deduct contributions to
+a Roth IRA. But you may be able to take
+the retirement savings contributions
+credit (saver's credit). See the instruc-
+tions for Schedule 3, line 4.
+2. If you are filing a joint return and
+you or your spouse made contributions
+to both a traditional IRA and a Roth IRA
+for 2024, don’t use the IRA Deduction
+Worksheet in these instructions. Instead,
+see Pub. 590-A to figure the amount, if
+any, of your IRA deduction.
+3. You can’t deduct elective defer-",0.606773376,"Were You Covered by a Retirement
+Plan?
+If you were covered by a retirement plan
+(qualified pension, profit-sharing (in-
+cluding 401(k)), annuity, SEP, SIMPLE,
+etc.) at work or through self-employ-
+ment, your IRA deduction may be re-
+duced or eliminated. But you can still
+make contributions to an IRA even if
+you can't deduct them. In any case, the
+income earned on your IRA contribu-
+tions isn't taxed until it is paid to you.
+The “Retirement plan” box in box 13",0.57306242
+Llama 3.1-405B,104,What is the required minimum distribution (RMD) age?,"The RMD age is 72 years old, unless you're still working for an employer sponsoring a retirement plan. You'll need to take RMDs from traditional IRAs and 401(k)s.","age 72 before 2022). The distribution for the 73 year old must
+be made no later than April 1 of the following calendar year;
+RMDs for any other year must be made no later than
+December 31 of the year. See Public Law (P.L.) 117-328, Div.
+T, Title III, section 107.
+For each IRA you held as of December 31 of the prior
+year, if an RMD is required for the year, you must provide a
+statement to the IRA participant by January 31 regarding the
+RMD using one of two alternative methods described below.",0.711743593,"c. A specified period of 10 years or more.
+2. A required minimum distribution (RMD) under section
+401(a)(9). A plan administrator is permitted to assume there
+is no designated beneficiary for purposes of determining the
+minimum distribution.
+3. Elective deferrals (under section 402(g)(3)) and
+employee contributions (including earnings on each) returned
+because of the section 415 limits.
+4. Corrective distributions of excess deferrals (under
+section 402(g)) and earnings.",0.655512512
+Llama 3.1-405B,105,Can I deduct alimony payments on my tax return?,"Yes, you can deduct alimony payments on your tax return if you're the payer and meet certain requirements. This deduction is claimed on Form 1040.","be able to take this deduction. You can't
+take a deduction for alimony payments
+Self-Employed Health Insurance Deduction Worksheet—Schedule 1, Line 17
+Be sure you have read the Exceptions in the instructions for this line to see if you can use this work-
+sheet instead of Form 7206 to figure your deduction.
+Before you begin:
+1. Enter the total amount paid in 2024 for health insurance coverage established under your business",0.748960316,"unless you also meet the criteria of
+one of the exceptions under Married
+taxpayers in the Instructions for Form
+8962.
+Line 18—Penalty on Early
+Withdrawal of Savings
+See Line 18 under Instructions for
+Schedule 1 in the Instructions for
+Form 1040 for details on the penalty
+on early withdrawal of savings.
+Lines 19a, 19b, and 19c—Alimony
+Paid
+Leave lines 19a, 19b, and 19c blank
+on Schedule 1 (Form 1040). You
+aren’t eligible for an alimony
+deduction if you’re filing Form
+1040-NR.",0.708943188
+Llama 3.1-405B,106,What is the tax rate for dividends?,"Dividends are taxed at 0%, 15%, or 20% depending on income level. For tax year 2023, the 0% rate applies to taxable income up to $44,625 for single filers and $89,250 for joint filers. The 15% rate applies to taxable income between $44,626 and $492,300 for single filers and $89,251 and $553,850 for joint filers. The 20% rate applies to taxable income above $492,300 for single filers and $553,850 for joint filers.","imposed for the respective amounts at each tax rate (for
+example, if a corporation receives subsidiary dividends subject
+to tax at 5% and portfolio dividends subject to tax at 15%, a
+statement must be attached for Section I, line 2a, to show the
+amount of dividend and tax liability for each respective rate).
+Enter on line 11 the total U.S. tax liability for the reported
+income.
+Enter on line 12 the total U.S. tax actually withheld from such
+income.",0.68761754,"figure the tax using the following Tax Rate Schedule and
+enter the tax on line 1a. However, see the Instructions for
+Schedule D (Form 1041) and the Qualified Dividends Tax
+Worksheet, later.
+2024 Tax Rate Schedule
+If taxable
+income is:
+Over—
+But not over
+—
+Its tax is:
+Of the
+amount over
+—
+$0
+$3,100
+10%
+$0
+3,100
+11,150
+$310.00 + 24%
+3,100
+11,150
+15,200
+$2,242.00 + 35%
+11,150
+15,200
+-----
+$3,659.50 + 37%
+15,200
+Schedule D (Form 1041) and Schedule D Tax Work-",0.650017738
+Llama 3.1-405B,107,Can I deduct business use of my car on my tax return?,"Yes, you can deduct business use of your car on your tax return if you're self-employed or have a side hustle. You can use the standard mileage rate or actual expenses.","Motor vehicles include cars, motorcycles, motor homes,
+recreational vehicles, sport utility vehicles, trucks, vans, and
+off-road vehicles.
+You must keep your actual receipts showing general
+sales taxes paid to use this method.
+Trade or business items. Don't include sales taxes paid on
+items used in your trade or business. Instead, go to the
+instructions for the form you are using to report business income
+and expenses to see if you can deduct these taxes.",0.671884179,"Motor vehicles. Sales taxes on motor vehicles are deductible
+as a general sales tax even if the tax rate was different than the
+general sales tax rate. However, if you paid sales tax on a motor
+vehicle at a rate higher than the general sales tax, you can
+deduct only the amount of the tax that you would have paid at
+the general sales tax rate on that vehicle. Include any state and
+local general sales taxes paid for a leased motor vehicle.
+Motor vehicles include cars, motorcycles, motor homes,",0.64066714
+Llama 3.1-405B,108,What is the standard mileage rate for business use?,The standard mileage rate for business use is 58.5 cents per mile for tax year 2023. You can also deduct tolls and parking fees.,"You can take the standard mileage rate for 2024 only if you:
+• Owned the vehicle and used the standard mileage rate for
+the first year you placed the vehicle in service, or
+• Leased the vehicle and are using the standard mileage
+rate for the entire lease period.
+If you take the standard mileage rate:
+• Multiply the business standard mileage rate by 67 cents a
+mile; and
+• Add to this amount your parking fees and tolls, and enter
+the total on line 10.",0.714181662,"2024
+Instructions for Form 2106
+Employee Business Expenses
+Department of the Treasury
+Internal Revenue Service
+Section references are to the Internal Revenue Code
+unless otherwise noted.
+Future Developments
+See IRS.gov/Form2106 for the latest developments
+related to Form 2106 and its instructions.
+What's New
+Standard mileage rate. The 2024 per mile rate for
+business use of your vehicle is 67 cents (0.67). (See
+Notice 2024-08.)
+Depreciation limits on vehicles. The depreciation limits",0.666199803
+Llama 3.1-405B,109,Can I deduct home improvements on my tax return?,"Yes, you can deduct home improvements on your tax return if they're medically necessary or increase the value of your home. You'll need to keep receipts and records to substantiate your expenses.","for more information.
+Don't deduct repairs or maintenance on your home.
+However, you may be able to elect to capitalize and depreci-
+ate certain amounts paid for repair and maintenance of tangible
+property to the extent you treat these amounts as capital expen-
+ditures on your books and records regularly used in figuring
+your income and expenses. For details, see chapter 8 of Pub.
+225.
+Line 29
+You can deduct the following taxes on this line.",0.750425398,"buildings, machinery, and equipment that are not payments for
+improvements to the property. Amounts are paid for improve-
+ments if they are for betterments to your property or restora-
+tions of your property (such as the replacements of major com-
+ponents or substantial structural parts), or if they adapt your
+property to a new or different use. See chapter 4 of Pub. 225
+for more information.
+Don't deduct repairs or maintenance on your home.",0.658940315
+Llama 3.1-405B,110,What is the tax credit for child and dependent care?,"The tax credit for child and dependent care is a non-refundable tax credit of up to $3,000 for one child or $6,000 for two or more. This credit is claimed on Form 2441.","2. Head of household filing status.
+3. Credit for child and dependent care expenses (Schedule
+3, line 2).
+Need more information or forms? Visit IRS.gov.
+41
+4. Exclusion for dependent care benefits (Form 2441, Part
+III).
+5. Earned income credit (line 27).
+No other person can take any of the five tax benefits just listed
+based on the qualifying child. If you and any other person can
+claim the child as a qualifying child, the following rules apply.",0.714188755,"1040-SR, or 1040-NR, line 18
+. .
+1.
+2.
+Enter the total of the following
+credit(s)/adjustment(s) if you are
+taking the credit(s)/adjustment(s) on
+your 2024 income tax return:
++ Amount on Schedule 3 (Form
+1040), line 6l
+. . . . . . . . . . . . . .
++ Foreign Tax Credit, Schedule 3
+(Form 1040), line 1
+. . . . . . . . . .
++ Credit for Child or Dependent Care
+Expenses, Schedule 3 (Form 1040),
+line 2
+. . . . . . . . . . . . . . . . . . . .
++ Credit for the Elderly or the",0.692888558
+Llama 3.1-405B,111,Can I deduct state taxes on my tax return?,"Yes, you can deduct state taxes on your tax return if you itemize deductions on Schedule A. This includes state income taxes, local property taxes, and other taxes.","3 (Form 1040), line 1, for details.
+Line 5a
+You can elect to deduct state and local general sales
+taxes instead of state and local income taxes. You can't
+deduct both.
+State and Local Income Taxes
+If you don't elect to deduct general sales taxes, include on
+line 5a the state and local income taxes listed next.
+• State and local income taxes withheld from your salary during
+2024. Your Form(s) W-2 will show these amounts. Forms W-2G,
+1099-G, 1099-R, 1099-MISC, and 1099-NEC may also show",0.628856778,"year that aren't deductible elsewhere on Form 1041.
+Deductible taxes include the following.
+• State and local income taxes. You can deduct state and
+local income taxes unless you elect to deduct state and local
+general sales taxes. You can't deduct both.
+• State and local general sales taxes. You can elect to
+deduct state and local general sales taxes instead of state
+and local income taxes. Generally, you can elect to deduct
+the actual state and local general sales taxes (including",0.611028
+Llama 3.1-405B,112,What is the tax rate for interest income?,"Interest income is taxed as ordinary income, using the same tax rates as your regular income.","Computation. Interest on the portion of the tax in excess
+of the 2% portion is figured at 45% of the annual rate of
+interest on underpayments. This rate is based on the federal
+short-term rate and is announced quarterly by the IRS in the
+Internal Revenue Bulletin.
+If you elect installment payments and the estate tax due is
+more than the maximum amount to which the 2% interest rate
+applies, each installment payment is deemed to comprise
+both tax subject to the 2% interest rate and tax subject to",0.636423469,"the tax year, enter zero.
+Section I
+Income—(Lines 1 Through 6)
+Line 1—Taxable interest. Enter the total taxable
+interest. Taxable interest is interest that is included in
+ordinary income from all sources except interest exempt
+from tax and interest on tax-free covenant bonds. You may
+elect to reduce the amount of interest accrued on taxable
+bonds by the amount of amortizable bond premium on
+those bonds attributable to the current tax year. See
+sections 171(c) and 171(e) for details.",0.621467233
+Llama 3.1-405B,113,Can I deduct investment expenses on my tax return?,"Yes, you can deduct investment expenses on your tax return if you itemize deductions on Schedule A. This includes fees for investment advice, management, and other expenses.","expenses (other than interest) are deductible only to the
+extent they are allowable under section 67(e).
+The amount of the investment interest deduction may be
+limited. Use Form 4952, Investment Interest Expense
+Deduction, to figure the allowable investment interest
+deduction.
+If you must complete Form 4952, check the box on line 10
+of Form 1041 and attach Form 4952. Then, add the
+deductible investment interest to the other types of
+deductible interest and enter the total on line 10.",0.678533375,"If the partnership paid or accrued interest on debts
+properly allocable to investment property, the amount of
+interest you're allowed to deduct may be limited.
+For more information on the special provisions that
+apply to investment interest expense, see Form 4952 and
+Pub. 550, Investment Income and Expenses.
+Code I. Deductions—royalty income. Include
+deductions allocable to royalties on Schedule E (Form
+1040), line 19. For this type of expense, enter “From
+Schedule K-1 (Form 1065).”",0.656726
+Llama 3.1-405B,114,What is the tax credit for education expenses?,"The tax credit for education expenses is a non-refundable credit of up to $2,500 for qualified expenses. It includes the American Opportunity Tax Credit (AOTC), which covers 100% of the first $2,000 and 25% of the next $2,000, and the Lifetime Learning Credit (LLC), which covers 20% of up to $10,000. Income limits apply, and you can claim only one credit per student per year. To claim the credit, complete Form 8863.","Report Child's Interest and Dividends.
+Also, include any recapture of an education credit. You
+may owe this tax if you claimed an education credit in an
+earlier year and either tax-free educational assistance or a
+refund of qualified expenses was received in 2024 for the
+student. See Form 8863, Education Credits, for more details.
+Lines 5 and 11. Alternative minimum tax (AMT). Include
+in the total on line 5 or line 11, whichever applies, any tax",0.777635872,"Education:
+Credits 57, 101
+Expenses 57, 101
+Recapture of education credits 33
+Savings accounts 88, 97
+Educator expenses 89
+Elderly persons:
+Credit for 102
+Standard deduction 34
+Electric vehicles 102
+Electronic filing (e-file) 58, 59, 62, 63
+Estimated tax 37, 61, 78
+Excess deferrals 24
+Excess social security and tier 1 RRTA tax
+withheld 103
+Extension of time to file 8, 103
+F
+Filing requirements 11
+Filing status, which box to check 13-15
+Foreign accounts and trusts 23
+Foreign tax credit 101",0.740642428
+Llama 3.1-405B,115,Can I deduct business travel expenses on my tax return?,"Yes, you can deduct business travel expenses on your tax return if you're self-employed or have a side hustle. You'll need to keep receipts and records to substantiate your expenses.","or business. Generally, entertainment expenses,
+membership dues, and facilities used in connection with
+these activities cannot be deducted. In addition, no
+deduction is generally allowed for qualified transportation
+fringe benefits. Also, special rules apply to deductions for
+gifts, luxury water travel, and convention expenses. See
+section 274 and Pub. 463 for details.
+Travel. The corporation cannot deduct travel expenses
+of any individual accompanying a corporate officer or",0.736281276,"travel for business while away from
+your tax home. In most cases, your tax
+home is your main place of business, re-
+gardless of where you maintain your
+family home. You can’t deduct expenses
+paid or incurred in connection with em-
+ployment away from home if that period
+of employment exceeds 1 year. Also,
+you cannot deduct travel expenses for
+C-9
+your spouse, your dependent, or any oth-
+er individual unless that person is your
+employee, the travel is for a bona fide",0.700037539
+Llama 3.1-405B,116,What is the per diem rate for business travel?,"The per diem rate for business travel varies by location, but $60 per day for meals and incidentals is a common rate. You can use the IRS's per diem rates or actual expenses.","consistently use either the rates for the first 9 months of
+2024 or the updated rates.
+The Department of Defense sets rates for Alaska,
+Hawaii, and U.S. associated territories. See travel.dod.mil/
+Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-
+Lookup/.
+The State Department sets foreign rates. See
+aoprals.state.gov/web920/per\_diem.asp.
+See Pub. 463 for details on how to figure your
+deduction using the standard meal allowance, including",0.508748651,"you must still keep records to prove the
+time, place, and business purpose of
+your travel.
+The standard meal allowance is the
+federal meals and incidental expenses
+(M&IE) rate. You can find these rates
+for locations inside and outside the con-
+tinental United States by going to the
+General Services Administration's web-
+site at GSA.gov/travel/plan-book/per-
+diem-rates/mie-breakdown.
+See chapter 2 of Pub. 463 for details
+on how to figure your deduction using",0.502282143
+Llama 3.1-405B,117,Can I deduct business entertainment expenses on my tax return?,"Yes, you can deduct business entertainment expenses on your tax return if you're self-employed or have a side hustle. However, only 50% of these expenses are deductible.","or business. Generally, entertainment expenses,
+membership dues, and facilities used in connection with
+these activities cannot be deducted. In addition, no
+deduction is generally allowed for qualified transportation
+fringe benefits. Also, special rules apply to deductions for
+gifts, luxury water travel, and convention expenses. See
+section 274 and Pub. 463 for details.
+Travel. The corporation cannot deduct travel expenses
+of any individual accompanying a corporate officer or",0.698652744,"corporation may be able to deduct otherwise nondeductible
+entertainment, amusement, or recreation expenses if the
+amounts are treated as compensation to the recipient and
+reported on Form W-2 for an employee or on Form 1099-NEC for
+an independent contractor.
+However, if the recipient is an officer, director, beneficial
+owner (directly or indirectly), or other “specified individual” (as
+defined in section 274(e)(2)(B) and Regulations section
+1.274-9(b)), special rules apply.",0.681298435
+Llama 3.1-405B,118,What is the tax rate for capital gains on collectibles?,"Capital gains on collectibles, such as art, coins, or stamps, are taxed at a rate of 28%.","Due date of return. Calendar year estates and trusts must
+file Form 1041 by April 15, 2025.
+Capital gains and qualified dividends. For tax year 2024,
+the 20% maximum capital gains rate applies to estates and
+trusts with income above $15,450. The 0% and 15% rates
+apply to certain threshold amounts. The 0% rate applies to
+amounts up to $3,150. The 15% rate applies to amounts over
+$3,150 and up to $15,450.
+Bankruptcy estate filing threshold. For tax year 2024, the",0.587766171,"an employee.
+Threshold amount. For 2024, the threshold amount is
+$305,000 ($610,000 for taxpayers filing a joint return). These
+amounts are indexed for inflation.
+Treatment of capital gains and losses. Losses from sales
+or exchanges of capital assets are not included in the
+calculation of the total deductions from your trades or
+businesses.
+Gains from the sales or exchanges of capital assets
+should not exceed the lesser of:
+1. Capital gain net income limited to only gains and",0.576078355
+Llama 3.1-405B,119,Can I deduct business liability insurance premiums on my tax return?,"Yes, you can deduct business liability insurance premiums on your tax return if you're self-employed or have a side hustle. This includes premiums for professional liability, business liability, and other types of insurance.","established, as discussed earlier. For more information, see
+Schedule SE (Form 1040).
+You can generally deduct premiums you pay for certain
+kinds of insurance related to your trade or business as
+an expense. See the instructions for your trade or
+business return.
+TIP
+CAUTION
+!
+2",0.728020966,"deductible for federal income tax purposes in accordance with
+section 166.
+Line 33. Reserved for Future Use
+No entry is made on line 33.
+Line 34. Corporate Owned Life Insurance
+Premiums
+Report on line 34 all amounts of insurance premiums attributable
+to any life insurance policy if the insurance company is, directly
+or indirectly, a beneficiary under the policy or if the policy has a
+cash value. Report in column (d) the amount of the premiums
+that are deductible for federal income tax purposes.",0.619178236
+Llama 3.1-405B,120,What is the tax credit for retirement savings contributions?,"The tax credit for retirement savings contributions is a non-refundable tax credit of up to $2,000 for single filers and $4,000 for joint filers. This credit is claimed on Form 8880.","Line 4
+Retirement Savings Contributions
+Credit (Saver's Credit)
+You may be able to take this credit if
+you, or your spouse if filing jointly,
+made (a) contributions, other than roll-
+over contributions, to a traditional or
+Roth IRA; (b) elective deferrals to a
+401(k) or 403(b) plan (including desig-
+nated Roth contributions) or to a govern-
+mental section 457(b) plan, SIMPLE
+IRA, or a SEP; (c) voluntary employee
+contributions to a qualified retirement
+plan (including the federal Thrift Sav-",0.631450117,"retirement savings contributions credit
+(saver's credit).
+Exception. Only use the guidance for
+the filing status you checked at the top
+of page 1 of Form 1040-NR. No other
+guidance in Line 4 under Instructions
+for Schedule 3 in the Instructions for
+Form 1040 will apply to you.
+Line 5—Residential Energy Credits
+See Line 5 under Instructions for
+Schedule 3 in the Instructions for
+Form 1040 for details on the
+residential clean energy credit and the
+energy efficient home improvement
+credit.",0.622286618
