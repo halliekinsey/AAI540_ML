@@ -29,7 +29,6 @@ def token_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
-# Directories / Files to include and optional model directory.
 DATA_DIRECTORIES = {
     "pdf_uploads": "pdf_uploads",
     "refining_data": "refining_data"
@@ -38,7 +37,6 @@ DATA_FILES = [
     "chat_sessions.db"
 ]
 MODEL_DATA_DIR = "model_directory"
-
 
 def compute_md5_bytes(data_bytes):
     return hashlib.md5(data_bytes).hexdigest()
@@ -49,6 +47,7 @@ def compute_md5_file(filepath):
         for chunk in iter(lambda: f.read(4096), b""):
             hash_md5.update(chunk)
     return hash_md5.hexdigest()
+
 
 def zip_all_data(include_model_data=False):
     mem_zip = io.BytesIO()
@@ -184,7 +183,6 @@ def push_to_s3_endpoint():
         "bucket": bucket_name
     })
 
-
 def pull_directory_from_s3(s3_client, bucket_name, local_root):
     os.makedirs(local_root, exist_ok=True)
     paginator = s3_client.get_paginator("list_objects_v2")
@@ -214,7 +212,6 @@ def pull_directory_from_s3(s3_client, bucket_name, local_root):
 @token_required
 def pull_from_s3_endpoint():
     bucket_name = "tax-legal-data"
-    # Optional: allow local root to be specified via query string (default "s3_data")
     local_root = request.args.get("local_root", "s3_data")
     s3_client = boto3.client("s3")
     try:

@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250303_103132",
+  "chat_id": "simple-chat-with-PDF",
+  "username": "zain",
+  "feedback": "UP",
+  "use_pdf_context": true,
+  "tax_optimize": false,
+  "conversation": [
+    [
+      "user",
+      "what is form f1040 sr about? "
+    ],
+    [
+      "assistant",
+      "Form 1040 SR is a U.S. individual income tax form that is used by taxpayers who are age 65 or older, or those who are legally blind, to report their income, deductions, and credits for the tax year. It is essentially a shorter version of Form 1040, which is used by most taxpayers, and includes additional lines specifically for seniors and the disabled to account for their unique tax situations. The purpose of Form 10 ..."
+    ]
+  ]
+}

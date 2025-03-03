@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250303_103155",
+  "chat_id": "simple-chat",
+  "username": "zain",
+  "feedback": "UP",
+  "use_pdf_context": true,
+  "tax_optimize": false,
+  "conversation": [
+    [
+      "user",
+      "How long should I keep tax records?"
+    ],
+    [
+      "assistant",
+      "As a tax and legal advisor, I would advise clients to keep their tax records for a minimum of seven years from the date the tax return was filed or the due date for filing the return, whichever is later. This is because the IRS has three years to audit a tax return, but if a return is filed late, the IRS has six years to audit it. Additionally, keeping records for seven years provides a safety net in case of an audit or if the IRS decides to review a ..."
+    ]
+  ]
+}

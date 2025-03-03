@@ -1,0 +1,26 @@
+{
+  "timestamp": "20250303_103145",
+  "chat_id": "simple-chat-with-tax-optimize",
+  "username": "zain",
+  "feedback": "DOWN",
+  "use_pdf_context": true,
+  "tax_optimize": false,
+  "conversation": [
+    [
+      "user",
+      "How long should I keep tax records?"
+    ],
+    [
+      "assistant",
+      " ...\n\nThis response was compiled using the following form context:\n- Form i990ez snippet 1: \"Block, later. Recordkeeping. The organization's records should be kept as long as they can be needed for the administration of any provision of the In...\"\n- Form i944x snippet 2: \"Keep them for your records. Generally, all employment tax records must be kept for at least 4 years. Records related to qualified sick leave wages and...\""
+    ],
+    [
+      "user",
+      "What are the implications of the passive activity loss rules for rental real estate investments?"
+    ],
+    [
+      "assistant",
+      "Response: The passive activity loss rules have significant implications for rental real estate investments. In general, these rules limit the amount of losses you can deduct from your rental real estate activities. However, there are exceptions, as indicated by the form i1040se, which allows for certain properties not to be treated as rental activities.\n\nTo determine if your rental real estate activity qualifies for losses, you must first establish whether it is considered a rental activity or a trade or business activity ...\n\nThis response was compiled using the following form context:\n- Form i1040se snippet 1: \"der the passive activity loss rules in most cases, but exceptions apply. If your rental of property is not treated as a rental activi- ty, you must de...\"\n- Form i1040se snippet 2: \"corporation, also see At-risk rules, later, in Part II. • Passive activity loss rules apply to losses from rental real estate. They also apply to loss...\""
+    ]
+  ]
+}
