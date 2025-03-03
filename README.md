@@ -4,6 +4,14 @@ TaxSense is a Retrieval-Augmented Generation (RAG) system that delivers informed
 
 Our project features a custom-trained model, **TaxSense**, built specifically for this application. For more details about its development and performance, explore our model on Hugging Face at [zainnobody/TaxSense](https://huggingface.co/zainnobody/TaxSense).
 
+## Authors & Credits
+
+TaxSense was created by:
+
+- [Zain Ali](https://github.com/zainnobody)
+- [Hallie Kinsey](https://github.com/halliekinsey)
+- Akram Mahmoud
+
 
 ## Table of Contents
 
@@ -234,18 +242,6 @@ For a detailed explanation of the design, model fine-tuning, PDF processing, Pin
 - **Model Fine-Tuning:** Steps for preparing and training the TaxSense model using LoRA and PEFT.
 - **Endpoint Implementation:** Detailed code walkthrough for chat, completions, search, and admin endpoints.
 - **Performance & Resource Considerations:** Benchmarking various models (DeepSeek-V2-Lite, Saul-7B-Instruct, Lawma variants) for speed, quality, and scalability.
-
-
-## Authors & Credits
-
-TaxSense was created by:
-
-- [Zain Ali](https://github.com/zainnobody)
-- [Hallie Kinsey](https://github.com/halliekinsey)
-- Akram Mahmoud
-
-Special thanks to contributors and testers who helped refine the system.
-
 
 ## License
 
